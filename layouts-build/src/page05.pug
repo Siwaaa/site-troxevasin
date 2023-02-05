@@ -1,0 +1,201 @@
+doctype html
+html(lang="ru")
+  head
+    title Троксевазин
+
+    link(rel='stylesheet', href='./index.pcss')
+
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Троксевазин – медицинский продукт")
+
+    meta(name="theme-color" content="#ffffff")
+    
+  body 
+    main
+      include ./components/navbar/navbar.pug
+      header.header-product
+        .header-product__wrapper.container
+          .header-product__content 
+            h1.title-h1 <strong>Троксевазин<sup>®</sup> капсулы — </strong>проверенное временем<sup>1</sup> средство
+            br
+            p Воздействует на симптомы варикоза<sup>*</sup><br>и хронического геморроя изнутри<sup>2</sup>
+            .header-product__menu 
+              button.btn Купить
+              button.btn.btn-rounded Инструкция
+            br
+            br
+          .header-product__products 
+            .header-product__swiper
+      section.symptoms 
+        .symptoms__wrapper.container 
+          .symptoms__content 
+            .symptoms__head.head
+              h2.title-h1 Помогает справляться с симптомами<sup>2</sup><br>при геморрое и варикозе
+            ul.symptoms__list
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Хронической<br>венозной<br>недостаточности
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Трофических <br>язвах
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Склеротерапии <br>вен
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Геморрое
+            .symptoms__menu 
+              button.btn Купить
+              button.btn.btn-rounded Инструкция
+      section.secret
+        .secret__wrapper.container 
+          .secret__content 
+            .secret__head.head
+              h2.title-h1 Капсулы Троксевазин<sup>®</sup>
+              p Действуют изнутри, способствуют уреплению сосудов <br>и улучшению микроциркуляции<sup>1</sup>
+            ul.secret__list
+              li.secret__item 
+                img(src="./img/product/secret-1.png", alt="")
+                p Производится <br>в Европе<sup>1</sup>
+              li.secret__item 
+                img(src="./img/product/secret-1.png", alt="")
+                p Достигнутый эффект может сохраняться не менее 4 недель<sup>1</sup>
+              li.secret__item 
+                img(src="./img/product/secret-1.png", alt="")
+                p Курс лечения в среднем – 3-4 недели<sup>1</sup>
+              li.secret__item 
+                img(src="./img/product/secret-1.png", alt="")
+                p Обладает выгодной ценой<sup>6</sup>
+      section.economy
+        .economy__wrapper.container 
+          .economy__content 
+            .economy__left 
+              h2.title-h1 Экономьте<sup>7</sup> при покупке большой упаковки 
+              button.btn Купить
+            .economy__right
+              img(src="./img/product/economy-25.png", alt="")
+      section.tutorial 
+        .tutorial__wrapper.container 
+          .tutorial__content 
+            h2.title-h1 Как использовать капсулы Троксевазин<sup>®</sup> при хронической венозной недостаточности и геморрое?<sup>1</sup>
+            .guide 
+              .guide__block 
+                h4.guide__title На начальном этапе
+                .guide__wrap
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p 1 капсула
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p в зависимости от тяжести симптомов
+              .guide__block 
+                h4.guide__title При повторном возникновении симптомов
+                .guide__wrap
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                p.guide__desc Возобновить лечение в той же дозе или снизить дозу до 1 капсулы 2 раза в день
+      section.maternity
+        .maternity__wrapper.container 
+          .maternity__content 
+            .maternity__text 
+              h2.title-h1 Как применять при беременности<sup>3</sup>
+              p Гель может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка. <br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.
+            .maternity__img 
+              img(src="./img/product/maternity.png", alt="Беременность")
+      section.others 
+        .others__wrapper.container 
+          .others__content 
+            h2(class="title-h1" style="max-width: 928px") Используйте комплексный подход — воздействуя на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи
+            .others__list
+              .others__item.swiper-gel-1 
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br> выгодная цена<sup>3</sup>, <br> европейское производство<sup>1</sup>
+                button.btn.btn-rounded Узнать больше
+              .others__item.swiper-gel-1 
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>5</sup>
+                button.btn.btn-rounded Узнать больше
+      section.faq
+        .faq__wrapper.container 
+          .faq__content 
+            h2.title-h1 Инструкция по медицинскому применению капсул Троксевазин<sup>®</sup>
+            .instruction 
+              .instruction__list
+                .instruction__item 
+                  .instruction__title 
+                    h5 Регистрационный номер
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Торговое наименование препарата
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Международное непатентованное наименование
+                    .accordion-btn
+                  .instruction__desc
+
+              .instruction__list
+                .instruction__item 
+                  .instruction__title 
+                    h5 Способ применения и дозы
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Побочное действие
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Передозировка
+                    .accordion-btn
+                  .instruction__desc
+            .faq__download 
+              button.btn.btn-rounded Скачать PDF
+      section.read-more 
+        .read-more__wrapper.container 
+          .read-more__content 
+            h2.title-h1 Узнайте больше о варикозе
+            .articles 
+              .articles__content
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Симптомы варикоза
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Анализы при варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Кратко о варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+              .articles__btn 
+                button.btn.btn-rounded Смотреть еще
+      section.sources
+        .sources__wrapper.container
+          p. 
+            * Хронической венозной недостаточности 
+            <br>** По сравнению с Троксевазин® гелем 2%
+            <br>1. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
+            <br>2. Инструкция по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU)
+            <br>3. По сравнению с другими популярными гелями. Розничные цены Февраль 2022, IQVIA: Троксевазин® гель 2 % 40 гр – 313,65, Лиотон гель 30 гр – 551.11, Детрагель 40г – 645,65, Венолайф гель 40г- 520.35, Флебодиа крем-гель 50 мл – 681 руб, Венарус гель 40 г – 612 руб, Ангиорус гель  60 мл – 433 руб (по данным на сайте apteka.ru, доступ – 12.04.2022. 
+            <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Гель 2% П N012713/02 
+            <br>5. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Нео ЛП-002139
+            <br>6. По сравнению с лидерами рынка венотоников для системного применения. Согласно данным базы «АЙКЬЮВИА Солюшнс» «Розничный аудит ГЛС и БАД в РФ», продажи в рублях в категории «Препараты, снижающие проницаемость капилляров» в виде твердых лекарственных форм; средние розничные цены в рублях в пересчете на 1 таблетку/капсулу в январе 2020 г.  
+            <br>7. По сравнению с упаковкой 50 капсул.
+
+
+      //- Footer
+      include ./components/footer/footer.pug
+      //- Modal
+      //- include ./layouts/modal.pug
+      
+    script(src='index.js' type="module" defer)

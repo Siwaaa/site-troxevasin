@@ -1,0 +1,136 @@
+doctype html
+html(lang="ru")
+  head
+    title Троксевазин
+
+    link(rel='stylesheet', href='./index.pcss')
+
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Троксевазин – медицинский продукт")
+
+    meta(name="theme-color" content="#ffffff")
+    
+  body 
+    main
+      include ./components/navbar/navbar.pug
+      header.header-case
+        .header-case__wrapper.container
+          .header-case__content 
+            h1.title-h1 Каждый 10-й<sup>1</sup> взрослый страдает варикозом<sup>*</sup> в тяжелой стадии
+            p Если помимо усталости и тяжести в ногах вы стали ощущать спазмы и покалывания в ногах — вам следует обратиться к врачу. Заболевание может прогрессировать — на тяжелых стадиях люди могут сталкиваться даже с трофическими язвами.
+            .header-case__list 
+              .header-case__item
+                img(src="./img/case/h-list-1.png", alt="")
+                p Ученые выделяют 7 классов заболеваний варикоза. Вот как они <i>различаются</i>. 
+              .header-case__item
+                img(src="./img/case/h-list-1.png", alt="")
+                p При первых же признаках заболевания обратитесь к врачу и получите план лечения, чтобы избежать прогрессирования заболевания.
+          .header-case__img
+            img(src="./img/case/header-1.png", alt="")
+      section.factors 
+        .factors__wrapper.container 
+          .factors__content 
+            h2.title-h1 Факторы риска развития хронических заболеваний вен<sup>2</sup>
+            ul.factors__list
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Генетическая предрасположенность
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Генетическая предрасположенность
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Генетическая предрасположенность
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Генетическая предрасположенность
+      section.symptoms 
+        .symptoms__wrapper.container 
+          .symptoms__content 
+            .symptoms__head.head
+              h2.title-h1 Как бороться с варикозом<sup>**</sup>
+              p Согласно клиническим рекомендациям<sup>1</sup>, <br>важен комплексный подход.
+            ul.symptoms__list
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Медикаментозная <br>терапия
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Компрессионный <br>трикотаж
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Физкультура
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Операционное <br>вмешательство
+            .symptoms__doctor
+              img(src="./img/case/doc.png", alt="")
+              p Не забывайте — программу лечения в каждом конкретном случае назначает врач 
+      section.vozdeystvyi
+        .vozdeystvyi__wrapper.container 
+          .vozdeystvyi__content 
+            .vozdeystvyi__head.head
+              h2.title-h1 Воздействуйте на симптомы изнутри и снаружи
+            .vozdeystvyi__body
+              .vozdeystvyi__left
+                p Таблетки Троксактив для направленного действия на вены изнутри<sup>4</sup> и Гель Троксевазин<sup>®</sup> Нео с усиленной<sup>2</sup> формулой для воздействия на симптомы варикоза<sup>*</sup> снаружи<sup>3</sup>
+                button.btn Купить
+                span 2. По сравнению с Троксевазин® гель 2 % 
+              .vozdeystvyi__right 
+                img(src="./img/case/vozdey.png", alt="")
+      section.others 
+        .others__wrapper.container 
+          .others__content 
+            .others__list
+              .others__item.swiper-gel-1 
+                h2.title-h1 Троксевазин<sup>®</sup> <br> НЕО гель
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-violet">Препарат следующего поколения — </strong><br> Троксевазин<sup>®</sup> Нео с усиленной<sup>7</sup> трехкомпонентной формулой<sup>8</sup>
+                .others__btns
+                  button.btn Купить
+                  button.btn.btn-rounded Узнать больше
+              .others__item.swiper-gel-1
+                h2.title-h1 Троксактив <br>Таблетки
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-orange">Самая востребованная формула<sup>4</sup></strong> в лечении симптомов<br>варикоза<sup>**</sup>
+                .others__btns
+                  button.btn Купить
+                  button.btn.btn-rounded Узнать больше
+      section.read-more 
+        .read-more__wrapper.container 
+          .read-more__content 
+            h2.title-h1 Узнайте больше о варикозе
+            .articles 
+              .articles__content
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Симптомы варикоза
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Анализы при варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Кратко о варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+              .articles__btn 
+                button.btn.btn-rounded Смотреть еще
+      section.sources
+        .sources__wrapper.container
+          p. 
+            * Хронической венозной недостаточности
+            <br>** Симптомами хронической венозной недостаточности 
+            <br>1.  Данные U&A исследования потребителей, август 2021
+            <br>2. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 20214
+            <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Нео ЛП-002139
+            <br>5. Инструкция по медицинскому применению лекарственного препарата  Троксактив ЛП-№ (000726)-(РГ-RU)
+
+      //- Footer
+      include ./components/footer/footer.pug
+      //- Modal
+      //- include ./layouts/modal.pug
+      
+    script(src='index.js' type="module" defer)

@@ -1,0 +1,40 @@
+.header {
+  height: 100vh;
+  min-height: 640px;
+  max-height: 900px;
+  padding-top: calc(20px + var(--navbar-h));
+  background: url(../../img/main_fon.png) right top/contain no-repeat, #FBFBFD;
+
+  &__wrapper {
+    position: relative;
+    height: 100%;
+
+    &::before {
+      content: '';
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      display: inline-block;
+      width: 310px;
+      height: 250px;
+      background: url(../../img/main_fon_case.png) right top/contain no-repeat;
+    }
+  }
+
+  &__content {
+    max-width: 600px;
+
+    & > p {
+      max-width: 473px;
+      line-height: 1.3;
+      margin-top: 10px;
+    }
+  }
+  &__menu {
+    width: 330px;
+
+    & > .btn-hexagon {
+      margin-top: 15px;
+    }
+  }
+}

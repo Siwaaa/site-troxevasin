@@ -1,0 +1,141 @@
+doctype html
+html(lang="ru")
+  head
+    title Троксевазин
+
+    link(rel='stylesheet', href='./index.pcss')
+
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Троксевазин – медицинский продукт")
+
+    meta(name="theme-color" content="#ffffff")
+    
+  body 
+    main
+      include ./components/navbar/navbar.pug
+      header.header-case
+        .header-case__wrapper.container
+          .header-case__content 
+            h1.title-h1 Согласно исследованию<sup>1</sup>, у каждого 3-го взрослого есть гемморой
+            p Если геморрой перейдет в хроническую стадию, к дискомфорту в промежности добавятся ректальные кровотечения и выпадение узлов. Не откладывайте обращение к врачу, чтобы не допустить осложнений. 
+            .header-case__list 
+              .header-case__item
+                img(src="./img/case/h-list-1.png", alt="")
+                p Ученые<sup>2</sup> выделяют 4 стадии хронического геморроя. Вот как они <i>различаются</i>. 
+              .header-case__item
+                img(src="./img/case/h-list-1.png", alt="")
+                p При первых же признаках заболевания обратитесь к врачу и получите план лечения, чтобы избежать прогрессирования заболевания.
+          .header-case__img
+            img(src="./img/case/header-1.png", alt="")
+      section.factors 
+        .factors__wrapper.container 
+          .factors__content 
+            h2.title-h1 Факторы риска <br> развития геморроя<sup>1</sup>
+            ul.factors__list.factors__list-five
+              li.factors__item
+                img(src="./img/case/factor-1.png", alt="")
+                p Наследственность
+              li.factors__item
+                img(src="./img/case/factor-1.png", alt="")
+                p Тяжелые физические нагрузки
+              li.factors__item
+                img(src="./img/case/factor-1.png", alt="")
+                p Сидячий <br>образ <br>жизни
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Запоры
+              li.factors__item.f-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Специфичное питание — обилие острого, специй и алкоголя
+      section.symptoms 
+        .symptoms__wrapper.container 
+          .symptoms__content 
+            .symptoms__head.head
+              h2.title-h1 Как бороться с варикозом<sup>**</sup>
+              p Согласно клиническим рекомендациям<sup>1</sup>, <br>важен комплексный подход.
+            ul.symptoms__list
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Медикаментозная <br>терапия
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Компрессионный <br>трикотаж
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Физкультура
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Операционное <br>вмешательство
+            .symptoms__doctor
+              img(src="./img/case/doc.png", alt="")
+              p Не забывайте — программу лечения в каждом конкретном случае назначает врач 
+      section.vozdeystvyi
+        .vozdeystvyi__wrapper.container 
+          .vozdeystvyi__content 
+            .vozdeystvyi__head.head
+              h2.title-h1 Воздействуйте на симптомы изнутри и снаружи
+            .vozdeystvyi__body
+              .vozdeystvyi__left
+                p Используйте таблетки Троксактив или Троксевазин<sup>®</sup> капсулы, которые направленно действуют на вены изнутри при ХЗВ<sup>*</sup>. Способствуют повышению венозного тонуса, уменьшению растяжимости вен и венозного застоя<sup>6</sup>
+                button.btn Купить
+              .vozdeystvyi__right 
+                img(src="./img/case/vozdey.png", alt="")
+      section.others 
+        .others__wrapper.container 
+          .others__content 
+            .others__list
+              .others__item.swiper-gel-1
+                h2.title-h1 Троксактив <br>Таблетки
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-orange">Самая востребованная формула<sup>4</sup></strong> в лечении симптомов<br>варикоза<sup>**</sup>
+                .others__btns
+                  button.btn Купить
+                  button.btn.btn-rounded Узнать больше
+              .others__item.swiper-gel-1 
+                h2.title-h1 Троксевазин<sup>®</sup> <br> капсулы
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-violet">Выгодная цена<sup>4</sup>,европейское производство<sup>5</sup></strong>
+                .others__btns
+                  button.btn Купить
+                  button.btn.btn-rounded Узнать больше
+      section.read-more 
+        .read-more__wrapper.container 
+          .read-more__content 
+            h2.title-h1 Узнайте больше о варикозе
+            .articles 
+              .articles__content
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Симптомы варикоза
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Анализы при варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Кратко о варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+              .articles__btn 
+                button.btn.btn-rounded Смотреть еще
+      section.sources
+        .sources__wrapper.container
+          p. 
+            * При хронических заболеваниях вен. 
+            <br>** Хронической венозной недостаточности 
+            <br>1. Клинические рекомендации МЗ РФ «Геморрой» 2020 г. 
+            <br>2. Ассоциация колопроктологов россии. Клинические рекомендации по диагностике и лечению взрослых пациентов с острым и хроническим геморроем. 
+            <br>3. Наиболее рекомендуемое врачами МНН для лечения ХБВ согласно Prindex, 3q2021
+            <br>4. По сравнению с лидерами рынка венотоников для системного применения. Согласно данным базы «АЙКЬЮВИА Солюшнс» «Розничный аудит ГЛС и БАД в РФ», продажи в рублях в категории «Препараты, снижающие проницаемость капилляров» в виде твердых лекарственных форм; средние розничные цены в рублях в пересчете на 1 таблетку/капсулу в январе 2020 г.
+            <br>5. Инструкция по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU)
+            <br>6. Инструкции по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU) и препарата  Троксактив ЛП-№ (000726)-(РГ-RU)
+
+
+      //- Footer
+      include ./components/footer/footer.pug
+      //- Modal
+      //- include ./layouts/modal.pug
+      
+    script(src='index.js' type="module" defer)

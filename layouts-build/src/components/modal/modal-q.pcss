@@ -1,0 +1,31 @@
+.victorina {
+  width: fit-content;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (--sm) {
+    max-width: 90%;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+    & > .checkbox {
+      margin-right: 12px;
+    }
+
+    & > label {
+      &.l-true {
+        color: var(--color-green);
+      }
+      &.l-false {
+        color: var(--color-orange);
+      }
+    }
+  }
+}

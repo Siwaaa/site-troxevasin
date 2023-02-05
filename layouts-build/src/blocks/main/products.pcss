@@ -1,0 +1,36 @@
+.products {
+  margin-bottom: 60px;
+  &__wrapper {
+
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__item {
+    width: 223px;
+    &:not(:last-child){
+      margin-right: 80px;
+    }
+    &-title {
+      font-weight: 400;
+      font-size: 30px;
+      color: var(--color-violet);
+    }
+    &-img {
+      & > img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 45px;
+    }
+    &-btn {
+      text-align: center;
+    }
+  }
+}

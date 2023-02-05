@@ -1,0 +1,24 @@
+div(
+  class="modal-mask"
+  ref="maskRef" 
+  v-if="store.showModal" 
+  @click="store.onMaskClick" 
+  v-effect="store.mask = $refs.maskRef"
+)
+  //- убрать модаль биг
+  div(
+    class="modal"
+    :class="store.modalClassSize()"
+    role="dialog" 
+    :aria-modal="store.showModal" 
+  )
+    //- Содержимое модального окна
+
+    button(
+      class="modal__close" 
+      type="button" 
+      aria-label="close" 
+      @click="store.closeModal()"
+    )
+      .modal__close-right
+      .modal__close-left

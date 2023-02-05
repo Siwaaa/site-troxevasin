@@ -1,0 +1,205 @@
+doctype html
+html(lang="ru")
+  head
+    title Троксевазин
+
+    link(rel='stylesheet', href='./index.pcss')
+
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Троксевазин – медицинский продукт")
+
+    meta(name="theme-color" content="#ffffff")
+    
+  body 
+    main
+      include ./components/navbar/navbar.pug
+      header.header-product
+        .header-product__wrapper.container
+          .header-product__content 
+            h1.title-h1 <strong>Троксактив таблетки </strong>воздействуют на симптомы варикоза<sup>*</sup> и хронического геморроя изнутри<sup>2</sup>.
+            br
+            p Самое назначаемое действующее вещество для лечения симптомов хронических заболеваний вен<sup>1</sup>
+            .header-product__menu 
+              button.btn Купить
+              button.btn.btn-rounded Инструкция
+          .header-product__products 
+            .header-product__swiper
+      section.symptoms 
+        .symptoms__wrapper.container 
+          .symptoms__content 
+            .symptoms__head.head
+              h2.title-h1 На любой стадии варикоза<sup>*</sup> и геморроя<sup>2</sup>
+            ul.symptoms__list
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Усталость <br> и тяжесть <br> в ногах
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Судороги <br>и отеки ног
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Трофических <br>язвах
+              li.symptoms__item 
+                img(src="./img/product/symptom.png", alt="")
+                p Острый и хронический геморрой 
+            .symptoms__menu 
+              button.btn Купить
+              button.btn.btn-rounded Инструкция
+      section.chronic
+        .chronic__wrapper.container 
+          .chronic__content
+            .chronic__head.head 
+              h2.title-h1 Лечение хронических заболеваний вен может длиться от 2 до 6 месяцев
+              p Таблетки Троксактив можно принимать до 12 месяцев<sup>2</sup>
+            ul.chronic__list 
+              li.chronic__item 
+                img(src="./img/product/chronic-1.png", alt="")
+                p Одна таблетка в день<sup>2</sup>
+              li.chronic__item 
+                img(src="./img/product/chronic-1.png", alt="")
+                p Доступная цена<sup>9</sup>
+              li.chronic__item 
+                img(src="./img/product/chronic-1.png", alt="")
+                p Европейское производство<sup>2</sup>
+      section.secret
+        .secret__wrapper.container 
+          .secret__content.secret-aorta
+            .secret__head.head 
+              h2.title-h1 Таблетки Троксактив
+              p Благодаря микронизированной фракции лучше<sup>3</sup> усваиваются организмом и воздействуют на симптомы варикоза<sup>*</sup> и геморроя изнутри<sup>2</sup>
+
+      section.economy
+        .economy__wrapper.container 
+          .economy__head.head 
+              h2.title-h1.text-al-center Экономьте<sup>4</sup> при покупке <br> больших упаковок
+          .economy-two
+            .economy-two__item
+              img(src="./img/product/economy-two-1.png", alt="")
+              p <span class="color-orange">Таблетки Троксактив 90 шт.</span > <br>3 месяца приема
+              button.btn Купить
+            .economy-two__item
+              img(src="./img/product/economy-two-2.png", alt="")
+              p <span class="color-orange">Таблетки Троксактив 60 шт.</span > <br>3 месяца приема
+              button.btn Купить
+       
+      section.tutorial 
+        .tutorial__wrapper.container 
+          .tutorial__content 
+            h2.title-h1.text-al-center Как использовать?<sup>2</sup>
+            .guide 
+              .guide__block 
+                h4.guide__title При варикозе<sup>*</sup>
+                .guide__wrap
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p Одна таблетка утром во время еды
+              .guide__block 
+                h4.guide__title При остром геморрое принимать в течение недели
+                .guide__wrap
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p по 1 таблетке утром, днем и вечером
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p по 1 таблетке утром и вечером
+              .guide__block 
+                h4.guide__title При хроническом геморрое
+                .guide__wrap
+                  .guide__item
+                    img(src="./img/product/guide-1.png", alt="")
+                    p 1 таблетка в день во время еды
+      section.others 
+        .others__wrapper.container 
+          .others__content 
+            h2(class="title-h1" style="max-width: 928px") Используйте комплексный подход — воздействуя на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи
+            .others__list
+              .others__item.swiper-gel-1 
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-violet">Препарат следующего поколения — </strong><br> Троксевазин<sup>®</sup> Нео с усиленной<sup>7</sup> трехкомпонентной формулой<sup>8</sup>
+                button.btn.btn-rounded Узнать больше
+              .others__item.swiper-gel-1 
+                img(src="./img/product/other-gel-1-40.png", alt="")
+                p <strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>9</sup>
+                button.btn.btn-rounded Узнать больше
+      section.faq
+        .faq__wrapper.container 
+          .faq__content 
+            h2.title-h1 Инструкция по медицинскому применению препарата Троксактив таблетки
+            .instruction 
+              .instruction__list
+                .instruction__item 
+                  .instruction__title 
+                    h5 Регистрационный номер
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Торговое наименование препарата
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Международное непатентованное наименование
+                    .accordion-btn
+                  .instruction__desc
+
+              .instruction__list
+                .instruction__item 
+                  .instruction__title 
+                    h5 Способ применения и дозы
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Побочное действие
+                    .accordion-btn
+                  .instruction__desc
+                .instruction__item 
+                  .instruction__title 
+                    h5 Передозировка
+                    .accordion-btn
+                  .instruction__desc
+            .faq__download 
+              button.btn.btn-rounded Скачать PDF
+      section.read-more 
+        .read-more__wrapper.container 
+          .read-more__content 
+            h2.title-h1 Узнайте больше о варикозе
+            .articles 
+              .articles__content
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Симптомы варикоза
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Анализы при варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+                .articles__item 
+                  img(src="./img/product/article.jpg", alt="")
+                  h3 Кратко о варикозе
+                  p Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...
+              .articles__btn 
+                button.btn.btn-rounded Смотреть еще
+      section.sources
+        .sources__wrapper.container
+          p. 
+            * При хронических заболеваниях вен2
+            <br>1. Наиболее рекомендуемое врачами МНН для лечения ХБВ согласно Prindex, 3q2021
+            <br>2. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)6
+            <br>3. Garner RC, et al. J Pharm Sci. 2002;91(1):32–40
+            <br>4. По сравнению с упаковкой 30 таб. Троксактив #30 -1109 руб. Розничные цены ноябрь 2021 по данным IQVIA. 
+            <br>5. В категории наружных венотоников, по продажам в деньгах 2018-2022, АЙКЬЮВИА
+            <br>6. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Нео ЛП-002139
+            <br>7. По сравнению с другими популярными гелями. Розничные цены Февраль 2022, IQVIA: Троксевазин® гель 2 % 40 гр – 313,65, Лиотон гель 30 гр – 551.11, Детрагель 40 г – 645,65,Венолайф гель 40 г – 520.35, Флебодиа крем-гель 50 мл – 681 руб, Венарус гель 40 г – 612 руб, Ангиорус гель  60 мл – 433 руб (по данным на сайте apteka.ru, доступ – 12.04.2022. 
+            <br>8. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Гель 2% П N012713/02
+            <br>9. Розничная цена Троксактива 30 таб – 1239 руб (АЙКЬЮВИА, Августа 2022)
+
+      //- Footer
+      include ./components/footer/footer.pug
+      //- Modal
+      //- include ./layouts/modal.pug
+      
+    script(src='index.js' type="module" defer)

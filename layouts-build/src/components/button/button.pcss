@@ -1,0 +1,109 @@
+.btn {
+  display: inline-block;
+  width: 200px;
+  padding: 13px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  background: var(--color-violet);
+  border: 1px solid var(--color-violet);
+  color: var(--color-white);
+  transition: background-color .3s ease-in, color .3s ease-in;
+
+  &:hover {
+    color: var(--color-violet);
+    background: var(--color-white);
+  }
+
+  &-rounded {
+    color: var(--color-violet);
+    background: var(--color-white);
+
+    &:hover {
+      background: var(--color-violet);
+      color: var(--color-white);
+    }
+  }
+}
+
+.btn-hexagon {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  width: 100%;
+  padding: 2px 0;
+  text-align: center;
+  background: #FBFBFD;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--color-violet);
+  margin-left: 26px;
+  
+  border-top: 1px solid var(--color-violet);
+  border-bottom: 1px solid var(--color-violet);
+  transition: background-color .3s ease-in, color .3s ease-in;
+  transform-style: preserve-3d;
+
+  &::before,&::after {
+    content:'';
+    position: absolute;
+    top:-1px; /* magic number = border width */
+    width: 3.2em;
+    height: 3.2em;
+    background: inherit;
+    transform-origin: center;
+    border: 1px solid var(--color-violet);
+  }
+  &::before {
+    right:100%;
+    transform: translateX(50%) translateZ(-1px) rotate(45deg) scale(0.707);
+  }
+  &::after {
+    left:100%;
+    transform: translateX(-50%) translateZ(-1px) rotate(45deg) scale(0.707);
+  }
+  
+
+  &:hover {
+    background-color: var(--color-violet);
+    color: var(--color-white);
+  }
+
+  & > *:first-child {
+    margin-right: 6px;
+  }
+
+  &-not-icon {
+    & > *:first-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.btn-border {
+  padding: 3px 14px;
+  border: 1px solid var(--color-violet);
+  transition: background-color .3s ease-in, color .3s ease-in;
+
+  &:hover {
+    background: var(--color-violet);
+    color: var(--color-white);
+  }
+}
+
+.btn-sale {
+  padding: 5px 22px;
+  border: 1px solid var(--color-violet);
+  font-size: 19px;
+  color: var(--color-white);
+  background-color: var(--color-violet);
+  transition: background-color .3s ease-in, color .3s ease-in;
+
+  &:hover {
+    color: var(--color-violet);
+    background: transparent;
+  }
+}
