@@ -1,6 +1,6 @@
 .btn {
   display: inline-block;
-  width: 200px;
+  min-width: 200px;
   padding: 13px 5px;
   font-size: 18px;
   font-weight: 500;
@@ -11,9 +11,52 @@
   color: var(--color-white);
   transition: background-color .3s ease-in, color .3s ease-in;
 
+  & > .arrow {
+    position: relative;
+    margin-left: 5px;
+
+    & path {
+      stroke: white;
+    }
+
+    /* &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: inline-block;
+      width: 1px;
+      height: 10px;
+      background: #000;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: inline-block;
+      width: 1px;
+      height: 10px;
+      background: #000;
+    } */
+  }
+
+  @media (--xl) {
+    font-size: 16px;
+    min-width: 180px;
+  }
+  @media (--sm) {
+    font-size: 14px;
+    min-width: 136px;
+  }
+
   &:hover {
     color: var(--color-violet);
     background: var(--color-white);
+
+    & path {
+      animation: btn-arrow .5s ease-in both;
+    }
   }
 
   &-rounded {
@@ -25,6 +68,11 @@
       color: var(--color-white);
     }
   }
+}
+
+@keyframes btn-arrow {
+  0% { stroke: var(--color-white); }
+  100% { stroke: var(--color-violet); }
 }
 
 .btn-hexagon {
@@ -47,6 +95,16 @@
   transition: background-color .3s ease-in, color .3s ease-in;
   transform-style: preserve-3d;
 
+  @media (--md) {
+    font-size: 14px;
+    height: 47px;
+  }
+  @media (--sm) {
+    font-size: 10px;
+    height: 41px;
+    margin-left: 13px;
+  }
+
   &::before,&::after {
     content:'';
     position: absolute;
@@ -56,14 +114,26 @@
     background: inherit;
     transform-origin: center;
     border: 1px solid var(--color-violet);
+
+    @media (--sm) {
+      top: 2px;
+    }
   }
   &::before {
     right:100%;
     transform: translateX(50%) translateZ(-1px) rotate(45deg) scale(0.707);
+
+    @media (--sm) {
+      transform: translateX(50%) translateZ(-1px) rotate(45deg) scale(0.677) skew(15deg, 15deg);
+    }
   }
   &::after {
     left:100%;
     transform: translateX(-50%) translateZ(-1px) rotate(45deg) scale(0.707);
+
+    @media (--sm) {
+      transform: translateX(-50%) translateZ(-1px) rotate(45deg) scale(0.667) skew(15deg, 15deg);
+    }
   }
   
 

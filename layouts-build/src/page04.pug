@@ -18,29 +18,35 @@ html(lang="ru")
       header.header-product
         .header-product__wrapper.container
           .header-product__content 
-            h1.title-h1 <strong>Троксактив таблетки </strong>воздействуют на симптомы варикоза<sup>*</sup> и хронического геморроя изнутри<sup>2</sup>.
-            br
-            p Самое назначаемое действующее вещество для лечения симптомов хронических заболеваний вен<sup>1</sup>
+            h1.title-h1 <strong>Троксактив таблетки </strong>направленно действуют на вены изнутри при варикозе<sup>*,1</sup>
+            p Самое назначаемое действующее вещество (МНН) для лечения симптомов хронических заболеваний вен<sup>2</sup>
             .header-product__menu 
               button.btn Купить
               button.btn.btn-rounded Инструкция
-          .header-product__products 
-            .header-product__swiper
+          .header-product__swiper.swiper-container
+            .swiper-wrapper
+              .swiper-slide.header-product__swiper-item
+                img(src='./img/product/test.png' alt="")
+          .header-product__menu_mobile
+              button.btn Купить
+              button.btn.btn-rounded Инструкция
       section.symptoms 
         .symptoms__wrapper.container 
           .symptoms__content 
             .symptoms__head.head
-              h2.title-h1 На любой стадии варикоза<sup>*</sup> и геморроя<sup>2</sup>
+              h2.title-h1 Помогает бороться против симптомов варикоза<sup>*</sup> и геморроя<sup>1</sup>
+            .symptoms__img 
+              img(src="./img/product/symptoms-1.png", alt="")
             ul.symptoms__list
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
                 p Усталость <br> и тяжесть <br> в ногах
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Судороги <br>и отеки ног
+                p Отеки <br>и судороги в ногах
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Трофических <br>язвах
+                p Венозные трофические <br>язвы
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
                 p Острый и хронический геморрой 
@@ -51,29 +57,29 @@ html(lang="ru")
         .chronic__wrapper.container 
           .chronic__content
             .chronic__head.head 
-              h2.title-h1 Лечение хронических заболеваний вен может длиться от 2 до 6 месяцев
-              p Таблетки Троксактив можно принимать до 12 месяцев<sup>2</sup>
+              h2.title-h1 Курс лечения хронических заболеваний вен может длиться от 2 до 12 месяцев
+              p Таблетки Троксактив можно принимать до 12 месяцев<sup>1</sup>
             ul.chronic__list 
               li.chronic__item 
                 img(src="./img/product/chronic-1.png", alt="")
-                p Одна таблетка в день<sup>2</sup>
+                p Одна таблетка в день<sup>**</sup>
               li.chronic__item 
                 img(src="./img/product/chronic-1.png", alt="")
-                p Доступная цена<sup>9</sup>
+                p Доступная цена<sup>10</sup>
               li.chronic__item 
                 img(src="./img/product/chronic-1.png", alt="")
-                p Европейское производство<sup>2</sup>
+                p Европейское производство<sup>1</sup>
       section.secret
         .secret__wrapper.container 
           .secret__content.secret-aorta
             .secret__head.head 
-              h2.title-h1 Таблетки Троксактив
-              p Благодаря микронизированной фракции лучше<sup>3</sup> усваиваются организмом и воздействуют на симптомы варикоза<sup>*</sup> и геморроя изнутри<sup>2</sup>
+              h2.title-h1 Таблетки Троксактив – единственный таблетированный МОФФ3 европейского производства<sup>1</sup>
+              p МОФФ – это микронизированная очищенная флавоноидная фракция Гесперидин-Диосмин. При микронизации происходит уменьшение частиц для улучшения всасываемости<sup>4</sup>
 
       section.economy
         .economy__wrapper.container 
           .economy__head.head 
-              h2.title-h1.text-al-center Экономьте<sup>4</sup> при покупке <br> больших упаковок
+              h2.title-h1.text-al-center Экономьте<sup>4</sup> при покупке <br> больших упаковок 25%<sup>5</sup>
           .economy-two
             .economy-two__item
               img(src="./img/product/economy-two-1.png", alt="")
@@ -87,7 +93,8 @@ html(lang="ru")
       section.tutorial 
         .tutorial__wrapper.container 
           .tutorial__content 
-            h2.title-h1.text-al-center Как использовать?<sup>2</sup>
+            .tutorial__head
+              h2.title-h1.text-al-center Как использовать?<sup>1</sup>
             .guide 
               .guide__block 
                 h4.guide__title При варикозе<sup>*</sup>
@@ -113,15 +120,16 @@ html(lang="ru")
       section.others 
         .others__wrapper.container 
           .others__content 
-            h2(class="title-h1" style="max-width: 928px") Используйте комплексный подход — воздействуя на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи
+            h2(class="title-h1" style="max-width: 928px") Линейка Троксевазин<sup>®</sup> – комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи
+
             .others__list
               .others__item.swiper-gel-1 
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-violet">Препарат следующего поколения — </strong><br> Троксевазин<sup>®</sup> Нео с усиленной<sup>7</sup> трехкомпонентной формулой<sup>8</sup>
+                p <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                 button.btn.btn-rounded Узнать больше
               .others__item.swiper-gel-1 
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>9</sup>
+                p <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Гель 2 % —</strong><br> доступная цена<sup>7</sup>, проверенный временем гель<sup>8</sup>
                 button.btn.btn-rounded Узнать больше
       section.faq
         .faq__wrapper.container 

@@ -1,20 +1,8 @@
 .modal {
   position: relative;
   max-height: 90%;
-
-  &.modal-mini {
-    width: 55%;
-
-    @media (--lg) {
-      width: 80%;
-    }
-    @media (--sm) {
-      width: 90%;
-    }
-  }
-  &.modal-big {
-    width: 92%;
-  }
+  width: 80%;
+  max-width: 950px;
 
   &-mask {
     position: fixed;
@@ -25,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(31, 46, 77, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 999;
     pointer-events: auto;
     overflow-y: auto;
@@ -35,7 +23,7 @@
   }
 
   &__close {
-    --close-w: 25px;
+    --close-w: 35px;
     width: var(--close-w);
     height: var(--close-w);
     position: absolute;
@@ -47,14 +35,17 @@
       top: 7px;
       right: 7px;
     }
+    @media (--sm) {
+      --close-w: 20px;
+    }
 
     &-right,
     &-left {
       display: block;
       position: absolute;
       width: var(--close-w);
-      height: 2px;
-      background-color: var(--color-gray);
+      height: 1px;
+      background-color: var(--color-violet);
     }
 
     &-right {
@@ -68,29 +59,21 @@
 
   &__content {
     background-color: var(--color-white);
-    border-radius: 10px;
     padding: 30px 55px;
 
     @media (--md) {
       padding: 28px;
     }
+
+    @media (--xs) {
+      padding: 20px;
+    }
   }
 
   &__header {
-    text-align: left;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 
-    & > h3 {
-      font-weight: 800;
-      font-size: var(--fz-h3);
-      line-height: 1.2;
-      color: var(--color-blue);
-    }
-    & > h4 {
-      font-weight: 800;
-      font-size: 14px;
-      line-height: 1.3;
-    }
     & > p {
       font-weight: 400;
       font-size: 10px;
@@ -102,17 +85,179 @@
     margin-bottom: 38px;
   }
 
-  &__btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    & > .btn:nth-child(2) {
-      margin-left: 14px;
-    }
+  &__footer {
+    font-size: 9px;
+    color: var(--color-gray);
   }
 }
 
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+.hemorrhoids {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 40px;
+    justify-content: center;
+
+    @media (--xl) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (--sm) {
+      gap: 20px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    & > p {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.2;
+
+      @media (--sm) {
+        font-size: 10px;
+        text-align: left;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+    width: 200px;
+    min-width: 100px;
+    margin-bottom: 20px;
+
+    @media (--lg) {
+      width: 60%;
+    }
+    @media (--sm) {
+      margin-bottom: 10px;
+    }
+    
+    & > img {
+      width: 100%;
+      object-fit: contain;
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%; 
+      left: -35%;
+      font-weight: 100;
+      font-size: 50px;
+      line-height: 1;
+      color: var(--color-black);
+      transform: translate(0, -50%);
+
+      @media (--xl) {
+        font-size: 38px;
+      }
+      @media (--lg) {
+        left: -50px;
+      }
+      @media (--sm) {
+        font-size: 20px;
+        top: 0;
+        left: -30px;
+        transform: none;
+      }
+      @media (--xs) {
+        left: -15px;
+      }
+    }
+
+    .hemorrhoids__item:nth-child(1) & {
+      &::before {
+        content: "01";
+      }
+    }
+    .hemorrhoids__item:nth-child(2) & {
+      &::before {
+        content: "02";
+      }
+    }
+    .hemorrhoids__item:nth-child(3) & {
+      &::before {
+        content: "03";
+      }
+    }
+    .hemorrhoids__item:nth-child(4) & {
+      &::before {
+        content: "04";
+      }
+    }
+  }
+}
+
+.veins {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0; 
+  }
+
+  &__item {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 0 1.5%;
+
+    @media (--md) {
+      flex-basis: 33%;
+    }
+
+    & > span {
+      font-size: 50px;
+      font-weight: 100;
+      line-height: 1;
+
+      @media (--xl) {
+        font-size: 38px;
+      }
+      @media (--sm) {
+        font-size: 20px;
+      }
+    }
+
+    & > p {
+      font-size: 14px;
+      line-height: 1.2;
+
+      @media (--sm) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 10px;
+
+    @media (--sm) {
+      margin-bottom: 5px;
+    }
+
+    & > img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.moff {
+  width: 100%;
+
+  & > img {
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+  }
 }

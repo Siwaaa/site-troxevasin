@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_asdf_tolik",
+  "info": {
+    "displayName": "Толик",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "New": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "customa"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

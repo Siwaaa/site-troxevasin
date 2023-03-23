@@ -1,22 +1,39 @@
 .others {
-  margin-bottom: 100px;
+  margin-bottom:  var(--container-padding-h);
+
   &__content {
 
   }
+
   &__list {
     display: flex;
     margin-top: 50px;
+
+    @media (--sm) {
+      margin-top: 20px;
+      /* display: none; */
+    }
   }
+
   &__item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     flex-basis: 50%;
     text-align: center;
 
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+
     & > img {
       width: 414px;
       object-fit: contain;
+
+      @media (--lg) {
+        width: 100%;
+      }
     }
     & > p {
       max-width: 440px;
@@ -34,9 +51,26 @@
       }
     }
   }
+
   &__btns {
+    @media (--lg) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     & .btn:nth-child(2) {
       margin-left: 30px;
+
+      @media (--lg) {
+        margin-left: 0;
+        margin-top: 15px;
+      }
     }
+  }
+
+  &__footnote {
+    margin-top: 30px;
+    font-size: 9px;
+    color: var(--color-gray);
   }
 }

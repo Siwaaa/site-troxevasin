@@ -1,5 +1,5 @@
 .faq {
-  margin-bottom: 100px;
+  margin-bottom: var(--container-padding-h);
 
   &__download {
     text-align: center;
@@ -9,10 +9,19 @@
 .instruction {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0 50px;
   align-items: flex-start;
   margin-bottom: 50px;
+
+  @media (--sm) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 0 30px;
+  }
+  @media (--xs) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   &__list {
     
@@ -28,6 +37,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    & > h5 {
+      margin-right: 15px;
+    }
   }
 }
 

@@ -1,24 +1,30 @@
-div(
-  class="modal-mask"
-  ref="maskRef" 
-  v-if="store.showModal" 
-  @click="store.onMaskClick" 
-  v-effect="store.mask = $refs.maskRef"
-)
-  //- убрать модаль биг
-  div(
-    class="modal"
-    :class="store.modalClassSize()"
-    role="dialog" 
-    :aria-modal="store.showModal" 
-  )
+.modal-mask
+  .modal
     //- Содержимое модального окна
+    .modal__content
+      .modal__header 
+        h3.title-h1 4 стадии внутреннего <br>геморроя<sup>*</sup>
+      .modal__main 
+        .hemorrhoids__list 
+          .hemorrhoids__item
+            .hemorrhoids__img
+              img(src="./img/modal/gem-1.png", alt="")
+            p Кровотечение, без выпадения узлов.
+          .hemorrhoids__item
+            .hemorrhoids__img
+              img(src="./img/modal/gem-1.png", alt="")
+            p Выпадение внутренних геморроидальных узлов с самостоятельным вправлением в анальный канал, с/без кровотечения.
+          .hemorrhoids__item
+            .hemorrhoids__img
+              img(src="./img/modal/gem-1.png", alt="")
+            p Выпадение внутренних геморроидальных узлов с необходимостью их ручного вправления в анальный канал, с/без кровотечения.
+          .hemorrhoids__item
+            .hemorrhoids__img
+              img(src="./img/modal/gem-1.png", alt="")
+            p Постоянное выпадение внутренних геморроидальных узлов и невозможность их вправления в анальный канал, с/без кровотечения.
 
-    button(
-      class="modal__close" 
-      type="button" 
-      aria-label="close" 
-      @click="store.closeModal()"
-    )
+      .modal__footer
+        p https://cr.minzdrav.gov.ru/schema/178_1. Дата обращения:и 28.02.2023
+    button(class="modal__close" type="button" aria-label="close")
       .modal__close-right
       .modal__close-left

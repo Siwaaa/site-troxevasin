@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storage": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "customa"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Co": {
+      "displayName": "Толик",
+      "type": "component",
+      "repeatable": false,
+      "component": "asdf.tolik"
+    }
+  }
+}

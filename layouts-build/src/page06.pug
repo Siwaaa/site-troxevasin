@@ -17,41 +17,45 @@ html(lang="ru")
       include ./components/navbar/navbar.pug
       header.header-case
         .header-case__wrapper.container
-          .header-case__content 
-            h1.title-h1 Каждый 5-ый<sup>1</sup> сталкивается с первыми признаками варикоза<sup>*</sup> в том числе с сосудистыми звездочками
-            p Заболевание может прогрессировать. На более серьезных стадиях внешние проявления могут сопровождаться судорогами, отеками, выпирающими венами и язвами. 
-            .header-case__list 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p Ученые выделяют 7 классов заболеваний варикоза. Вот как они <i>различаются</i>. 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p При первых же признаках заболевания обратитесь к врачу и получите план лечения, чтобы избежать прогрессирования заболевания.
-          .header-case__img
-            img(src="./img/case/header-1.png", alt="")
-      section.factors 
+          .header-case__top
+            h1.title-h1.header-case__title Варикоз<sup>*</sup> – распространенное заболевание<sup>1</sup>, признаками которого могут быть <strong>сосудистые звездочки, боль и тяжесть в ногах<sup>2</sup></strong>
+            .header-case__img
+              img(src="./img/case/header-case.png", alt="")
+          .header-case__list 
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p При различных проявлениях могут назначаться разные подходу к лечению. Например, только хирургический метод уберет сосудистые звездочки, <strong>гели же могут применяться против тяжести и отеков в ногах при варикозе<sup>7</sup>.</strong> 
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p <strong>Важна консультация врача.</strong> <br>Заболевание может прогрессировать.  На более серьезных стадиях могут появиться судороги, отек ног, выпирающие узловатые вены, венозные язвы. Ученые выделяют 7 классов хронических заболеваний. Вот как они <i>различаются</i>.
+      section.factors
         .factors__wrapper.container 
           .factors__content 
             h2.title-h1 Факторы риска развития хронических заболеваний вен<sup>2</sup>
             ul.factors__list
-              li.factors__item.f-50
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Ожирение
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Возраст
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Беременность
+              li.factors__item.factors-50
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
+                p Генетическая <br> предрасположенность
+              li.factors__item.factors-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Сидячая или <br> стоячая работа
       section.symptoms 
         .symptoms__wrapper.container 
           .symptoms__content 
-            .symptoms__head.head
-              h2.title-h1 Как бороться с варикозом<sup>*</sup>
-              p Согласно клиническим рекомендациям<sup>2</sup>, <br>важен комплексный подход.
+            .symptoms__head
+              h2.title-h1 Для борьбы с варикозом<sup>*</sup>
+              p Может применяться комбинация различных методов лечения
+            .symptoms__img 
+              img(src="./img/product/symptoms-1.png", alt="")
             ul.symptoms__list
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
@@ -61,10 +65,10 @@ html(lang="ru")
                 p Компрессионный <br>трикотаж
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Физкультура
+                p Лечебная <br>физкультура
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Операционное <br>вмешательство
+                p Хирургическое <br>вмешательство
             .symptoms__doctor
               img(src="./img/case/doc.png", alt="")
               p Не забывайте — программу лечения в каждом конкретном случае назначает врач 
@@ -73,9 +77,9 @@ html(lang="ru")
           .stats__content 
             .stats__left 
               img(src="./img/case/stats.png", alt="")
-            .stats__right.head 
-              h2.title-h1 92% пациентов начинают лечение симптомов с помощью наружных средств
-              p Бороться с варикозом помогут средства бренда Троксевазин<sup>®</sup>, который на протяжении более 40 лет<sup>3</sup> помогает россиянам справляться с варикозом<sup>*</sup>
+            .stats__right 
+              h2.title-h1 Согласно исследованию,<sup>6</sup> 92% пациентов начинают лечение симптомов варикоза<sup>*</sup> с помощью наружных средств
+              p Бороться с варикозом помогут средства бренда Троксевазин<sup>®</sup>, который на протяжении более 40 лет<sup>3</sup> помогает россиянам справляться с варикозом<sup>*</sup>.
       section.others 
         .others__wrapper.container 
           .others__content 
@@ -117,14 +121,18 @@ html(lang="ru")
       section.sources
         .sources__wrapper.container
           p. 
-            * Симптомы хронической венозной недостаточности
+            * Хроническая венозная недостаточность
             <br>** По сравнениню с Троксевазин® Гель 2 %
-            <br>*** Венотонизирующее, противовоспалительное, противоотечное5
-            <br>1. Rabe E., Guex J., Puskas A., Scuderi A., Fernandez Quesada F., Coordinators V. Epidemiology of chronic venous disorders in geographically diverse populations: results from the Vein Consult Program//Int Angiol. 2012. Vol.2. P.105-115.
+            <br>*** Венотонизирующее, противовоспалительное, противоотечное5. 
+            <br>1. Rabe E., Guex J., Puskas A., Scuderi A., Fernandez Quesada F., Coordinators V. Epidemiology of chronic venous disorders in geographically diverse populations: results from the Vein Consult Program//Int Angiol. 2012. Vol. 2. P. 105-115.
             <br>2. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 2021
             <br>3. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
             <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® П N012713/02
-            <br>5. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Нео ЛП-002139
+            <br>5. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01. Дата обращения: 28.02.2023.
+            <br>6. Исследование Ipsos. Изучение привычек и особенностей использования венотоников. 2021
+            <br>7. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) и инструкция по медицинскому применению лекарственного препарата Троксевазин® Гель 2 %
+            NO12713/02.
+
 
       //- Footer
       include ./components/footer/footer.pug

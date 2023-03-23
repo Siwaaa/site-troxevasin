@@ -19,12 +19,15 @@ html(lang="ru")
         .header__wrapper.container
           .header__content 
             h1.title-h1 ТРОКСЕВАЗИН<sup>®</sup> — <br> шаг вперед к лечению варикоза<sup>*</sup>
-            p Эксперты Троксевазин<sup>®</sup> всё знают о лечении симптомов варикоза<sup>*</sup> и геморроя. <br><br>О чем хотели бы узнать вы? 
+            p Эксперты бренда Троксевазин<sup>®</sup> всё знают о лечении симптомов варикоза<sup>*</sup> и геморроя. 
+            p <strong>О чем хотели бы узнать вы?</strong>
             .header__menu 
-              button.btn-hexagon Сосудистые звездочки, <br> выпирающие вены 
-              button.btn-hexagon Тяжесть, усталость <br> в ногах
-              button.btn-hexagon Боль,отеки, судороги <br> в ногах 
-              button.btn-hexagon Дискомфорт при <br> дефекации из-за геморроя
+              button.btn-hexagon Звездочки, тяжесть, <br> усталость в ногах 
+              button.btn-hexagon Выпирающие вены <br> и боль в ногах
+              button.btn-hexagon Отеки и судороги <br> в ногах 
+              button.btn-hexagon Дискомфорт и боль <br> при геморроя
+            .header-mobile 
+              img(src="./img/main_fon-mobile.jpg", alt="")
       section.expert 
         .expert__wrapper.container 
           .expert__img 
@@ -36,31 +39,35 @@ html(lang="ru")
         .products__wrapper.container
           .products__list
             .products__item 
-              h3.products__item-title Троксевазин<sup>®</sup> <br>гель Нео
-              .products__item-img 
-                img(src="./img/product-1.png", alt="")
-              p.products__item-desc Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
+              .products__item-content
+                h3.products__item-title Троксевазин<sup>®</sup> <br>Нео гель 
+                .products__item-img 
+                  img(src="./img/product-1.png", alt="")
+                p.products__item-desc Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
               .products__item-btn 
                 button.btn.btn-rounded Узнать больше
             .products__item 
-              h3.products__item-title Троксевазин<sup>®</sup> <br>гель Нео
-              .products__item-img 
-                img(src="./img/product-1.png", alt="")
-              p.products__item-desc Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
+              .products__item-content
+                h3.products__item-title Троксевазин<sup>®</sup> <br>гель 2 %
+                .products__item-img 
+                  img(src="./img/product-1.png", alt="")
+                p.products__item-desc Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>**,8</sup>
               .products__item-btn 
                 button.btn.btn-rounded Узнать больше
             .products__item 
-              h3.products__item-title Троксевазин<sup>®</sup> <br>гель Нео
-              .products__item-img 
-                img(src="./img/product-1.png", alt="")
-              p.products__item-desc Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
-              .products__item-btn 
+              .products__item-content
+                h3.products__item-title Троксактив <br>таблетки
+                .products__item-img 
+                  img(src="./img/product-1.png", alt="")
+                p.products__item-desc Направленно действуют на вены изнутри<sup>9</sup> при ХВН<sup>*</sup>. Самая востребованная<sup>10</sup> формула (МНН) в лечении варикоза<sup>*</sup>
+              .products__item-btn
                 button.btn.btn-rounded Узнать больше
-            .products__item 
-              h3.products__item-title Троксевазин<sup>®</sup> <br>гель Нео
-              .products__item-img 
-                img(src="./img/product-1.png", alt="")
-              p.products__item-desc Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
+            .products__item
+              .products__item-content
+                h3.products__item-title Троксевазин<sup>®</sup> <br>капсулы
+                .products__item-img 
+                  img(src="./img/product-1.png", alt="")
+                p.products__item-desc Проверенное временем средство<sup>12</sup> при хронической венозной недостаточностии геморрое<sup>11</sup>
               .products__item-btn 
                 button.btn.btn-rounded Узнать больше
       section.sources
@@ -82,6 +89,6 @@ html(lang="ru")
       //- Footer
       include ./components/footer/footer.pug
       //- Modal
-      //- include ./layouts/modal.pug
+      //- include ./layouts/modal-3.pug
       
     script(src='index.js' type="module" defer)

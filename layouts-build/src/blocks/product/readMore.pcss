@@ -1,5 +1,6 @@
 .read-more {
-  margin-bottom: 60px;
+  margin-bottom:  var(--container-padding-h);
+
   &__content {
 
   }
@@ -8,11 +9,22 @@
 .articles {
   /* ТОДО: у заголовка блока часто нижний отступ 50px  */
   margin-top: 50px;
+
+  @media (--sm) {
+    margin-top: 25px;
+  }
+
   &__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     margin-bottom: 30px;
+    @media (--md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (--xs) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   &__item {
     & > img {
@@ -26,11 +38,22 @@
       line-height: 1.1;
       color: var(--color-violet);
       margin-bottom: 15px;
+
+      @media (--lg) {
+        font-size: 22px;
+      }
+      @media (--sm) {
+        font-size: 18px;
+      }
     }
     & > p {
       font-weight: 400;
       font-size: 16px;
       line-height: 1.38;
+
+      @media (--sm) {
+        font-size: 14px;
+      }
     }
   }
   &__btn {

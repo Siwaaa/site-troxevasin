@@ -17,42 +17,45 @@ html(lang="ru")
       include ./components/navbar/navbar.pug
       header.header-case
         .header-case__wrapper.container
-          .header-case__content 
-            h1.title-h1 69% взрослых сталкиваются с проявлениями варикоза<sup>1</sup>
-            br
-            p Первые симптомы могут казаться «безобидными». Но если заболевание прогрессирует, к ним прибавляются судороги, отеки, выпирающие вены. А на более тяжелых стадиях и язвы.
-            .header-case__list 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p Ученые выделяют 7 классов заболеваний варикоза. Вот как они <i>различаются</i>. 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p При первых же признаках заболевания обратитесь к врачу и получите план лечения, чтобы избежать прогрессирования заболевания.
-          .header-case__img
-            img(src="./img/case/header-1.png", alt="")
+          .header-case__top 
+            h1.title-h1.header-case__title Варикоз<sup>*</sup> может сопровождаться такими неприятными проявлениями, как <strong>выпирающие узловатые вены и боль в ногах<sup>1</sup></strong>
+            .header-case__img
+              img(src="./img/case/header-1.png", alt="")
+          .header-case__list 
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p <strong>На более поздних этапах развития варикоза<sup>*</sup> к ним могут добавляться судороги и отеки.</strong> А на более тяжелых стадиях и язвы. Ученые выделяют 7 классов хронических заболеваний вен. Вот как они <i>различаются.</i>
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p При первых признаках заболевания <strong>необходимо обратиться к врачу</strong> и получить план лечения.
       section.factors 
         .factors__wrapper.container 
           .factors__content 
-            h2.title-h1 Факторы риска развития хронических заболеваний вен<sup>1</sup>
+            h2.title-h1 Факторы риска развития хронических заболеваний вен<sup>2</sup>
             ul.factors__list
-              li.factors__item.f-50
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Ожирение
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Возраст
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
-              li.factors__item.f-50
+                p Беременность
+              li.factors__item.factors-50
                 img(src="./img/case/factor-1.png", alt="")
-                p Генетическая предрасположенность
+                p Генетическая <br> предрасположенность
+              li.factors__item.factors-50
+                img(src="./img/case/factor-1.png", alt="")
+                p Сидячая или <br> стоячая работа
       section.symptoms 
         .symptoms__wrapper.container 
           .symptoms__content 
-            .symptoms__head.head
-              h2.title-h1 Как бороться с варикозом<sup>**</sup>
-              p Согласно клиническим рекомендациям<sup>1</sup>, <br>важен комплексный подход.
+            .symptoms__head
+              h2.title-h1 Для борьбы с варикозом<sup>*</sup>
+              p Может применяться комбинация различных методов лечения
+            .symptoms__img 
+              img(src="./img/product/symptoms-1.png", alt="")
             ul.symptoms__list
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
@@ -62,25 +65,26 @@ html(lang="ru")
                 p Компрессионный <br>трикотаж
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Физкультура
+                p Лечебная <br>физкультура
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Операционное <br>вмешательство
+                p Хирургическое <br>вмешательство
             .symptoms__doctor
               img(src="./img/case/doc.png", alt="")
               p Не забывайте — программу лечения в каждом конкретном случае назначает врач 
       section.vozdeystvyi
         .vozdeystvyi__wrapper.container 
           .vozdeystvyi__content 
-            .vozdeystvyi__head.head
-              h2.title-h1 Воздействуйте на симптомы изнутри и снаружи
+            .vozdeystvyi__head
+              h2.title-h1 Для комплексного воздействия <br> на симптомы изнутри и снаружи
             .vozdeystvyi__body
               .vozdeystvyi__left
-                p Таблетки Троксактив для направленного действия на вены изнутри<sup>4</sup> и Гель Троксевазин<sup>®</sup> Нео с усиленной<sup>2</sup> формулой для воздействия на симптомы варикоза<sup>*</sup> снаружи<sup>3</sup>
+                p Таблетки Троксактив для направленного действия на вены изнутри<sup>4</sup> и гель Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> формулой для воздействия на симптомы варикоза<sup>*</sup> снаружи<sup>3</sup>
                 button.btn Купить
-                span 2. По сравнению с Троксевазин® гель 2 % 
+                span ** По сравнению с Троксевазин® гель 2 % 
               .vozdeystvyi__right 
                 img(src="./img/case/vozdey.png", alt="")
+                button.btn Купить
       section.others 
         .others__wrapper.container 
           .others__content 
@@ -88,17 +92,18 @@ html(lang="ru")
               .others__item.swiper-gel-1 
                 h2.title-h1 Троксевазин<sup>®</sup> <br> НЕО гель
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-violet">Препарат следующего поколения — </strong><br> Троксевазин<sup>®</sup> Нео с усиленной<sup>7</sup> трехкомпонентной формулой<sup>8</sup>
+                p <strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong> Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
                 .others__btns
                   button.btn Купить
                   button.btn.btn-rounded Узнать больше
               .others__item.swiper-gel-1
                 h2.title-h1 Троксактив <br>Таблетки
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-orange">Самая востребованная формула<sup>4</sup></strong> в лечении симптомов<br>варикоза<sup>**</sup>
+                p <strong class="others-orange">Самая востребованная формула (МНН)<sup>5</sup></strong><br> в лечении симптомов <br> варикоза<sup>*</sup>
                 .others__btns
                   button.btn Купить
                   button.btn.btn-rounded Узнать больше
+            p.others__footnote ** По сравнению с Троксевазин® гель 2 %
       section.read-more 
         .read-more__wrapper.container 
           .read-more__content 
@@ -122,17 +127,12 @@ html(lang="ru")
       section.sources
         .sources__wrapper.container
           p. 
-            ** При хронической венозной недостаточности
-            <br>*** При симптомами хронической венозной недостаточности
-            <br>1.  В категории наружных венотоников, по продажам в деньгах 2018-2022, АЙКЬЮВИА
-            <br>2. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
-            <br>3. Инструкция по медицинскому применению лекарственного препарата Троксевазин П N012713/02
-            <br>4. Симптомы хронической венозной недостаточности
-            <br>5. Гематом.
-            <br>6. Скидка экономии на гр. по сравнению упаковкой 40г
-            <br>7. По сравнению с Троксевазин® гель 2 % 
-            <br>8. Инструкция по медицинскому применению лекарственного препарата Троксевазин® Нео ЛП-002139
-            <br>9. Инструкция по медицинскому применению лекарственного препарата  Троксактив ЛП-№ (000726)-(РГ-RU)
+            * Хронической венозной недостаточности
+            <br>1. Eklöf B., Rutherford R.B., Bergan J.J. и соавт.; American Venous Forum International Ad Hoc Committee for Revision of the CEAP Classification: Revision of the CEAP classification for chronic venous disorders: consensus statement. J. Vasc. Surg., 2004; 40 (6): 1251–1252
+            <br>2. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 2021
+            <br>3. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01. Дата обращения: 28.02.2023.
+            <br>4. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
+            <br>5. Наиболее рекомендуемое врачами МНН для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс), 3кв 2022)
 
       //- Footer
       include ./components/footer/footer.pug

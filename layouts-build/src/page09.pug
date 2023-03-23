@@ -17,23 +17,22 @@ html(lang="ru")
       include ./components/navbar/navbar.pug
       header.header-case
         .header-case__wrapper.container
-          .header-case__content 
-            h1.title-h1 Согласно исследованию<sup>1</sup>, у каждого 3-го взрослого есть гемморой
-            p Если геморрой перейдет в хроническую стадию, к дискомфорту в промежности добавятся ректальные кровотечения и выпадение узлов. Не откладывайте обращение к врачу, чтобы не допустить осложнений. 
-            .header-case__list 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p Ученые<sup>2</sup> выделяют 4 стадии хронического геморроя. Вот как они <i>различаются</i>. 
-              .header-case__item
-                img(src="./img/case/h-list-1.png", alt="")
-                p При первых же признаках заболевания обратитесь к врачу и получите план лечения, чтобы избежать прогрессирования заболевания.
-          .header-case__img
-            img(src="./img/case/header-1.png", alt="")
+          .header-case__top 
+            h1.title-h1.header-case__title <strong>Геморрой</strong> – распространенное заболевание среди взрослого населения<sup>1</sup>
+            .header-case__img
+              img(src="./img/case/header-1.png", alt="")
+          .header-case__list 
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p Заболевание может сопровождаться такими крайне неприятными симптомами как <strong>боль, зуд и кровотечение из геморроидальных узлов</strong>, а при развитии заболевания может привести к <strong>выпадению геморроидальных узлов.</strong> Ученые<sup>2</sup> выделяют 4 стадии хронического геморроя. Вот как они <i>различаются</i>.
+            .header-case__item
+              img(src="./img/case/h-list-1.png", alt="")
+              p При первых признаках заболевания <strong>необходимо обратиться к врачу</strong> и получить план лечения, чтобы избежать прогрессирования заболевания. 
       section.factors 
         .factors__wrapper.container 
           .factors__content 
-            h2.title-h1 Факторы риска <br> развития геморроя<sup>1</sup>
-            ul.factors__list.factors__list-five
+            h2.title-h1 Факторы риска <br> развития геморроя<sup>2</sup>
+            ul.factors__list
               li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
                 p Наследственность
@@ -42,46 +41,47 @@ html(lang="ru")
                 p Тяжелые физические нагрузки
               li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Сидячий <br>образ <br>жизни
-              li.factors__item.f-50
+                p Сидячий образ жизни
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Запоры
-              li.factors__item.f-50
+                p Неустойчивый <br> стул
+              li.factors__item
                 img(src="./img/case/factor-1.png", alt="")
-                p Специфичное питание — обилие острого, специй и алкоголя
+                p Запоры и длительные натуживания
+              li.factors__item
+                img(src="./img/case/factor-1.png", alt="")
+                p Характер питания — обилие острого, специй и алкоголя
       section.symptoms 
         .symptoms__wrapper.container 
           .symptoms__content 
-            .symptoms__head.head
-              h2.title-h1 Как бороться с варикозом<sup>**</sup>
-              p Согласно клиническим рекомендациям<sup>1</sup>, <br>важен комплексный подход.
+            .symptoms__head
+              h2.title-h1 Как бороться с геморроем<sup>2</sup>
+            .symptoms__img 
+              img(src="./img/product/symptoms-1.png", alt="")
             ul.symptoms__list
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Медикаментозная <br>терапия
+                p Диетотерапия
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Компрессионный <br>трикотаж
+                p Медикаментозное лечение
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Физкультура
+                p Хирургическое вмешательство
               li.symptoms__item 
                 img(src="./img/product/symptom.png", alt="")
-                p Операционное <br>вмешательство
+                p Малоинвазивное операционное вмешательство
             .symptoms__doctor
               img(src="./img/case/doc.png", alt="")
               p Не забывайте — программу лечения в каждом конкретном случае назначает врач 
-      section.vozdeystvyi
-        .vozdeystvyi__wrapper.container 
-          .vozdeystvyi__content 
-            .vozdeystvyi__head.head
-              h2.title-h1 Воздействуйте на симптомы изнутри и снаружи
-            .vozdeystvyi__body
-              .vozdeystvyi__left
-                p Используйте таблетки Троксактив или Троксевазин<sup>®</sup> капсулы, которые направленно действуют на вены изнутри при ХЗВ<sup>*</sup>. Способствуют повышению венозного тонуса, уменьшению растяжимости вен и венозного застоя<sup>6</sup>
-                button.btn Купить
-              .vozdeystvyi__right 
-                img(src="./img/case/vozdey.png", alt="")
+      section.stats
+        .stats__wrapper.container 
+          .stats__content 
+            .stats__left 
+              img(src="./img/case/stats.png", alt="")
+            .stats__right 
+              h2.title-h1 Для воздействия <br>на симптомы геморроя
+              p Удобный формат лечения неудобной проблемы. Таблетки Троксактив и Троксевазин<sup>®</sup> капсулы направленно действуют на вены изнутри<sup>5</sup> при геморрое.
       section.others 
         .others__wrapper.container 
           .others__content 
@@ -89,14 +89,14 @@ html(lang="ru")
               .others__item.swiper-gel-1
                 h2.title-h1 Троксактив <br>Таблетки
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-orange">Самая востребованная формула<sup>4</sup></strong> в лечении симптомов<br>варикоза<sup>**</sup>
+                p <strong class="others-orange">Курс лечения – всего 7 дней при остром геморрое. Или 1 таблетка в день при хроническом<sup>6</sup></strong>
                 .others__btns
                   button.btn Купить
                   button.btn.btn-rounded Узнать больше
               .others__item.swiper-gel-1 
                 h2.title-h1 Троксевазин<sup>®</sup> <br> капсулы
                 img(src="./img/product/other-gel-1-40.png", alt="")
-                p <strong class="others-violet">Выгодная цена<sup>4</sup>,европейское производство<sup>5</sup></strong>
+                p <strong class="others-violet">Доступная цена<sup>3</sup>, <br> европейское производство<sup>4</sup></strong>
                 .others__btns
                   button.btn Купить
                   button.btn.btn-rounded Узнать больше
@@ -125,14 +125,12 @@ html(lang="ru")
           p. 
             * При хронических заболеваниях вен. 
             <br>** Хронической венозной недостаточности 
-            <br>1. Клинические рекомендации МЗ РФ «Геморрой» 2020 г. 
-            <br>2. Ассоциация колопроктологов россии. Клинические рекомендации по диагностике и лечению взрослых пациентов с острым и хроническим геморроем. 
-            <br>3. Наиболее рекомендуемое врачами МНН для лечения ХБВ согласно Prindex, 3q2021
-            <br>4. По сравнению с лидерами рынка венотоников для системного применения. Согласно данным базы «АЙКЬЮВИА Солюшнс» «Розничный аудит ГЛС и БАД в РФ», продажи в рублях в категории «Препараты, снижающие проницаемость капилляров» в виде твердых лекарственных форм; средние розничные цены в рублях в пересчете на 1 таблетку/капсулу в январе 2020 г.
-            <br>5. Инструкция по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU)
-            <br>6. Инструкции по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU) и препарата  Троксактив ЛП-№ (000726)-(РГ-RU)
-
-
+            <br>1. Пенетрационное исследование по геморрою. 1511 респондентов. Ipsos. Декабрь 2021
+            <br>2. https://cr.minzdrav.gov.ru/schema/178_1
+            <br>3. По сравнению с лидерами рынка венотоников для системного применения. Согласно данным базы «АЙКЬЮВИА Солюшнс» «Розничный аудит ГЛС и БАД в РФ», продажи в рублях в категории «Препараты, снижающие проницаемость капилляров» в виде твердых лекарственных форм; средние розничные цены в рублях в пересчете на 1 таблетку/капсулу в январе 2020 г.
+            <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU)
+            <br>5. Инструкции по медицинскому применению лекарственных препаратов Троксактив ЛП-№ (000726)-(РГ-RU), Троксевазин® капсулы ЛП-№(000083)-(РГ-RU),
+            <br>6. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
       //- Footer
       include ./components/footer/footer.pug
       //- Modal
