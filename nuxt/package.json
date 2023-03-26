@@ -8,7 +8,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
+    "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/strapi": "^1.8.1",
-    "nuxt": "^3.2.2"
+    "autoprefixer": "^10.4.12",
+    "nuxt": "^3.2.2",
+    "postcss": "^8.4.17",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-easings": "^3.0.1",
+    "postcss-modules": "^4.3.1",
+    "postcss-nested": "^5.0.6",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "^9.1.1"
   }
 }

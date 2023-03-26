@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import "./reset.css";
+@import "./custom-swiper.pcss";
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  scroll-behavior: smooth;
+
+  @media (--xl) {
+    font-size: 16px;
+  }
+  @media (--md) {
+    font-size: 14px;
+  }
+}
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content-width);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--container-padding-w); 
+  padding-left: var(--container-padding-w);
+}
+
+.text-al-center {
+  text-align: center;
+}
+.color-orange {
+  color: var(--color-orange);
+}
+.color-violet {
+  color: var(--color-violet);
+}
+
+/* Typography */
+.title-h1 {
+  font-weight: 400;
+  font-size:  var(--fz-h1);
+  line-height: 1.1; 
+  color: var(--color-violet);
+
+  & > strong {
+    font-weight: 600;
+  }
+}
+.title-h2 {
+  font-weight: 500;
+  font-size: var(--fz-h2);
+  color: var(--color-dark);
+}
+.title-h3 {
+  font-weight: 800;
+  font-size: var(--fz-h3);
+  color: var(--color-blue);
+  /* text-transform: uppercase; */
+
+  @media (--md) {
+    text-align: center;
+  }
+}
+p > b {
+  font-weight: 800;
+}
+p > strong {
+  font-weight: 600;
+}
+p > i, .title-h1 > i {
+  padding-bottom: 2px;
+  color: var(--color-violet);
+  border-bottom: 1px dashed var(--color-violet);
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 1px solid var(--color-violet);
+  }
+}
+sup {
+  vertical-align: super;
+  h1 &, h2 & {
+    font-size: 0.35em;
+  }
+  p &, h3 &, h4 &  {
+    font-size: 0.6em;
+  }
+}
+
+:root {
+  /* color */
+  --color-white: #FFF;
+  --color-black: #000;
+  --color-gray:  #737373;
+  --color-violet: #A71680;
+  --color-blue: #6A8CF9;
+  --color-blue-light: #E9EEFF;
+  --color-orange: #F48B3B;
+  --color-green: #009900;
+  /* font  */
+  --fz-h1: 47px;
+  --fz-h2: 35px;
+  --fz-h3: 25px;
+  /* content */
+  --content-width: 1200px;
+  --container-padding-w: 30px;
+  --container-padding-h: 60px;
+  --navbar-h: 65px;
+  --med-h: 65px;
+
+  @media (--xl) {
+    --fz-h1: 36px;
+    --fz-h2: 29px;
+  }
+  @media (--lg) {
+    --fz-h3: 21px;
+  }
+  @media (--md) {
+    --fz-h1: 28px;
+    --fz-h2: 24px;
+  }
+  @media (--sm) {
+    --fz-h1: 20px;
+    --fz-h3: 18px;
+    --container-padding-w: 20px;
+    --container-padding-h: 35px;
+    --navbar-h: 40px;
+  }
+  @media (--xs) {
+    --fz-h2: 16px;
+  }
+}
+
+/* Animation */
+*[data-animate-on-scroll] {
+  opacity: 0;
+}
+*[data-animate-on-scroll=animated] {
+  opacity: 1;
+  animation: wipe-enter 2s;
+}
+
+@keyframes wipe-enter {
+  0% {
+    opacity: 0;
+    transform: translate(0, -40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* vue transition default */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

@@ -1,10 +1,71 @@
 <script setup>
+// global seo and meta settings
+useHead({
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'theme-color', content: '#fff' },
+    { name: 'description', content: 'Троксевазин – препарат, который улучшает микроциркуляцию крови и лимфы, снижает воспалительные процессы, уменьшает отеки и улучшает состояние кожи при варикозе, тромбофлебите, флебите, геморрое и других заболеваниях. Инструкция по применению, цена, аналоги и отзывы пациентов – на официальном сайте.' }
+  ],
+  htmlAttrs: {
+    lang: 'ru'
+  },
+  script: [
+    // <!-- OneTrust Cookies Consent Notice start for troxevasin.ru -->
+    // {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
+    // {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
+    // {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
+    // <!-- OneTrust Cookies Consent Notice end for troxevasin.ru -->
+    // <!-- UTEKA start -->
+    {
+      type: "text/javascript",
+      innerHTML: `var script = document.createElement('script')
+      script.src = 'https://widget.uteka.ru/static/widgets/widget.simple.compiled.js?l=' + Date.now()
+      script.async = true
+      document.head.appendChild(script)`
+    },
+    // <!-- UTEKA end -->
+    // <!-- Yandex.Metrika counter -->
+    // { type: "text/javascript",
+    //   innerHTML: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    //   m[i].l=1*new Date();
+    //   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    //   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    //   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    //   ym(92925175, "init", {
+    //         clickmap:true,
+    //         trackLinks:true,
+    //         accurateTrackBounce:true,
+    //         webvisor:true
+    //   });`
+    // },
+    // <!-- /Yandex.Metrika counter -->
+    // <!-- Google tag (gtag.js) -->
+    // { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0TGE7W06YH" },
+    // {
+    //   type: "text/javascript",
+    //   innerHTML: `window.dataLayer = window.dataLayer || [];
+    //   function gtag(){dataLayer.push(arguments);}
+    //   gtag('js', new Date());
+
+    //   gtag('config', 'G-0TGE7W06YH');`
+    // }
+  ],
+  noscript: [
+    { innerHTML: '<div><img src="https://mc.yandex.ru/watch/92925175" style="position:absolute; left:-9999px;" alt="" /></div>' },
+  ] 
+})
+
 // c208134931e7c1d9ce52562d22c933a3106ccd5cd23f79d653c56f205ea4b4ee45cdd1cff50fb744f865fc01d6227254f4de87b83fb9b1b2427dba7954de471c2cc14d769c5a67ae4a1794b897caa400480e8ce2806f90d666fe2a8738956a26437756e133bb2950ff7a41fd3e029f417a3174adde67339fc12aab2ea9028138
-  const res = await $fetch("http://localhost:1337/api/tests")
+// const res = await $fetch("http://localhost:1337/api/tests")
 </script>
 
 <template>
-  <div>
-    {{ res }}
-  </div>
+  <Navbar />
+  <NuxtPage />
+  <Footer />
+  <MedInfo />
+  <Cart />
+  <ModalUteka />
 </template>

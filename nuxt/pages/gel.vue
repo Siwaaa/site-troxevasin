@@ -1,0 +1,396 @@
+<template>
+  <main>
+    <header class="header-product">
+      <div class="header-product__wrapper container">
+        <div class="header-product__content">
+          <h1 class="title-h1"><strong>Троксевазин<sup>®</sup> 2 % — гель №1</strong><sup>*,1</sup> для лечения симптомов варикоза<sup>**,3</sup></h1>
+          <p class="header-product__footnote"><sup>*</sup>по продажам в деньгах (2008 – 2022)<sup>1</sup>
+          </p>
+          <p>Проверенный временем<sup>2</sup> препарат против тяжести и боли в ногах при варикозе<sup>***</sup>.Способствует укреплению вен и повышению их тонуса<sup>3</sup>.
+          </p>
+          <div class="header-product__menu"> 
+            <Button label="Купить" arrowRight />
+            <NuxtLink to="#faq">
+              <Button label="Инструкция" arrowRight rounded />
+            </NuxtLink>
+          </div>
+        </div>
+        <div class="header-product__swiper">
+          <swiper
+            :slides-per-view="1"
+            :space-between="50"
+            effect="fade"
+            :fade-effect="{ crossFade: true }"
+            :speed="1300"
+            :grab-cursor="true"
+            @swiper="onSwiperHeader"
+            :modules="[Navigation, EffectFade, Pagination]"
+            navigation
+            :pagination="pagination"
+          >
+            <swiper-slide>
+              <div class="header-product__swiper-item">
+                <nuxt-img src="/img/product/test.png" alt="" />
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="header-product__swiper-item">
+                <nuxt-img src="/img/product/p-gel-2.png" alt="" />
+              </div>
+            </swiper-slide>
+          </swiper>
+        </div>
+        <div class="header-product__menu_mobile">
+          <Button label="Купить" arrowRight />
+          <NuxtLink to="#faq">
+            <Button label="Инструкция" arrowRight rounded />
+          </NuxtLink>
+        </div>
+      </div>
+    </header>
+
+    <section class="symptoms">
+      <div class="symptoms__wrapper container">
+        <div class="symptoms__content">
+          <div class="symptoms__head">
+            <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup>:</h2>
+          </div>
+          <div class="symptoms__img">
+            <nuxt-img src="/img/product/symptoms-gel.png" alt=""/>
+          </div>
+          <ul class="symptoms__list">
+            <li class="symptoms__item">
+              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <p>Тяжесть <br>и боль в ногах </p>
+            </li>
+            <li class="symptoms__item">
+              <nuxt-img src="/img/product/symptom-2.png" alt=""/>
+              <p>Синяки<br>(гематомы)</p>
+            </li>
+            <li class="symptoms__item">
+              <nuxt-img src="/img/product/symptom-3.png" alt=""/>
+              <p>Боли и отеки <br>в ногах</p>
+            </li>
+            <li class="symptoms__item">
+              <nuxt-img src="/img/product/symptom-4.png" alt=""/>
+              <p>Поверхностный тромбофлебит</p>
+            </li>
+            <li class="symptoms__item">
+              <nuxt-img src="/img/product/symptom-5.png" alt=""/>
+              <p>Варикозное расширение вен</p>
+            </li>
+          </ul>
+          <div class="symptoms__menu"> 
+            <Button label="Купить" arrowRight />
+            <NuxtLink to="#faq">
+              <Button label="Инструкция" arrowRight rounded />
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secret">
+      <div class="secret__wrapper container">
+        <div class="secret__content">
+          <h2 class="title-h1">Секрет популярности Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
+          <ul class="secret__list">
+            <li class="secret__item">
+              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <p>Действующее вещество препарата — Троксерутин<sup>3</sup></p>
+            </li>
+            <li class="secret__item">
+              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <p>Троксерутин уменьшает воспаление и уменьшает ломкость капилляров<sup>3</sup> </p>
+            </li>
+            <li class="secret__item">
+              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <p>Оказывает противоотечное и венотонизирующее действие<sup>3</sup></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="economy">
+      <div class="economy__wrapper container">
+        <div class="economy__content">
+          <div class="economy__left">
+            <h2 class="title-h1">Сэкономьте<sup>6</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
+            <Button label="Купить" arrowRight />
+          </div>
+          <div class="economy__right">
+            <nuxt-img src="/img/product/economy-25.png" alt=""/>
+            <Button label="Купить" arrowRight />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tutorial">
+      <div class="tutorial__wrapper container">
+        <div class="tutorial__content">
+          <div class="tutorial__head">
+            <h2 class="title-h1">Как использовать?<sup>3</sup></h2>
+            <p>Полная информация в инструкции по применению<sup>3</sup></p>
+          </div>
+          <ul class="steps">
+            <li class="steps__item">
+              <div class="steps__img">
+                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+              </div>
+              <p>Утром и вечером</p>
+            </li>
+            <li class="steps__item">
+              <div class="steps__img">
+                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+              </div>
+              <p>Нанести полоску геля длиной 1-3 см</p>
+            </li>
+            <li class="steps__item">
+              <div class="steps__img">
+                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+              </div>
+              <p>Слегка втереть до полного впитывания</p>
+            </li>
+            <li class="steps__item">
+              <div class="steps__img">
+                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+              </div>
+              <p>Можно наносить под окклюзионную повязку</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="maternity">
+      <div class="maternity__wrapper container">
+        <div class="maternity__content">
+          <div class="maternity__text">
+            <h2 class="title-h1">Как применять при беременности<sup>3</sup></h2>
+            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше,чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
+          </div>
+          <div class="maternity__img">
+            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="others">
+      <div class="others__wrapper container">
+        <div class="others__content">
+          <h2 class="title-h1">Другие продукты линейки <br>Троксевазин<sup>®</sup></h2>
+          <div class="others__list">
+            <div class="others__item">
+              <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+              <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
+              </p>
+              <NuxtLink to="/neo">
+                <Button label="Узнать больше" rounded/>
+              </NuxtLink>
+            </div>
+            <div class="others__item">
+              <nuxt-img src="/img/product/other-troxactive.png" alt=""/>
+              <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
+              </p>
+              <NuxtLink to="/troxactive">
+                <Button label="Узнать больше" rounded/>
+              </NuxtLink>
+            </div>
+          </div>
+          <div class="others__swiper">
+            <swiper
+              :slides-per-view="1"
+              :space-between="20"
+              @swiper="onSwiper"
+              :modules="[Navigation]"
+              navigation
+            >
+              <swiper-slide>
+                <div class="others__item">
+                  <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
+                  </p>
+                  <NuxtLink to="/neo">
+                    <Button label="Узнать больше" rounded/>
+                  </NuxtLink>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="others__item">
+                  <nuxt-img src="/img/product/other-troxactive.png" alt=""/>
+                  <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
+                  </p>
+                  <NuxtLink to="/troxactive">
+                    <Button label="Узнать больше" rounded/>
+                  </NuxtLink>
+                </div> 
+              </swiper-slide>
+            </swiper>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="faq__wrapper container">
+        <div class="faq__content">
+          <h2 class="title-h1">Инструкция по медицинскому применению препарата Троксевазин<sup>®</sup> гель 2 %</h2>
+          <div class="instruction">
+            <div class="instruction__list">
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Регистрационный номер</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Торговое наименование препарата</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Международное непатентованное наименование</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+            </div>
+            <div class="instruction__list">
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Способ применения и дозы</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Побочное действие</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Передозировка</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"></div>
+              </div>
+            </div>
+          </div>
+          <div class="faq__download">
+            <Button label="Скачать PDF" rounded/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="read-more">
+      <div class="read-more__wrapper container">
+        <div class="read-more__content">
+          <h2 class="title-h1">Узнайте больше о варикозе</h2>
+          <div class="articles">
+            <div class="articles__content">
+              <div class="articles__item"> 
+                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <h3>Симптомы варикоза</h3>
+                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
+              </div>
+              <div class="articles__item"> 
+                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <h3>Анализы при варикозе</h3>
+                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
+              </div>
+              <div class="articles__item"> 
+                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <h3>Кратко о варикозе</h3>
+                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
+              </div>
+            </div>
+            <div class="articles__btn">
+              <Button label="Смотреть еще" rounded/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="sources">
+      <div class="sources__wrapper container">
+        <p>**При хронической венозной недостаточности
+          <br>1. В категории наружных венотоников, по продажам в деньгах 2018-2022, IQVIA
+          <br>2. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
+          <br>3. Инструкция по медицинскому применению лекарственного препарата Троксевазин® П N012713/02
+          <br>4. По сравнению с упаковкой Троксевазин гель 2% 40 г. Процент экономии определен по отпускным ценам ООО
+          «Тева» для упаковок 40г и 100г при расчете на 1г (Март 2023)
+          <br>5. По сравнению с Троксевазин® гелем 2%
+          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
+          https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01.
+          Дата обращения: 28.02.2023.
+          <br>7. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
+        </p>
+      </div>
+    </section>
+  </main>
+</template>
+
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, EffectFade, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+
+useHead({
+  title: 'Троксевазин Гель',
+})
+
+const onSwiper = (swiper) => {};
+const onSwiperHeader = (swiper) => {};
+
+const pagination = ref({
+  clickable: true,
+  renderBullet: function (index, className) {
+    let pagiText = null;
+
+    switch (index) {
+      case 0:
+        pagiText = '40 г'
+        break;
+      case 1:
+        pagiText = '100 г'
+        break;
+      default:
+        break;
+    }
+
+    return '<span class="' + className + '">' + pagiText + '</span>';
+  },
+})
+
+const toggleAccordion = (e) => {
+  e.currentTarget.querySelector('.instruction__desc').classList.toggle('active');
+  e.currentTarget.querySelector('.accordion-btn').classList.toggle('active');
+}
+</script>
+
+<style lang="postcss">
+@import "@/assets/css/product/economy.pcss";
+@import "@/assets/css/product/faq.pcss";
+@import "@/assets/css/product/headerProduct.pcss";
+@import "@/assets/css/product/maternity.pcss";
+@import "@/assets/css/product/others.pcss";
+@import "@/assets/css/product/readMore.pcss";
+@import "@/assets/css/product/secret.pcss";
+@import "@/assets/css/product/symptoms.pcss";
+@import "@/assets/css/product/tutorial.pcss";
+@import "@/assets/css/main/sources.pcss";
+</style>
