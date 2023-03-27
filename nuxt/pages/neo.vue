@@ -31,12 +31,12 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-neo-1.png" alt="" />
+                <img src="/img/product/p-neo-1.png" alt="" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-neo-2.png" alt="" />
+                <img src="/img/product/p-neo-2.png" alt="" />
               </div>
             </swiper-slide>
           </swiper>
@@ -57,23 +57,23 @@
             <h2 class="title-h1">Помогает бороться <br>с симптомами варикоза<sup>***,1</sup></h2>
           </div>
           <div class="symptoms__img">
-            <nuxt-img src="/img/product/symptoms-neo.png" alt=""/>
+            <img src="/img/product/symptoms-neo.png" alt=""/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Расписариние <br> и тяжесть <br> в ногах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-6.png" alt=""/>
+              <img src="/img/product/symptom-6.png" alt=""/>
               <p>Судороги <br>и парестезии в ногах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-3.png" alt=""/>
+              <img src="/img/product/symptom-3.png" alt=""/>
               <p>Боли и отеки <br>в ногах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-7.png" alt=""/>
+              <img src="/img/product/symptom-7.png" alt=""/>
               <p>Варикозный <br>дерматит</p>
             </li>
           </ul>
@@ -93,17 +93,17 @@
           <h2 class="title-h1">Усиленная формула<sup>*</sup> <br>тройного действия<sup>**</sup></h2>
           <ul class="secret__list">
             <li class="secret__item">
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <span>Троксерутин</span>
               <p>способствует повышению тонуса вен и укреплению стенок сосудов<sup>1</sup></p>
             </li>
             <li class="secret__item"> 
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <span>Гепарин</span>
               <p>помогает снимать воспаление и регенерировать соединительные ткани<sup>1</sup></p>
             </li>
             <li class="secret__item"> 
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <span>Декспантенол</span>
               <p>улучшает процессы обмена веществ и способствует регенерации поврежденных тканей<sup>1</sup></p>
             </li>
@@ -121,7 +121,7 @@
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
-            <nuxt-img src="/img/product/economy-25.png" alt=""/>
+            <img src="/img/product/economy-25.png" alt=""/>
             <Button label="Купить" arrowRight />
           </div>
         </div>
@@ -137,25 +137,25 @@
           <ul class="steps">
             <li class="steps__item">
               <div class="steps__img">
-                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-1.svg" alt=""/>
               </div>
               <p>Утром и вечером</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-1.svg" alt=""/>
               </div>
               <p>Нанести полоску геля длиной 1-3 см</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-1.svg" alt=""/>
               </div>
               <p>Мягко втереть до полного впитывания</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <nuxt-img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-1.svg" alt=""/>
               </div>
               <p>Можно наносить под окклюзионную повязку</p>
             </li>
@@ -169,11 +169,11 @@
         <div class="maternity__content">
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>1</sup></h2>
-            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность"/>
             <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая пользова для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
-            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность"/>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@
           <h2 class="title-h1">Другие продукты линейки <br>Троксевазин<sup>®</sup></h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1">
-              <nuxt-img src="/img/product/other-gel.png" alt=""/>
+              <img src="/img/product/other-gel.png" alt=""/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br> выгодная цена<sup>3</sup>, <br> европейское производство<sup>1</sup>
               </p>
               <NuxtLink to="/gel">
@@ -193,7 +193,7 @@
               </NuxtLink>
             </div>
             <div class="others__item swiper-gel-1">
-              <nuxt-img src="/img/product/other-troxactive.png" alt=""/>
+              <img src="/img/product/other-troxactive.png" alt=""/>
               <p>
                 <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>**</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
               </p>
@@ -212,7 +212,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-gel.png" alt=""/>
+                  <img src="/img/product/other-gel.png" alt=""/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br> выгодная цена<sup>3</sup>, <br> европейское производство<sup>1</sup>
                   </p>
                   <NuxtLink to="/gel">
@@ -222,7 +222,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-troxactive.png" alt=""/>
+                  <img src="/img/product/other-troxactive.png" alt=""/>
                   <p>
                     <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>**</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
                   </p>

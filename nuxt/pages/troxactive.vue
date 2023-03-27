@@ -28,17 +28,17 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-trox-1.png" alt="" />
+                <img src="/img/product/p-trox-1.png" alt="" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-trox-2.png" alt="" />
+                <img src="/img/product/p-trox-2.png" alt="" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-trox-3.png" alt="" />
+                <img src="/img/product/p-trox-3.png" alt="" />
               </div>
             </swiper-slide>
           </swiper>
@@ -59,23 +59,23 @@
             <h2 class="title-h1">Помогает бороться против симптомов варикоза<sup>*</sup> и геморроя<sup>1</sup></h2>
           </div>
           <div class="symptoms__img"> 
-            <nuxt-img src="/img/product/symptoms-trox.png" alt=""/>
+            <img src="/img/product/symptoms-trox.png" alt=""/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-3.png" alt=""/>
+              <img src="/img/product/symptom-3.png" alt=""/>
               <p>Усталость <br> и тяжесть <br> в ногах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-6.png" alt=""/>
+              <img src="/img/product/symptom-6.png" alt=""/>
               <p>Отеки <br>и судороги в ногах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-8.png" alt=""/>
+              <img src="/img/product/symptom-8.png" alt=""/>
               <p>Венозные трофические <br>язвы</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-11.png" alt=""/>
+              <img src="/img/product/symptom-11.png" alt=""/>
               <p>Острый и хронический геморрой </p>
             </li>
           </ul>
@@ -98,15 +98,15 @@
           </div>
           <ul class="chronic__list">
             <li class="chronic__item">
-              <nuxt-img src="/img/product/chronic-1.png" alt=""/>
+              <img src="/img/product/chronic-1.png" alt=""/>
               <p>Одна таблетка в день<sup>**</sup></p>
             </li>
             <li class="chronic__item">
-              <nuxt-img src="/img/product/chronic-2.png" alt=""/>
+              <img src="/img/product/chronic-2.png" alt=""/>
               <p>Доступная цена<sup>10</sup></p>
             </li>
             <li class="chronic__item">
-              <nuxt-img src="/img/product/chronic-3.png" alt=""/>
+              <img src="/img/product/chronic-3.png" alt=""/>
               <p>Европейское производство<sup>1</sup></p>
             </li>
           </ul>
@@ -132,12 +132,12 @@
         </div>
         <div class="economy-two">
           <div class="economy-two__item">
-            <nuxt-img src="/img/product/economy-two-1.png" alt=""/>
+            <img src="/img/product/economy-two-1.png" alt=""/>
             <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема</p>
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy-two__item">
-            <nuxt-img src="/img/product/economy-two-2.png" alt=""/>
+            <img src="/img/product/economy-two-2.png" alt=""/>
             <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>3 месяца приема</p>
             <Button label="Купить" arrowRight />
           </div>
@@ -152,14 +152,14 @@
           >
             <swiper-slide>
               <div class="economy-two__item">
-                <nuxt-img src="/img/product/economy-two-1.png" alt=""/>
+                <img src="/img/product/economy-two-1.png" alt=""/>
                 <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема</p>
                 <Button label="Купить" arrowRight />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="economy-two__item">
-                <nuxt-img src="/img/product/economy-two-2.png" alt=""/>
+                <img src="/img/product/economy-two-2.png" alt=""/>
                 <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>3 месяца приема</p>
                 <Button label="Купить" arrowRight />
               </div>
@@ -180,7 +180,7 @@
               <h4 class="guide__title">При варикозе<sup>*</sup></h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>Одна таблетка утром во время еды</p>
                 </div>
               </div>
@@ -189,11 +189,11 @@
               <h4 class="guide__title">При остром геморрое принимать в течение недели</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>по 1 таблетке утром, днем и вечером</p>
                 </div>
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>по 1 таблетке утром и вечером</p>
                 </div>
               </div>
@@ -202,7 +202,7 @@
               <h4 class="guide__title">При хроническом геморрое</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>1 таблетка в день во время еды</p>
                 </div>
               </div>
@@ -221,7 +221,7 @@
                   <h4 class="guide__title">При варикозе<sup>*</sup></h4>
                   <div class="guide__wrap">
                     <div class="guide__item">
-                      <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                      <img src="/img/product/guide-1.png" alt=""/>
                       <p>Одна таблетка утром во время еды</p>
                     </div>
                   </div>
@@ -232,11 +232,11 @@
                   <h4 class="guide__title">При остром геморрое принимать в течение недели</h4>
                   <div class="guide__wrap">
                     <div class="guide__item">
-                      <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                      <img src="/img/product/guide-1.png" alt=""/>
                       <p>по 1 таблетке утром, днем и вечером</p>
                     </div>
                     <div class="guide__item">
-                      <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                      <img src="/img/product/guide-1.png" alt=""/>
                       <p>по 1 таблетке утром и вечером</p>
                     </div>
                   </div>
@@ -247,7 +247,7 @@
                   <h4 class="guide__title">При хроническом геморрое</h4>
                   <div class="guide__wrap">
                     <div class="guide__item">
-                      <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                      <img src="/img/product/guide-1.png" alt=""/>
                       <p>1 таблетка в день во время еды</p>
                     </div>
                   </div>
@@ -265,7 +265,7 @@
           <h2 class="title-h1" style="max-width: 928px">Линейка Троксевазин<sup>®</sup> – комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1">
-              <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt=""/>
               <p>
                 <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
@@ -274,7 +274,7 @@
               </NuxtLink>
             </div>
             <div class="others__item swiper-gel-1">
-              <nuxt-img src="/img/product/other-gel.png" alt=""/>
+              <img src="/img/product/other-gel.png" alt=""/>
               <p>
                 <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>7</sup>, проверенный временем гель<sup>8</sup>
               </p>
@@ -293,7 +293,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt=""/>
                   <p>
                     <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
@@ -304,7 +304,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-gel.png" alt=""/>
+                  <img src="/img/product/other-gel.png" alt=""/>
                   <p>
                     <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>7</sup>, проверенный временем гель<sup>8</sup>
                   </p>

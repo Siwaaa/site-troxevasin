@@ -5,16 +5,16 @@
         <div class="header-case__top">
           <h1 class="title-h1 header-case__title">Варикоз<sup>*</sup> может сопровождаться такими неприятными проявлениями, как <strong>выпирающие узловатые вены и боль в ногах<sup>1</sup></strong></h1>
           <div class="header-case__img">
-            <nuxt-img src="/img/case/header-1.png" alt=""/>
+            <img src="/img/case/header-1.png" alt=""/>
           </div>
         </div>
         <div ref="veniModalTrigger" class="header-case__list">
-          <div class="header-case__item"><nuxt-img src="/img/case/h-list-1.png" alt=""/>
+          <div class="header-case__item"><img src="/img/case/h-list-1.png" alt=""/>
             <p><strong>На более поздних этапах развития варикоза<sup>*</sup> к ним могут добавляться судороги и
                 отеки.</strong> А на более тяжелых стадиях и язвы. Ученые выделяют 7 классов хронических заболеваний вен.
               Вот как они <i>различаются.</i></p>
           </div>
-          <div class="header-case__item"><nuxt-img src="/img/case/h-list-1.png" alt=""/>
+          <div class="header-case__item"><img src="/img/case/h-list-1.png" alt=""/>
             <p>При первых признаках заболевания <strong>необходимо обратиться к врачу</strong> и получить план лечения.
             </p>
           </div>
@@ -27,23 +27,23 @@
           <h2 class="title-h1">Факторы риска развития хронических заболеваний вен<sup>2</sup></h2>
           <ul class="factors__list">
             <li class="factors__item">
-              <nuxt-img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt=""/>
               <p>Ожирение</p>
             </li>
             <li class="factors__item">
-              <nuxt-img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt=""/>
               <p>Возраст</p>
             </li>
             <li class="factors__item">
-              <nuxt-img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt=""/>
               <p>Беременность</p>
             </li>
             <li class="factors__item factors-50">
-              <nuxt-img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt=""/>
               <p>Генетическая <br> предрасположенность</p>
             </li>
             <li class="factors__item factors-50">
-              <nuxt-img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt=""/>
               <p>Сидячая или <br> стоячая работа</p>
             </li>
           </ul>
@@ -59,28 +59,28 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img"> 
-            <nuxt-img src="/img/product/symptoms-1.png" alt=""/>
+            <img src="/img/product/symptoms-1.png" alt=""/>
             </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Медикаментозная <br>терапия</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Компрессионный <br>трикотаж</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Лечебная <br>физкультура</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Хирургическое <br>вмешательство</p>
             </li>
           </ul>
           <div class="symptoms__doctor">
-            <nuxt-img src="/img/case/doc.png" alt=""/>
+            <img src="/img/case/doc.png" alt=""/>
             <p>Не забывайте — программу лечения в каждом конкретном случае назначает врач </p>
           </div>
         </div>
@@ -102,7 +102,7 @@
               <span>** По сравнению с Троксевазин® гель 2 % </span>
             </div>
             <div class="vozdeystvyi__right">
-              <nuxt-img src="/img/case/vozdey.png" alt=""/>
+              <img src="/img/case/vozdey.png" alt=""/>
               <Button label="Купить" arrowRight />
             </div>
           </div>
@@ -115,7 +115,7 @@
           <div class="others__list">
             <div class="others__item">
               <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-              <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt=""/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
               </p>
               <div class="others__btns">
@@ -125,7 +125,7 @@
             </div>
             <div class="others__item">
               <h2 class="title-h1">Троксактив <br>Таблетки</h2>
-              <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt=""/>
               <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>5</sup></strong><br> в лечении
                 симптомов <br> варикоза<sup>*</sup></p>
               <div class="others__btns">
@@ -145,7 +145,7 @@
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-                  <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt=""/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
                   </p>
                   <div class="others__btns">
@@ -157,7 +157,7 @@
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксактив <br>Таблетки</h2>
-                  <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt=""/>
                   <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>5</sup></strong><br> в лечении
                     симптомов <br> варикоза<sup>*</sup></p>
                   <div class="others__btns">
@@ -180,19 +180,19 @@
           <div class="articles">
             <div class="articles__content">
               <div class="articles__item">
-                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt=""/>
                 <h3>Симптомы варикоза</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
                   по проблемам с венами, флебологу, имела опыт...</p>
               </div>
               <div class="articles__item">
-                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt=""/>
                 <h3>Анализы при варикозе</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
                   по проблемам с венами, флебологу, имела опыт...</p>
               </div>
               <div class="articles__item">
-                <nuxt-img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt=""/>
                 <h3>Кратко о варикозе</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
                   по проблемам с венами, флебологу, имела опыт...</p>

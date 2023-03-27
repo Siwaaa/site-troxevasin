@@ -28,12 +28,12 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-caps-1.png" alt="" />
+                <img src="/img/product/p-caps-1.png" alt="" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <nuxt-img src="/img/product/p-caps-2.png" alt="" />
+                <img src="/img/product/p-caps-2.png" alt="" />
               </div>
             </swiper-slide>
           </swiper>
@@ -54,23 +54,23 @@
             <h2 class="title-h1">Помогает бороться с симптомами при геморрое и варикозе<sup>*,2</sup></h2>
           </div>
           <div class="symptoms__img">
-            <nuxt-img src="/img/product/symptoms-caps.png" alt=""/>
+            <img src="/img/product/symptoms-caps.png" alt=""/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" alt=""/>
               <p>Хронической<br>венозной<br>недостаточности</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-8.png" alt=""/>
+              <img src="/img/product/symptom-8.png" alt=""/>
               <p>Трофических <br>язвах</p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-9.png" alt=""/>
+              <img src="/img/product/symptom-9.png" alt=""/>
               <p>После склеротерапии вен<sup>**</sup></p>
             </li>
             <li class="symptoms__item">
-              <nuxt-img src="/img/product/symptom-10.png" alt=""/>
+              <img src="/img/product/symptom-10.png" alt=""/>
               <p>Геморрое</p>
             </li>
           </ul>
@@ -94,19 +94,19 @@
           </div>
           <ul class="secret__list secret_purpure">
             <li class="secret__item">
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <p>Производится <br>в Европе<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <p>Достигнутый эффект может сохраняться около 4 недель<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <p>Курс лечения в среднем – 3-4 недели<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <nuxt-img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" alt=""/>
               <p>Обладает доступной ценой<sup>6</sup></p>
             </li>
           </ul>
@@ -122,7 +122,7 @@
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
-            <nuxt-img src="/img/product/economy-15.png" alt=""/>
+            <img src="/img/product/economy-15.png" alt=""/>
             <Button label="Купить" arrowRight />
           </div>
         </div>
@@ -140,11 +140,11 @@
               <h4 class="guide__title">На начальном этапе лечения</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>1 капсула</p>
                 </div>
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
                   <p>в зависимости от тяжести симптомов</p>
                 </div>
               </div>
@@ -153,10 +153,10 @@
               <h4 class="guide__title">При повторном возникновении симптомов</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <nuxt-img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.png" alt=""/>
 
                   </div>
-                <div class="guide__item"><nuxt-img src="/img/product/guide-1.png" alt=""/></div>
+                <div class="guide__item"><img src="/img/product/guide-1.png" alt=""/></div>
               </div>
               <p class="guide__desc">Возобновить лечение в той же дозе или снизить дозу до 1 капсулы 2 раза в день</p>
             </div>
@@ -170,12 +170,12 @@
         <div class="maternity__content">
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>2</sup></h2>
-            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность"/>
             <p>Гель может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка. <br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.
             </p>
           </div>
           <div class="maternity__img">
-            <nuxt-img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность"/>
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
           <h2 class="title-h1" style="max-width: 928px">Комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1"> 
-              <nuxt-img src="/img/product/other-gel.png" alt=""/>
+              <img src="/img/product/other-gel.png" alt=""/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
               </p>
               <NuxtLink to="/gel">
@@ -195,7 +195,7 @@
               </NuxtLink>
             </div>
             <div class="others__item swiper-gel-1"> 
-              <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt=""/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo">
@@ -213,7 +213,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-gel.png" alt=""/>
+                  <img src="/img/product/other-gel.png" alt=""/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
                   </p>
                   <NuxtLink to="/gel">
@@ -223,7 +223,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <nuxt-img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt=""/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo">
