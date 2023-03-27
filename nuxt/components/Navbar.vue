@@ -334,6 +334,7 @@ onMounted(() => {
   height: calc(100vh - var(--navbar-h));
   max-height: 540px;
   background-color: var(--color-white);
+  box-shadow: 0 20px 20px -5px rgb(0 0 0 / 20%);
   z-index: 100;
 
   @media (--md) {
