@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar" ref="header" :class="{active: showMenu}">
     <div class="navbar__wrapper container">
-      <nuxt-img class="logo" src="/img/logo.svg" alt="Логотип" />
+      <img class="logo" src="/img/logo.svg" alt="Логотип" />
       <div class="navbar__nav">
         <div class="navbar__item navbar__link">
           <button 
@@ -51,7 +51,7 @@
             >
               <swiper-slide>
                 <div class="menu__item">
-                  <nuxt-img src="/img/navbar/item-1.png" alt=""/>
+                  <img src="/img/navbar/item-1.png" alt=""/>
                   <h4>Троксактив таблетки</h4>
                   <p>
                     Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
@@ -64,7 +64,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <nuxt-img src="/img/navbar/item-2.png" alt=""/>
+                  <img src="/img/navbar/item-2.png" alt=""/>
                   <h4>Троксевазин<sup>®</sup> Нео гель</h4>
                   <p>
                     Гель для укрепления вен и уменьшения воспаления при варикозе<sup>*</sup>
@@ -77,7 +77,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <nuxt-img src="/img/navbar/item-3.png" alt=""/>
+                  <img src="/img/navbar/item-3.png" alt=""/>
                   <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
                   <p>
                     Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
@@ -90,7 +90,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <nuxt-img src="/img/navbar/item-4.png" alt=""/>
+                  <img src="/img/navbar/item-4.png" alt=""/>
                   <h4>Троксевазин<sup>®</sup> капсулы</h4>
                   <p>
                     Капсулы при хронической венозной недостаточности и геморрое

@@ -28,7 +28,7 @@
       </div>
 
       <div class="footer__bottom"> 
-        <nuxt-img src="/img/teva.svg" alt="Логотип Teva" />
+        <img src="/img/teva.svg" alt="Логотип Teva" />
         <div class="footer__bottom-address">За дополнительной информацией обращайтесь:
           <br>ООО «Тева». Россия, Москва, 115054, <br>ул. Валовая, д. 35 <br>TRAV-RU-00126- Cons-12.2022
         </div>

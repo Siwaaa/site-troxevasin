@@ -24,22 +24,22 @@
           <div class="pharma-wrap">
             <div class="pharms__item">
               <a href="https://zdravcity.ru/g_troksevazin/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/zdravsiti.png" alt="Здрависти"/>
+                <img loading="lazy" src="/img/apteks/zdravsiti.png" alt="Здрависти"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://gorzdrav.org/catalog/troksaktiv/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/gorzdrav.png" alt="Горздрав"/>
+                <img loading="lazy" src="/img/apteks/gorzdrav.png" alt="Горздрав"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://366.ru/g/troksaktiv/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/36.png" alt="36"/>
+                <img loading="lazy" src="/img/apteks/36.png" alt="36"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://www.rigla.ru/search?q=%D1%82%D1%80%D0%BE%D0%BA%D1%81%D0%B0%D0%BA%D1%82%D0%B8%D0%B2" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/rigla.png" alt="ригла"/>
+                <img loading="lazy" src="/img/apteks/rigla.png" alt="ригла"/>
               </a>
             </div>
             <div class="pharms__item">
@@ -49,27 +49,27 @@
             </div>
             <div class="pharms__item">
               <a href="https://stoletov.ru/alphabet/t/troksaktiv/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/stoletov.png" alt="Столетов"/>
+                <img loading="lazy" src="/img/apteks/stoletov.png" alt="Столетов"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://superapteka.ru/alphabet_brand/t/troksaktiv-10/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/superapteka.png" alt="Супераптека"/>
+                <img loading="lazy" src="/img/apteks/superapteka.png" alt="Супераптека"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://planetazdorovo.ru/reclame/?reclame=207&amp;utm_source=teva_troksevazin&amp;utm_medium=button" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/planet.png" alt="Планета здоровья"/>
+                <img loading="lazy" src="/img/apteks/planet.png" alt="Планета здоровья"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://www.eapteka.ru/goods/drugs/cardio/veins/troksaktiv_/" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/eapteka.png" alt="сбераптека"/>
+                <img loading="lazy" src="/img/apteks/eapteka.png" alt="сбераптека"/>
               </a>
             </div>
             <div class="pharms__item">
               <a href="https://apteka.ru/search/?q=%D1%82%D1%80%D0%BE%D0%BA%D1%81%D0%B5%D0%B2%D0%B0%D0%B7%D0%B8%D0%BD&amp;utm_source=teva&amp;utm_medium=buy_now&amp;utm_campaign=troxevasin" target="_blank">
-                <nuxt-img loading="lazy" src="/img/apteks/aptekaru.png" alt="Аптека РУ"/>
+                <img loading="lazy" src="/img/apteks/aptekaru.png" alt="Аптека РУ"/>
               </a>
             </div>
           </div>
