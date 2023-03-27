@@ -5,16 +5,18 @@
         <div class="header-case__top">
           <h1 class="title-h1 header-case__title">Варикоз<sup>*</sup> может сопровождаться такими неприятными проявлениями, как <strong>выпирающие узловатые вены и боль в ногах<sup>1</sup></strong></h1>
           <div class="header-case__img">
-            <img src="/img/case/header-1.png" alt=""/>
+            <img src="/img/case/header-1.png" srcset="/img/case/header-1@2x.png 2x" alt="" loading="lazy"/>
           </div>
         </div>
         <div ref="veniModalTrigger" class="header-case__list">
-          <div class="header-case__item"><img src="/img/case/h-list-1.png" alt=""/>
+          <div class="header-case__item">
+            <img src="/img/case/h-list-1.png" srcset="/img/case/h-list-1@2x.png 2x" alt="" loading="lazy"/>
             <p><strong>На более поздних этапах развития варикоза<sup>*</sup> к ним могут добавляться судороги и
                 отеки.</strong> А на более тяжелых стадиях и язвы. Ученые выделяют 7 классов хронических заболеваний вен.
               Вот как они <i>различаются.</i></p>
           </div>
-          <div class="header-case__item"><img src="/img/case/h-list-1.png" alt=""/>
+          <div class="header-case__item">
+            <img src="/img/case/h-list-2.png" srcset="/img/case/h-list-2@2x.png 2x" alt="" loading="lazy"/>
             <p>При первых признаках заболевания <strong>необходимо обратиться к врачу</strong> и получить план лечения.
             </p>
           </div>
@@ -27,23 +29,23 @@
           <h2 class="title-h1">Факторы риска развития хронических заболеваний вен<sup>2</sup></h2>
           <ul class="factors__list">
             <li class="factors__item">
-              <img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-1.png" alt="" loading="lazy"/>
               <p>Ожирение</p>
             </li>
             <li class="factors__item">
-              <img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-2.png" alt="" loading="lazy"/>
               <p>Возраст</p>
             </li>
             <li class="factors__item">
-              <img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-3.png" alt="" loading="lazy"/>
               <p>Беременность</p>
             </li>
             <li class="factors__item factors-50">
-              <img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-4.png" alt="" loading="lazy"/>
               <p>Генетическая <br> предрасположенность</p>
             </li>
             <li class="factors__item factors-50">
-              <img src="/img/case/factor-1.png" alt=""/>
+              <img src="/img/case/factor-symptom-case-1.png" alt="" loading="lazy"/>
               <p>Сидячая или <br> стоячая работа</p>
             </li>
           </ul>
@@ -59,28 +61,28 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img"> 
-            <img src="/img/product/symptoms-gel.png" alt=""/>
+            <img src="/img/product/symptoms-gel.png" alt="" loading="lazy"/>
             </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.png 2x" alt="" loading="lazy"/>
               <p>Медикаментозная <br>терапия</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom-case-2.png" srcset="/img/product/symptom-case-2@2x.png 2x" alt="" loading="lazy"/>
               <p>Компрессионный <br>трикотаж</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom-case-3.png" srcset="/img/product/symptom-case-3@2x.png 2x" alt="" loading="lazy"/>
               <p>Лечебная <br>физкультура</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.png 2x" alt="" loading="lazy"/>
               <p>Хирургическое <br>вмешательство</p>
             </li>
           </ul>
           <div class="symptoms__doctor">
-            <img src="/img/case/doc.png" alt=""/>
+            <img src="/img/case/doc.png" alt="" loading="lazy"/>
             <p>Не забывайте — программу лечения в каждом конкретном случае назначает врач </p>
           </div>
         </div>
@@ -102,35 +104,40 @@
               <span>** По сравнению с Троксевазин® гель 2 % </span>
             </div>
             <div class="vozdeystvyi__right">
-              <img src="/img/case/vozdey.png" alt=""/>
+              <img src="/img/case/vozdey.png" alt="" loading="lazy"/>
               <Button label="Купить" arrowRight />
             </div>
           </div>
         </div>
       </div>
     </section>
+    
     <section class="others">
       <div class="others__wrapper container">
         <div class="others__content">
           <div class="others__list">
             <div class="others__item">
               <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-              <img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
               </p>
               <div class="others__btns">
                 <Button label="Купить" arrowRight />
-                <Button label="Узнать больше" rounded />
+                <NuxtLink to="/neo">
+                  <Button label="Узнать больше" rounded/>
+                </NuxtLink>
               </div>
             </div>
             <div class="others__item">
               <h2 class="title-h1">Троксактив <br>Таблетки</h2>
-              <img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
               <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>5</sup></strong><br> в лечении
                 симптомов <br> варикоза<sup>*</sup></p>
               <div class="others__btns">
                 <Button label="Купить" arrowRight />
-                <Button label="Узнать больше" rounded />
+                <NuxtLink to="/troxactive">
+                  <Button label="Узнать больше" rounded/>
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -145,63 +152,34 @@
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-                  <img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
                   </p>
                   <div class="others__btns">
                     <Button label="Купить" arrowRight />
-                    <Button label="Узнать больше" rounded />
+                    <NuxtLink to="/neo">
+                      <Button label="Узнать больше" rounded/>
+                    </NuxtLink>
                   </div>
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксактив <br>Таблетки</h2>
-                  <img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
                   <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>5</sup></strong><br> в лечении
                     симптомов <br> варикоза<sup>*</sup></p>
                   <div class="others__btns">
                     <Button label="Купить" arrowRight />
-                    <Button label="Узнать больше" rounded />
+                    <NuxtLink to="/troxactive">
+                      <Button label="Узнать больше" rounded/>
+                    </NuxtLink>
                   </div>
                 </div>
               </swiper-slide>
             </swiper>
           </div>
           <p class="others__footnote">** По сравнению с Троксевазин® гель 2 %</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="read-more">
-      <div class="read-more__wrapper container">
-        <div class="read-more__content">
-          <h2 class="title-h1">Узнайте больше о варикозе</h2>
-          <div class="articles">
-            <div class="articles__content">
-              <div class="articles__item">
-                <img src="/img/product/article.jpg" alt=""/>
-                <h3>Симптомы варикоза</h3>
-                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
-                  по проблемам с венами, флебологу, имела опыт...</p>
-              </div>
-              <div class="articles__item">
-                <img src="/img/product/article.jpg" alt=""/>
-                <h3>Анализы при варикозе</h3>
-                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
-                  по проблемам с венами, флебологу, имела опыт...</p>
-              </div>
-              <div class="articles__item">
-                <img src="/img/product/article.jpg" alt=""/>
-                <h3>Кратко о варикозе</h3>
-                <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту
-                  по проблемам с венами, флебологу, имела опыт...</p>
-              </div>
-            </div>
-            <div class="articles__btn">
-              <Button label="Смотреть еще" rounded />
-            </div>
-          </div>
         </div>
       </div>
     </section>

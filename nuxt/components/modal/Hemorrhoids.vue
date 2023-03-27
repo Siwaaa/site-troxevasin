@@ -10,21 +10,21 @@
           <div class="modal__main">
             <div class="hemorrhoids__list">
               <div class="hemorrhoids__item">
-                <div class="hemorrhoids__img"><img src="/img/modal/gem-1.png" alt="" /></div>
+                <div class="hemorrhoids__img"><img src="/img/modal/gem-1.png" srcset="/img/modal/gem-1@2x.png 2x" alt="" /></div>
                 <p>Кровотечение, без выпадения узлов.</p>
               </div>
               <div class="hemorrhoids__item">
-                <div class="hemorrhoids__img"><img src="/img/modal/gem-2.png" alt="" /></div>
+                <div class="hemorrhoids__img"><img src="/img/modal/gem-2.png" srcset="/img/modal/gem-2@2x.png 2x" alt="" /></div>
                 <p>Выпадение внутренних геморроидальных узлов с самостоятельным вправлением в анальный канал, с/без
                   кровотечения.</p>
               </div>
               <div class="hemorrhoids__item">
-                <div class="hemorrhoids__img"><img src="/img/modal/gem-3.png" alt="" /></div>
+                <div class="hemorrhoids__img"><img src="/img/modal/gem-3.png" srcset="/img/modal/gem-3@2x.png 2x" alt="" /></div>
                 <p>Выпадение внутренних геморроидальных узлов с необходимостью их ручного вправления в анальный канал, с/без
                   кровотечения.</p>
               </div>
               <div class="hemorrhoids__item">
-                <div class="hemorrhoids__img"><img src="/img/modal/gem-4.png" alt="" /></div>
+                <div class="hemorrhoids__img"><img src="/img/modal/gem-4.png" srcset="/img/modal/gem-4@2x.png 2x" alt="" /></div>
                 <p>Постоянное выпадение внутренних геморроидальных узлов и невозможность их вправления в анальный канал,
                   с/без кровотечения.</p>
               </div>

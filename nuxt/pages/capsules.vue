@@ -28,12 +28,12 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-caps-1.png" alt="" />
+                <img src="/img/product/p-caps-1.png" srcset="/img/product/p-caps-1@2x.png 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-caps-2.png" alt="" />
+                <img src="/img/product/p-caps-2.png" srcset="/img/product/p-caps-2@2x.png 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
@@ -54,23 +54,23 @@
             <h2 class="title-h1">Помогает бороться с симптомами при геморрое и варикозе<sup>*,2</sup></h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-caps.png" alt=""/>
+            <img src="/img/product/symptoms-caps.png" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
               <p>Хронической<br>венозной<br>недостаточности</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-8.png" alt=""/>
+              <img src="/img/product/symptom-8.png" srcset="/img/product/symptom-8@2x.png 2x" alt="" loading="lazy"/>
               <p>Трофических <br>язвах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-9.png" alt=""/>
+              <img src="/img/product/symptom-9.png" srcset="/img/product/symptom-9@2x.png 2x" alt="" loading="lazy"/>
               <p>После склеротерапии вен<sup>**</sup></p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-10.png" alt=""/>
+              <img src="/img/product/symptom-10.png" srcset="/img/product/symptom-10@2x.png 2x" alt="" loading="lazy"/>
               <p>Геморрое</p>
             </li>
           </ul>
@@ -94,19 +94,19 @@
           </div>
           <ul class="secret__list secret_purpure">
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-6.png" srcset="/img/product/secret-6@2x.png 2x" alt="" loading="lazy"/>
               <p>Производится <br>в Европе<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-7.png" srcset="/img/product/secret-7@2x.png 2x" alt="" loading="lazy"/>
               <p>Достигнутый эффект может сохраняться около 4 недель<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-8.png" srcset="/img/product/secret-8@2x.png 2x" alt="" loading="lazy"/>
               <p>Курс лечения в среднем – 3-4 недели<sup>2</sup></p>
             </li>
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-9.png" srcset="/img/product/secret-9@2x.png 2x" alt="" loading="lazy"/>
               <p>Обладает доступной ценой<sup>6</sup></p>
             </li>
           </ul>
@@ -122,7 +122,7 @@
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-15.png" alt=""/>
+            <img src="/img/product/economy-15.png" alt="" loading="lazy"/>
             <Button label="Купить" arrowRight />
           </div>
         </div>
@@ -140,11 +140,11 @@
               <h4 class="guide__title">На начальном этапе лечения</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-1.svg" alt="" loading="lazy"/>
                   <p>1 капсула</p>
                 </div>
                 <div class="guide__item">
-                  <img src="/img/product/guide-1.png" alt=""/>
+                  <img src="/img/product/guide-2.svg" alt="" loading="lazy"/>
                   <p>в зависимости от тяжести симптомов</p>
                 </div>
               </div>
@@ -153,10 +153,11 @@
               <h4 class="guide__title">При повторном возникновении симптомов</h4>
               <div class="guide__wrap">
                 <div class="guide__item">
-                  <img src="/img/product/guide-1.png" alt=""/>
-
+                  <img src="/img/product/guide-1.svg" alt="" loading="lazy"/>
                   </div>
-                <div class="guide__item"><img src="/img/product/guide-1.png" alt=""/></div>
+                <div class="guide__item">
+                  <img src="/img/product/guide-3.svg" alt="" loading="lazy"/>
+                </div>
               </div>
               <p class="guide__desc">Возобновить лечение в той же дозе или снизить дозу до 1 капсулы 2 раза в день</p>
             </div>
@@ -170,12 +171,12 @@
         <div class="maternity__content">
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>2</sup></h2>
-            <img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
             <p>Гель может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка. <br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.
             </p>
           </div>
           <div class="maternity__img">
-            <img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
           </div>
         </div>
       </div>
@@ -187,7 +188,7 @@
           <h2 class="title-h1" style="max-width: 928px">Комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1"> 
-              <img src="/img/product/other-gel.png" alt=""/>
+              <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
               </p>
               <NuxtLink to="/gel">
@@ -195,7 +196,7 @@
               </NuxtLink>
             </div>
             <div class="others__item swiper-gel-1"> 
-              <img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo">
@@ -213,7 +214,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel.png" alt=""/>
+                  <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
                   </p>
                   <NuxtLink to="/gel">
@@ -223,7 +224,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo">
@@ -237,7 +238,7 @@
       </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="faq__wrapper container">
         <div class="faq__content">
           <h2 class="title-h1">Инструкция по медицинскому применению капсул Троксевазин<sup>®</sup></h2>
@@ -256,21 +257,21 @@
                   <h5>Регистрационный номер</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Торговое наименование препарата</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Международное непатентованное наименование</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
             </div>
             <div class="instruction__list">
@@ -279,21 +280,21 @@
                   <h5>Способ применения и дозы</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Побочное действие</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Передозировка</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
             </div>
           </div>

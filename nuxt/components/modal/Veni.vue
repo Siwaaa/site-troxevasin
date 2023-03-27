@@ -10,31 +10,31 @@
           <div class="modal__main">
             <div class="veins__list">
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c0.png" alt="" /></div><span>C0</span>
+                <div class="veins__img"><img src="/img/modal/c0.png" srcset="/img/modal/c0@2x.png 2x" alt="" /></div><span>C0</span>
                 <p>Нет визуальных изменений</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c1.png" alt="" /></div><span>C1</span>
+                <div class="veins__img"><img src="/img/modal/c1.png" srcset="/img/modal/c1@2x.png 2x" alt="" /></div><span>C1</span>
                 <p>Сосудистые звездочки</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c2.png" alt="" /></div><span>C2</span>
+                <div class="veins__img"><img src="/img/modal/c2.png" srcset="/img/modal/c2@2x.png 2x" alt="" /></div><span>C2</span>
                 <p>Варикозное расширение вен</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c3.png" alt="" /></div><span>C3</span>
+                <div class="veins__img"><img src="/img/modal/c3.png" srcset="/img/modal/c3@2x.png 2x" alt="" /></div><span>C3</span>
                 <p>Отек</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c4.png" alt="" /></div><span>C4</span>
+                <div class="veins__img"><img src="/img/modal/c4.png" srcset="/img/modal/c4@2x.png 2x" alt="" /></div><span>C4</span>
                 <p>Изменения кожи (например, гиперпигментация)</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c5.png" alt="" /></div><span>C5</span>
+                <div class="veins__img"><img src="/img/modal/c5.png" srcset="/img/modal/c5@2x.png 2x" alt="" /></div><span>C5</span>
                 <p>Зажившая язва</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c6.png" alt="" /></div><span>C6</span>
+                <div class="veins__img"><img src="/img/modal/c6.png" srcset="/img/modal/c6@2x.png 2x" alt="" /></div><span>C6</span>
                 <p>Активная язва</p>
               </div>
             </div>

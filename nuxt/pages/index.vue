@@ -27,7 +27,7 @@
             </NuxtLink>
           </div>
           <div class="header-mobile">
-            <img src="/img/main_fon-mobile.jpg" alt="" />
+            <img src="/img/main_fon-mobile.jpg"  alt="" loading="lazy" />
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
     <section class="expert">
       <div class="expert__wrapper container">
         <div class="expert__img"> 
-          <img src="/img/ico.svg" alt="" />
+          <img src="/img/ico.svg" alt="" loading="lazy" />
         </div>
         <div class="expert__content">
           <p class="expert__title">Троксевазин<sup>®</sup> больше 40 лет<sup>1</sup> помогает людям, кто столкнулся с проявлениями хронической венозной недостаточности<sup>2</sup> и геморроя<sup>3</sup>.
@@ -54,7 +54,7 @@
             <div class="products__item-content">
               <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>Нео гель </h3>
               <div class="products__item-img"> 
-                <img src="/img/product-1.png" alt="" />
+                <img src="/img/product-1.png" srcset="/img/product-1@2x.png 2x" alt="" loading="lazy" />
               </div>
               <p class="products__item-desc">Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
               </p>
@@ -69,7 +69,7 @@
             <div class="products__item-content">
               <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>гель 2 %</h3>
               <div class="products__item-img"> 
-                <img src="/img/product-2.png" alt="" />
+                <img src="/img/product-2.png" srcset="/img/product-2@2x.png 2x" alt="" loading="lazy" />
               </div>
               <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>**,8</sup>
               </p>
@@ -84,7 +84,7 @@
             <div class="products__item-content">
               <h3 class="products__item-title">Троксактив <br>таблетки</h3>
               <div class="products__item-img">
-                <img src="/img/product-3.png" alt=""/>
+                <img src="/img/product-3.png" srcset="/img/product-3@2x.png 2x" alt="" loading="lazy" />
               </div>
               <p class="products__item-desc">Направленно действуют на вены изнутри<sup>9</sup> при ХВН<sup>*</sup>. Самая востребованная<sup>10</sup> формула (МНН) в лечении варикоза<sup>*</sup>
               </p>
@@ -99,7 +99,7 @@
             <div class="products__item-content">
               <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>капсулы</h3>
               <div class="products__item-img">
-                <img src="/img/product-4.png" alt=""/>
+                <img src="/img/product-4.png" srcset="/img/product-4@2x.png 2x" alt="" loading="lazy" />
               </div>
               <p class="products__item-desc">Проверенное временем средство<sup>12</sup> при хронической венозной недостаточностии геморрое<sup>11</sup></p>
             </div>
@@ -124,7 +124,7 @@
                 <div class="products__item-content">
                   <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>Нео гель </h3>
                   <div class="products__item-img"> 
-                    <img src="/img/product-1.png" alt="" />
+                    <img src="/img/product-1.png" srcset="/img/product-1@2x.png 2x" alt="" loading="lazy" />
                   </div>
                   <p class="products__item-desc">Усиленная формула<sup>5</sup> в линейке с тройным действием<sup>6</sup>
                   </p>
@@ -141,7 +141,7 @@
                 <div class="products__item-content">
                   <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>гель 2 %</h3>
                   <div class="products__item-img"> 
-                    <img src="/img/product-1.png" alt="" />
+                    <img src="/img/product-2.png" srcset="/img/product-2@2x.png 2x" alt="" loading="lazy" />
                   </div>
                   <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>**,8</sup>
                   </p>
@@ -158,7 +158,7 @@
                 <div class="products__item-content">
                   <h3 class="products__item-title">Троксактив <br>таблетки</h3>
                   <div class="products__item-img">
-                    <img src="/img/product-1.png" alt=""/>
+                    <img src="/img/product-3.png" srcset="/img/product-3@2x.png 2x" alt="" loading="lazy"/>
                   </div>
                   <p class="products__item-desc">Направленно действуют на вены изнутри<sup>9</sup> при ХВН<sup>*</sup>. Самая востребованная<sup>10</sup> формула (МНН) в лечении варикоза<sup>*</sup>
                   </p>
@@ -175,7 +175,7 @@
                 <div class="products__item-content">
                   <h3 class="products__item-title">Троксевазин<sup>®</sup> <br>капсулы</h3>
                   <div class="products__item-img">
-                    <img src="/img/product-1.png" alt=""/>
+                    <img src="/img/product-4.png" srcset="/img/product-4@2x.png 2x" alt="" loading="lazy"/>
                   </div>
                   <p class="products__item-desc">Проверенное временем средство<sup>12</sup> при хронической венозной недостаточностии геморрое<sup>11</sup></p>
                 </div>

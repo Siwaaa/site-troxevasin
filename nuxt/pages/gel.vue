@@ -30,12 +30,12 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/test.png" alt="" />
+                <img src="/img/product/test.png" srcset="/img/product/test@2x.png 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-gel-2.png" alt="" />
+                <img src="/img/product/p-gel-2.png" srcset="/img/product/p-gel-2@2x.png 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
@@ -56,27 +56,27 @@
             <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup>:</h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" alt=""/>
+            <img src="/img/product/symptoms-gel.png" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" alt=""/>
+              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
               <p>Тяжесть <br>и боль в ногах </p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-2.png" alt=""/>
+              <img src="/img/product/symptom-2.png" srcset="/img/product/symptom-2@2x.png 2x" alt="" loading="lazy"/>
               <p>Синяки<br>(гематомы)</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-3.png" alt=""/>
+              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.png 2x" alt="" loading="lazy"/>
               <p>Боли и отеки <br>в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-4.png" alt=""/>
+              <img src="/img/product/symptom-4.png" srcset="/img/product/symptom-4@2x.png 2x" alt="" loading="lazy"/>
               <p>Поверхностный тромбофлебит</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-5.png" alt=""/>
+              <img src="/img/product/symptom-5.png" srcset="/img/product/symptom-5@2x.png 2x" alt="" loading="lazy"/>
               <p>Варикозное расширение вен</p>
             </li>
           </ul>
@@ -96,15 +96,15 @@
           <h2 class="title-h1">Секрет популярности Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
           <ul class="secret__list">
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-1.png" srcset="/img/product/secret-1@2x.png 2x" alt="" loading="lazy"/>
               <p>Действующее вещество препарата — Троксерутин<sup>3</sup></p>
             </li>
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-2.png" srcset="/img/product/secret-2@2x.png 2x" alt="" loading="lazy"/>
               <p>Троксерутин уменьшает воспаление и уменьшает ломкость капилляров<sup>3</sup> </p>
             </li>
             <li class="secret__item">
-              <img src="/img/product/secret-1.png" alt=""/>
+              <img src="/img/product/secret-3.png" srcset="/img/product/secret-3@2x.png 2x" alt="" loading="lazy"/>
               <p>Оказывает противоотечное и венотонизирующее действие<sup>3</sup></p>
             </li>
           </ul>
@@ -120,7 +120,7 @@
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25.png" alt=""/>
+            <img src="/img/product/economy-25.png" alt="" loading="lazy"/>
             <Button label="Купить" arrowRight />
           </div>
         </div>
@@ -137,25 +137,25 @@
           <ul class="steps">
             <li class="steps__item">
               <div class="steps__img">
-                <img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-1.svg" alt="" loading="lazy"/>
               </div>
               <p>Утром и вечером</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-2.svg" alt="" loading="lazy"/>
               </div>
               <p>Нанести полоску геля длиной 1-3 см</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-3.svg" alt="" loading="lazy"/>
               </div>
               <p>Слегка втереть до полного впитывания</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
-                <img src="/img/product/step-1.svg" alt=""/>
+                <img src="/img/product/step-4.svg" alt="" loading="lazy"/>
               </div>
               <p>Можно наносить под окклюзионную повязку</p>
             </li>
@@ -169,11 +169,11 @@
         <div class="maternity__content">
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>3</sup></h2>
-            <img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
             <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше,чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
-            <img src="/img/product/maternity.png" alt="Беременность"/>
+            <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@
           <h2 class="title-h1">Другие продукты линейки <br>Троксевазин<sup>®</sup></h2>
           <div class="others__list">
             <div class="others__item">
-              <img src="/img/product/other-gel-1-40.png" alt=""/>
+              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo">
@@ -193,7 +193,7 @@
               </NuxtLink>
             </div>
             <div class="others__item">
-              <img src="/img/product/other-troxactive.png" alt=""/>
+              <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
               <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
               </p>
               <NuxtLink to="/troxactive">
@@ -211,7 +211,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel-1-40.png" alt=""/>
+                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo">
@@ -221,7 +221,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-troxactive.png" alt=""/>
+                  <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
                   <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
                   </p>
                   <NuxtLink to="/troxactive">
@@ -246,21 +246,21 @@
                   <h5>Регистрационный номер</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Торговое наименование препарата</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Международное непатентованное наименование</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
             </div>
             <div class="instruction__list">
@@ -269,21 +269,21 @@
                   <h5>Способ применения и дозы</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Побочное действие</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Передозировка</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc"></div>
+                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
               </div>
             </div>
           </div>
@@ -301,17 +301,17 @@
           <div class="articles">
             <div class="articles__content">
               <div class="articles__item"> 
-                <img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt="" loading="lazy"/>
                 <h3>Симптомы варикоза</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
               </div>
               <div class="articles__item"> 
-                <img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt="" loading="lazy"/>
                 <h3>Анализы при варикозе</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
               </div>
               <div class="articles__item"> 
-                <img src="/img/product/article.jpg" alt=""/>
+                <img src="/img/product/article.jpg" alt="" loading="lazy"/>
                 <h3>Кратко о варикозе</h3>
                 <p>Посмотрим на статистику: по данным исследователей, большая часть пациентов до обращения к специалисту по проблемам с венами, флебологу, имела опыт...</p>
               </div>
