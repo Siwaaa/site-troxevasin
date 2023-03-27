@@ -45,7 +45,7 @@
               <p>Генетическая <br> предрасположенность</p>
             </li>
             <li class="factors__item factors-50">
-              <img src="/img/case/factor-symptom-case-1.png" alt="" loading="lazy"/>
+              <img src="/img/case/factor-5.png" alt="" loading="lazy"/>
               <p>Сидячая или <br> стоячая работа</p>
             </li>
           </ul>
