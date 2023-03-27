@@ -63,7 +63,7 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-1.png" alt=""/></div>
+            <img src="/img/product/symptoms-gel.png" alt=""/></div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
               <img src="/img/product/symptom.png" alt=""/>
