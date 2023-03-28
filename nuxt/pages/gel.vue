@@ -6,7 +6,7 @@
           <h1 class="title-h1"><strong>Троксевазин<sup>®</sup> 2 % — гель №1</strong><sup>*,1</sup> для лечения симптомов варикоза<sup>**,3</sup></h1>
           <p class="header-product__footnote"><sup>*</sup>по продажам в деньгах (2008 – 2022)<sup>1</sup>
           </p>
-          <p>Проверенный временем<sup>2</sup> препарат против тяжести и боли в ногах при варикозе<sup>***</sup>.Способствует укреплению вен и повышению их тонуса<sup>3</sup>.
+          <p>Проверенный временем<sup>2</sup> препарат против тяжести и боли в ногах при варикозе<sup>***</sup>. Способствует укреплению вен и повышению их тонуса<sup>3</sup>.
           </p>
           <div class="header-product__menu"> 
             <Button label="Купить" arrowRight />
@@ -17,6 +17,7 @@
         </div>
         <div class="header-product__swiper">
           <swiper
+            :initialSlide="1"
             :slides-per-view="1"
             :space-between="50"
             effect="fade"
@@ -56,7 +57,7 @@
             <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup>:</h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.png 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
@@ -116,7 +117,7 @@
       <div class="economy__wrapper container">
         <div class="economy__content">
           <div class="economy__left">
-            <h2 class="title-h1">Сэкономьте<sup>6</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
+            <h2 class="title-h1">Сэкономьте<sup>4</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
@@ -170,7 +171,7 @@
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>3</sup></h2>
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
-            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше,чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
+            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
@@ -246,22 +247,116 @@
                   <h5>Регистрационный номер</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">П N012713/02</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Торговое наименование препарата</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">Троксевазин®</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Международное непатентованное наименование</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">Троксерутин</div>
               </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Лекарственная форма</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">Гель для наружного применения</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Состав</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">100 г геля содержат: Действующее вещество: троксерутин 2,0 г; Вспомогательные вещества: карбомер 0,60 г, троламин (триэтаноламин) 0,70 г, динатрия эдетата дигидрат 0,05 г, бензалкония хлорид 0,10 г, вода очищенная 96,55 г.</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Описание</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">Гель от желтого до светло-коричневого цвета</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Фармакотерапевтическая группа</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">Венотонизирующее и венопротекторное средство</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Код АТХ</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">С05СА04</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Фармакологическое действие</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc"><strong>Фармакодинимика</strong><br>Троксевазин® представляет собой флавоноид (производное рутина). Обладает Р-витаминной активностью; оказывает венотонизирующее, венопротекторное, противоотечное, противовоспалительное, противосвертывающее и антиоксидантное действие.<br><br>Уменьшает проницаемость и ломкость капилляров, повышает их тонус.<br><br>Увеличивает плотность сосудистой стенки, уменьшает экссудацию жидкой части плазмы и диапедез клеток крови.<br><br>Уменьшает воспаление в сосудистой стенке, ограничивая прилипание тромбоцитов к ее поверхности.<br><br><strong>Фармакокинетика</strong><br>При нанесении геля на область поражения, действующее вещество быстро проникает через эпидермис, через 30 минут обнаруживается в дерме, а через 2-5 часов в подкожной жировой клетчатке.</div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Показания к применению</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  <ul>
+                    <li>Варикозное расширение вен ног;</li>
+                    <li>Хроническая венозная недостаточность с такими проявлениями, как: отеки, боль, ощущение тяжести в ногах;</li>
+                    <li>Поверхностный тромбофлебит, перифлебит, флеботромбоз;</li>
+                    <li>Посттромботический синдром;</li>
+                    <li>Посттромботический отек, гематомы;</li>
+                    <li>Профилактика осложнений после операций на венах.</li>
+                  </ul>
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Противопоказания</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  <ul>
+                    <li>Повышенная чувствительность к препарату;</li>
+                    <li>Нарушение целостности кожных покровов;</li>
+                    <li>Детский возраст до 18 лет (опыт клинического применения недостаточен).</li>
+                  </ul>
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>С осторожностью</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Хроническая почечная недостаточность (при длительном применении).<br><br>
+                  Если у Вас есть одно из перечисленных выше заболеваний, перед применением препарата необходимо проконсультироваться с врачом.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Применение при беременности и в период грудного вскармливания</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  <strong>Беременность</strong><br>
+                  В I триместре беременности применение препарата противопоказано в связи с отсутствием опыта клинического применения. Во II и III триместрах беременности применение препарата возможно в случае, если ожидаемая польза для матери превышает потенциальный риск для плода. Перед применением препарата во II и III триместрах беременности необходимо проконсультироваться с врачом.<br><br>
+                  <strong>Период грудного вскармливания</strong><br>
+                  Данные о проникновении троксерутина в грудное молоко отсутствуют. Препарат не следует применять в период грудного вскармливания.
+                </div>
+              </div>
+            <!-- 2 column   -->
             </div>
             <div class="instruction__list">
               <div @click="toggleAccordion" class="instruction__item">
@@ -269,26 +364,125 @@
                   <h5>Способ применения и дозы</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Наружно!<br><br>
+                  Если врачом не рекомендовано иначе, то полоску геля длиной 1-3 см (в зависимости от площади пораженной поверхности) наносят тонким слоем на кожу на область поражения 2 раза в сутки утром и вечером, мягко втирая до полного впитывания. При необходимости гель можно наносить под окклюзионную повязку.<br><br>
+                  Рекомендуется сочетать с приемом капсул Троксевазин® для усиления воздействия.<br><br>
+                  Если через 6-7 дней лечения улучшения не наступает или симптомы усугубляются, или появляются новые симптомы, необходимо проконсультироваться с врачом.<br><br>
+                  Применяйте препарат только согласно тем показаниям, тому способу применения и в тех дозах, которые указаны в инструкции.
+                </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Побочное действие</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Нарушения со стороны иммунной системы: редко — крапивница, экзема, дерматит.<br><br>
+                  Если у Вас отмечаются побочные эффекты, указанные в инструкции, или они усугубляются, или Вы заметили любые другие побочные эффекты, не указанные в инструкции, сообщите об этом врачу.
+                </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
                   <h5>Передозировка</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Случаи передозировки при местном применении троксерутина не описаны. При случайном проглатывании большого количества геля необходимо провести общие меры выведения препарата <br>из организма (рвотные средства) и обратиться к врачу. <br><br>При наличии показаний проводится перитонеальный диализ.<br> При передозировке препарата необходимо обратиться к врачу.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Взаимодействие с другими лекарственными средствами</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Данных по взаимодействию троксерутина с другими лекарственными средствами нет.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Особые указания</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Гель наносят только на неповрежденную поверхность.<br><br>
+                  Избегать попадания на открытые раны, глаза и слизистые оболочки! При состояниях, характеризующихся повышенной проницаемостью сосудов (в т.ч. при скарлатине, гриппе, кори, аллергических реакциях), гель используют в сочетании с аскорбиновой кислотой для усиления ее эффекта.<br><br>
+                  Нельзя превышать максимальные сроки и рекомендованные дозы при самостоятельном применении препарата.<br><br>
+                  В случае отсутствия уменьшения или при утяжелении симптомов заболевания необходимо обратиться к врачу.<br><br>
+                  Влияние на способность управления транспортными средствами, механизмами Троксевазин® гель не оказывает влияния на способность управлять автотранспортным средством и работать с движущимися.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Влияние на способность к управлению транспортными средствами и механизмами</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Троксевазин® гель не оказывает влияния на способность управлять автотранспортным средством и работать с движущимися механизмами.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Форма выпуска</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Гель для наружного применения 2%. По 40 г в алюминиевую тубу с внутренним лаковым покрытием с алюминиевой мембраной или по 20 г, 40 г или 100 г в ламинатную (пластиковую) тубу с алюминиевой мембраной. Каждую тубу вместе с инструкцией по применению помещают в картонную пачку, на которую дополнительно могут быть нанесены защитные наклейки.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Условия хранения</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Хранить при температуре не выше 25 °С. Не замораживать! <br>Хранить в недоступном для детей месте!
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Срок годности</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Для алюминиевой тубы — 5 лет.<br> Для ламинатной (пластиковой) тубы — 5 лет. <br>Не применять по истечении срока годности.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Условия отпуска</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Отпускают без рецепта
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Организация, принимающая претензии потребителей</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  ООО «Тева», 115054, Москва, ул. Валовая, 35, <br>тел.: +7 (495) 644 22 34, факс: +7 (495) 644 22 35 <br>Адрес в интернете: www.teva.ru
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Производитель</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Балканфарма-Троян АД, <br>Болгария, г. Троян, 5600, ул. Крайречна 1.
+                </div>
               </div>
             </div>
           </div>
+
           <div class="faq__download">
-            <Button label="Скачать PDF" rounded/>
+            <a href="/pdf/instruction_gel.pdf" download>
+              <Button label="Скачать PDF" rounded/>
+            </a>
           </div>
         </div>
       </div>

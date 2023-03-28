@@ -10,7 +10,7 @@
             <img src="/img/case/header-1.png" srcset="/img/case/header-1@2x.png 2x" alt="" loading="lazy"/>
           </div>
         </div>
-        <div class="header-case__list">
+        <div ref="veniModalTrigger" class="header-case__list">
           <div class="header-case__item">
             <img src="/img/case/h-list-1.png" srcset="/img/case/h-list-1@2x.png 2x" alt="" loading="lazy"/>
             <p>Заболевание может прогрессировать — <strong>на тяжелых стадиях люди могут сталкиваться даже с трофическими язвами</strong>. Ученые выделяют 7 классов хронических заболеваний вен. Вот как они <i>различаются</i>.
@@ -63,7 +63,7 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" alt="" loading="lazy"/></div>
+            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.png 2x" alt="" loading="lazy"/></div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
               <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.png 2x" alt="" loading="lazy"/>
@@ -194,6 +194,8 @@
         </p>
       </div>
     </section>
+
+    <ModalVeni v-model:visible="visible"/>
   </main>
 </template>
 
@@ -207,6 +209,17 @@ useHead({
 })
 
 const onSwiper = (swiper) => {};
+
+const veniModalTrigger = ref(null);
+const visible = ref(false);
+
+onMounted(() => {
+  veniModalTrigger.value.querySelectorAll('i')
+    .forEach(i => i.addEventListener('click', (e) => {
+      visible.value = true
+    }
+  ));
+})
 </script>
 
 <style lang="postcss">

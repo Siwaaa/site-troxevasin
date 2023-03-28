@@ -18,6 +18,7 @@
         </div>
         <div class="header-product__swiper">
           <swiper
+            :initialSlide="1"
             :slides-per-view="1"
             :space-between="50"
             effect="fade"
@@ -57,12 +58,12 @@
             <h2 class="title-h1">Помогает бороться <br>с симптомами варикоза<sup>***,1</sup></h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-neo.png" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-neo.png" srcset="/img/product/symptoms-neo@2x.png 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
               <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
-              <p>Расписариние <br> и тяжесть <br> в ногах</p>
+              <p>Распирание <br> и тяжесть <br> в ногах</p>
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.png 2x" alt="" loading="lazy"/>
@@ -121,7 +122,7 @@
             <Button label="Купить" arrowRight />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25-neo.png" alt="" loading="lazy"/>
+            <img src="/img/product/economy-25-neo.png" srcset="/img/product/economy-25-neo@2x.png 2x" alt="" loading="lazy"/>
             <Button label="Купить" arrowRight />
           </div>
         </div>
@@ -170,7 +171,7 @@
           <div class="maternity__text">
             <h2 class="title-h1">Как применять при беременности<sup>1</sup></h2>
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
-            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая пользова для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
+            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
@@ -245,52 +246,243 @@
             <div class="instruction__list">
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Регистрационный номер</h5>
+                  <h5><strong>1. Что из себя представляет препарат Троксевазин® Нео, и для чего его применяют</strong></h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">Действующими веществами препарата Троксевазин® Нео являются гепарин натрия, декспантенол и троксерутин. Препарат относится к антикоагулянтным средствам прямого действия для местного применения.</div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Торговое наименование препарата</h5>
-                  <div class="accordion-btn"></div>
+                  <h5>Показания к применению</h5>
+                  <div class="accordion-btn"></div> 
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Вам назначили препарат Троксевазин® Нео поскольку:
+                  <ul>
+                    <li>у Вас варикозная болезнь;</li>
+                    <li>у Вас хроническая венозная недостаточность, с такими симптомами как: отечность, боль, ощущение тяжести, распирания, «усталости» в нижних конечностях, наличие сосудистых звездочек и сеточки, судорог, парестезий (ощущение онемения, покалывания, жжения);</li>
+                    <li>у Вас имеется воспаление стенок вен, в которых формируется тромб, закрывающий ее просвет (тромбофлебит);</li>
+                    <li>у Вас есть воспаление клетчатки, окружающей вены (перифлебит);</li>
+                    <li>у Вас имеется варикозный дерматит;</li>
+                    <li>у Вас присутствуют боли и отеки из-за ушибов, растяжений или полученных травм.</li>
+                  </ul>
+                  <br>Если улучшение не наступило или Вы чувствуете ухудшение, Вам необходимо обратиться к врачу.
+                </div>
+              </div>
+              <div class="instruction__item">
+                <div class="instruction__title">
+                  <h5><strong>2. О чем следует знать перед применением препарата Троксевазин® Нео</strong></h5>
+                </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Международное непатентованное наименование</h5>
+                  <h5>Противопоказания</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Не применяйте препарат Троксевазин® Нео в следующих случаях:<br><br>
+                  <ul>
+                    <li>если у Вас аллергия на гепарин, декспантенол или троксерутин, или на любые другие компоненты этого препарата (перечисленные в разделе 6 листка-вкладыша);</li>
+                    <li>если у Вас имеются открытые раны или другие нарушения целостности кожных покровов;</li>
+                    <li>если у Вас I триместр беременности или Вы кормите грудью;</li>
+                    <li>если Вам менее 18 лет (в связи с отсутствием данных по эффективности и безопасности применения препарата);</li>
+                  </ul>
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Особые указания и меры предосторожности</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Перед применением препарата Троксевазин® Нео проконсультируйтесь с лечащим врачом или работником аптеки. Обязательно сообщите врачу или работнику аптеки, если у Вас есть проблемы с почками.<br><br>Препарат Троксевазин® Нео следует наносить только на неповрежденную поверхность кожи.<br><br>При применении препарата Троксевазин® Нео следует избегать попадания на открытые раны, глаза и слизистые оболочки.<br><br>Препарат Троксевазин® Нео не предназначен для применения в офтальмологии, для интравагинального и ректального введения.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Дети и подростки</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео противопоказан для применения у детей и подростков младше 18 лет вследствие вероятной небезопасности и неэффективности.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Другие препараты и препарат Троксевазин® Нео</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Взаимодействия препарата Троксевазин® Нео с другими лекарственными средствами не выявлено.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Беременность и грудное вскармливание</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Не применяйте препарат Троксевазин® Нео, если у Вас I триместр беременности или Вы кормите грудью. Перед применением препарата во II и III триместрах беременности необходимо проконсультироваться врачом.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Управление транспортными средствами и работа с механизмами</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео не оказывает влияния на способность управлять транспортными средствами и механизмами.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Препарат Троксевазин® Нео содержит пропиленгликоль</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео содержит пропиленгликоль, который может оказывать раздражающее действие на кожу
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Препарат Троксевазин® Нео содержит пропилпарагидроксибензоат</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео содержит пропилпарагидроксибензоат, который может вызывать аллергические реакции (в том числе, отсроченные).
+                </div>
               </div>
             </div>
+            <!-- 2 column   -->
             <div class="instruction__list">
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Способ применения и дозы</h5>
+                  <h5>3. Применение препарата Троксевазин® Нео</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Всегда применяйте данный препарат в полном соответствии с листком-вкладышем или с рекомендациями лечащего врача или работника аптеки. При появлении сомнений посоветуйтесь с лечащим врачом или работником аптеки.
+                </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Побочное действие</h5>
+                  <h5>Способ применения препарата Троксевазин® Нео</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео применяют наружно. Если врачом не рекомендовано иначе, то полоску геля длиной 1 – 3 см (в зависимости от площади пораженной поверхности) наносят тонким слоем на кожу на область поражения 2 раза в сутки утром и вечером, равномерно распределяя по поверхности кожи легкими втирающими движениями до полного впитывания. При необходимости гель можно наносить под бинты или эластичные чулки.<br><br>Успех лечения препаратом в большой степени зависит от его регулярного применения в течение длительного времени.
+                </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Передозировка</h5>
+                  <h5>Продолжительность терапии</h5>
                   <div class="accordion-btn"></div>
                 </div>
-                <div class="instruction__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, iusto</div>
+                <div class="instruction__desc">
+                  Курс лечения составляет 2 – 3 недели. Необходимость более длительного лечения определяет лечащий врач.<br><br>Повторный курс лечения рекомендуется проводить 2 – 3 раза в год.<br><br>Рекомендуется сочетать с приемом капсул троксерутина для усиления терапевтического действия препарата.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Если Вы применили препарата Троксевазин® Нео больше, чем следовало</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Передозировка препаратом Троксевазин® Нео маловероятна в связи с малым системным всасыванием действующих веществ геля.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5><strong>4. Возможные нежелательные реакции</strong></h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Подобно всем лекарственным препаратам, Троксевазин® Нео может вызывать нежелательные реакции, однако они возникают не у всех.<br><br>Возможные нежелательные реакции, которые могут наблюдаться при применении препарата Троксевазин® Нео:<br>
+                  <ul>
+                    <li>кожная сыпь, зуд в месте нанесения геля.</li>
+                  </ul>
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Сообщение о нежелательных реакциях</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Если у Вас возникают какие-либо нежелательные реакции, проконсультируйтесь с врачом.<br><br>Данная рекомендация распространяется на любые возможные нежелательные реакции, в том числе не перечисленные в данном листке-вкладыше.<br><br>На территории Российской Федерации Вы также можете сообщить о нежелательных реакциях лекарственного препарата напрямую в Федеральную службу по надзору в сфере здравоохранения (интернет-сайт: <a href="https://roszdravnadzor.gov.ru/">https://roszdravnadzor.gov.ru/</a>).<br><br>На территории Республики Казахстан рекомендуется сообщать о нежелательных реакциях в РГП на ПХВ «Национальный центр экспертизы лекарственных средств и медицинских изделий» Комитета медицинского и фармацевтического контроля Министерства здравоохранения Республики Казахстан (интернет-сайт: <a href="https://www.ndda.kz/">https://www.ndda.kz/</a>).<br><br>Сообщая о нежелательных реакциях, Вы помогаете получить больше сведений о безопасности препарата.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5><strong>5. Хранение препарата Троксевазин® Нео</strong></h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Храните препарат в недоступном для ребенка месте так, чтобы ребенок не мог увидеть его.<br><br>Не применяйте препарат после истечения срока годности (срока хранения), указанного на упаковке после слов «Годен до:».<br><br>Датой истечения срока годности является последний день указанного месяца.<br><br>Храните препарат при температуре не выше 25 °С.Не выбрасывайте препарат в канализацию. Уточните у работника аптеки, как следует утилизировать (уничтожить) препарат, который больше не потребуется. Эти меры позволят защитить окружающую среду.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5><strong>6. Содержимое упаковки и прочие сведения</strong></h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Препарат Троксевазин® Нео содержит:<br><br>Действующими веществами являются гепарин натрия, декспантенол, троксерутин.<br><br>100 г геля содержат: 2,00 г троксерутина, 5,00 г декспантенола, 0,17 г гепарина натрия (соответствует 30000 МЕ).<br><br>Вспомогательными веществами являются: карбомер 980 NF, пропиленгликоль, метилпарагидроксибензоат, пропилпарагидроксибензоат, троламин, вода очищенная.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Внешний вид препарата Троксевазин® Нео и содержимое упаковки</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Гель для наружного применения.<br><br>Препарат Троксевазин® Нео представляет собой прозрачный или почти прозрачный гель от желтоватого до зеленовато-желтого цвета.<br><br>По 40 г в алюминиевую тубу с внутренним лаковым покрытием с защитной алюминиевой мембраной для контроля первого вскрытия с навинчиваемой полимерной крышкой, оснащенной пробойником.<br><br>По 40 г или 100 г в мембранную ламинатную тубу с защитной алюминиевой мембраной для контроля первого вскрытия с навинчиваемой полимерной крышкой.<br><br>1 тубу вместе с листком-вкладышем помещают в пачку картонную, на которой дополнительно могут быть нанесены защитные наклейки.
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Держатель регистрационного удостоверения</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Актавис Групп ПТС ехф.,<br>Рейкьявикурвегур 76-78, 220 Хафнарфьердур, Исландия
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Производитель</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Балканфарма – Троян АД,<br>Болгария
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>За любой информацией о препарате, а также в случаях возникновения претензий следует обращаться к местному представителю держателя регистрационного удостоверения:</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Российская Федерация<br>
+                  ООО «Тева»<br>
+                  Москва, 115054, ул. Валовая, 35, Российская Федерация<br>
+                  Телефон: +7 (495) 644 22 34<br>
+                  Факс: +7 (495) 644 22 35<br>
+                  Адрес электронной почты: <a href="mailto:info@teva.ru">info@teva.ru</a><br>
+                  Республика Казахстан<br>
+                  ТОО «ратиофарм Казахстан»<br>
+                  Алматы, 050059 (А15Е2Р), пр. Аль-Фараби, 17/1, БЦ Нурлы-Тау, 5Б, 6 этаж, <br>Республика Казахстан<br>
+                  Телефон: +7 (727) 325-16-15<br>
+                  Адрес электронной почты: <a href="mailto:info.tevakz@tevapharm.com">info.tevakz@tevapharm.com</a><br>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="faq__download">
-            <Button label="Скачать PDF" rounded />
+            <a href="/pdf/instruction_neo.pdf" download>
+              <Button label="Скачать PDF" rounded />
+            </a>
           </div>
         </div>
       </div>
@@ -298,7 +490,7 @@
 
     <section class="sources">
       <div class="sources__wrapper container">
-        <p>** Венотонизирующее, противовоспалительное, противоотечное1
+        <p>** Венотонизирующее, противовоспалительное, противоотечное<sup>1</sup>
           <br>***При симптомах хронической венозной недостаточности
           <br>1. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
           https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01

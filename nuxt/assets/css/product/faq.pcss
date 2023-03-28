@@ -41,6 +41,10 @@
 
     & > h5 {
       margin-right: 15px;
+
+      & > strong {
+        font-weight: 500;
+      }
     }
   }
 
@@ -48,9 +52,26 @@
     display: none;
     padding-top: 35px;
     color: var(--color-black);
+    font-size: 16px;
+    line-height: 1.6;
+
+    @media (--sm) {
+      font-size: 14px;
+    }
 
     &.active {
       display: block;
+    }
+
+    & strong {
+      font-weight: 700;
+    }
+    & li {
+      list-style: inside;
+    }
+    & a {
+      color: var(--color-violet);
+      text-decoration: underline;
     }
   }
 }

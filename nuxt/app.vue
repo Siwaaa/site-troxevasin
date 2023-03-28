@@ -5,16 +5,19 @@ useHead({
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'theme-color', content: '#fff' },
-    { name: 'description', content: 'Троксевазин – препарат, который улучшает микроциркуляцию крови и лимфы, снижает воспалительные процессы, уменьшает отеки и улучшает состояние кожи при варикозе, тромбофлебите, флебите, геморрое и других заболеваниях. Инструкция по применению, цена, аналоги и отзывы пациентов – на официальном сайте.' }
+    { name: 'description', content: 'Троксевазин – препарат, который улучшает микроциркуляцию крови и лимфы, снижает воспалительные процессы, уменьшает отеки и улучшает состояние кожи при варикозе, тромбофлебите, флебите, геморрое и других заболеваниях. Инструкция по применению, цена, аналоги и отзывы пациентов – на официальном сайте.' },
   ],
   htmlAttrs: {
     lang: 'ru'
   },
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+  ],
   script: [
     // <!-- OneTrust Cookies Consent Notice start for troxevasin.ru -->
-    // {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
-    // {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
-    // {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
+    {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
+    {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
+    {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
     // <!-- OneTrust Cookies Consent Notice end for troxevasin.ru -->
     // <!-- UTEKA start -->
     {
@@ -26,31 +29,31 @@ useHead({
     },
     // <!-- UTEKA end -->
     // <!-- Yandex.Metrika counter -->
-    // { type: "text/javascript",
-    //   innerHTML: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    //   m[i].l=1*new Date();
-    //   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-    //   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    //   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    { type: "text/javascript",
+      innerHTML: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    //   ym(92925175, "init", {
-    //         clickmap:true,
-    //         trackLinks:true,
-    //         accurateTrackBounce:true,
-    //         webvisor:true
-    //   });`
-    // },
+      ym(92925175, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+      });`
+    },
     // <!-- /Yandex.Metrika counter -->
     // <!-- Google tag (gtag.js) -->
-    // { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0TGE7W06YH" },
-    // {
-    //   type: "text/javascript",
-    //   innerHTML: `window.dataLayer = window.dataLayer || [];
-    //   function gtag(){dataLayer.push(arguments);}
-    //   gtag('js', new Date());
+    { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0TGE7W06YH" },
+    {
+      type: "text/javascript",
+      innerHTML: `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    //   gtag('config', 'G-0TGE7W06YH');`
-    // }
+      gtag('config', 'G-0TGE7W06YH');`
+    }
   ],
   noscript: [
     { innerHTML: '<div><img src="https://mc.yandex.ru/watch/92925175" style="position:absolute; left:-9999px;" alt="" /></div>' },

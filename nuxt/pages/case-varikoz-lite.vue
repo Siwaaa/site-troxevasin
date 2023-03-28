@@ -9,7 +9,7 @@
             <img src="/img/case/header-case.png" srcset="/img/case/header-case@2x.png 2x" alt="" loading="lazy"/>
           </div>
         </div>
-        <div class="header-case__list">
+        <div ref="veniModalTrigger" class="header-case__list">
           <div class="header-case__item">
             <img src="/img/case/h-list-1.png" srcset="/img/case/h-list-1@2x.png 2x" alt="" loading="lazy"/>
             <p>При различных проявлениях могут назначаться разные подходу к лечению. Например, только хирургический метод уберет сосудистые звездочки, <strong>гели же могут применяться против тяжести и отеков в ногах при варикозе<sup>7</sup>.</strong> 
@@ -63,7 +63,7 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.png 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
@@ -197,6 +197,8 @@
         </p>
       </div>
     </section>
+
+    <ModalVeni v-model:visible="visible"/>
   </main>
 </template>
 
@@ -210,6 +212,17 @@ useHead({
 })
 
 const onSwiper = (swiper) => {};
+
+const veniModalTrigger = ref(null);
+const visible = ref(false);
+
+onMounted(() => {
+  veniModalTrigger.value.querySelectorAll('i')
+    .forEach(i => i.addEventListener('click', (e) => {
+      visible.value = true
+    }
+  ));
+})
 </script>
 
 <style lang="postcss">

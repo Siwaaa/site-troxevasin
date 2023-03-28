@@ -66,7 +66,7 @@
             <h2 class="title-h1">Как бороться с геморроем<sup>2</sup></h2>
           </div>
           <div class="symptoms__img"> 
-            <img src="/img/product/symptoms-hemo.png" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-hemo.png" srcset="/img/product/symptoms-hemo@2x.png 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item"> 

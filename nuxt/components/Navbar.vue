@@ -41,20 +41,22 @@
       <!-- show menu  -->
       <transition name="menu">
         <div class="menu" v-show="showMenu">
-          <div class="menu__wrapper">
+          <div class="menu__wrapper container">
             <swiper
               :slides-per-view="2"
               :slides-per-group="2"
               :space-between="20"
+              :modules="[Navigation]"
               :breakpoints="breakpoints"
+              navigation
               @swiper="onSwiper"
             >
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-1.png" alt=""/>
-                  <h4>Троксактив таблетки</h4>
+                  <img src="/img/navbar/item-3.png" alt=""/>
+                  <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
                   <p>
-                    Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
+                    Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
                     <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                     </svg>
@@ -77,10 +79,10 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-3.png" alt=""/>
-                  <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
+                  <img src="/img/navbar/item-1.png" alt=""/>
+                  <h4>Троксактив таблетки</h4>
                   <p>
-                    Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
+                    Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
                     <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                     </svg>
@@ -116,7 +118,9 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation } from 'swiper';
 import 'swiper/css';
+
 
 const showMenu = ref(false);
 const header = ref();
@@ -359,6 +363,7 @@ onMounted(() => {
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
+    padding: 0 20px;
 
     @media (--md) {
       display: block;
