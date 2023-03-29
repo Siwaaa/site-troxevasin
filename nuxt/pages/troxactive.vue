@@ -65,7 +65,7 @@
           <ul class="symptoms__list">
             <li class="symptoms__item">
               <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.png 2x" alt="" loading="lazy"/>
-              <p>Усталость <br> и тяжесть <br> в ногах</p>
+              <p>Усталость <br> и боль <br> в ногах</p>
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.png 2x" alt="" loading="lazy"/>

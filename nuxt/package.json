@@ -20,5 +20,12 @@
     "postcss-nested": "^5.0.6",
     "smoothscroll-polyfill": "^0.4.4",
     "swiper": "^9.1.1"
-  }
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all",
+    "last 3 version"
+  ]
 }

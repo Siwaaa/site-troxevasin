@@ -63,7 +63,7 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-varikoz.png" srcset="/img/product/symptoms-varikoz@2x.png 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">

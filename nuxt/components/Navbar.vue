@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar" ref="header" :class="{active: showMenu}">
     <div class="navbar__wrapper container">
-      <img class="logo" src="/img/logo.svg" alt="Логотип" />
+      <NuxtLink to="/"><img class="logo" src="/img/logo.svg" alt="Логотип" /></NuxtLink>
       <div class="navbar__nav">
         <div class="navbar__item navbar__link">
           <button 
@@ -53,66 +53,74 @@
             >
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-3.png" alt=""/>
-                  <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
-                  <p>
-                    Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
-                    <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
-                    </svg>
-                  </p>
-                  <Button label="Купить" rounded />
+                  <NuxtLink to="/gel">
+                    <img src="/img/navbar/item-3.png" alt=""/>
+                    <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
+                    <p>
+                      Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
+                      <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
+                      </svg>
+                    </p>
+                  </NuxtLink>
+                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" rounded />
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-2.png" alt=""/>
-                  <h4>Троксевазин<sup>®</sup> Нео гель</h4>
-                  <p>
-                    Гель для укрепления вен и уменьшения воспаления при варикозе<sup>*</sup>
-                    <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
-                    </svg>
-                  </p>
-                  <Button label="Купить" rounded />
+                  <NuxtLink to="/neo">
+                    <img src="/img/navbar/item-2.png" alt=""/>
+                    <h4>Троксевазин<sup>®</sup> Нео гель</h4>
+                    <p>
+                      Гель для укрепления вен и уменьшения воспаления при варикозе<sup>*</sup>
+                      <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
+                      </svg>
+                    </p>
+                  </NuxtLink>
+                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" rounded />
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-1.png" alt=""/>
-                  <h4>Троксактив таблетки</h4>
-                  <p>
-                    Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
-                    <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
-                    </svg>
-                  </p>
-                  <Button label="Купить" rounded />
+                  <NuxtLink to="/troxactive">
+                    <img src="/img/navbar/item-1.png" alt=""/>
+                    <h4>Троксактив таблетки</h4>
+                    <p>
+                      Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
+                      <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
+                      </svg>
+                    </p>
+                  </NuxtLink>
+                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" rounded />
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <img src="/img/navbar/item-4.png" alt=""/>
-                  <h4>Троксевазин<sup>®</sup> капсулы</h4>
-                  <p>
-                    Капсулы при хронической венозной недостаточности и геморрое
-                    <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
-                    </svg>
-                  </p>
-                  <Button label="Купить" rounded />
+                  <NuxtLink to="/capsules">
+                    <img src="/img/navbar/item-4.png" alt=""/>
+                    <h4>Троксевазин<sup>®</sup> капсулы</h4>
+                    <p>
+                      Капсулы при хронической венозной недостаточности и геморрое
+                      <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
+                      </svg>
+                    </p>
+                  </NuxtLink>
+                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" rounded />
                 </div>
               </swiper-slide>
             </swiper>
 
             <div class="menu-btn">
-              <Button label="Купить" arrowRight />
+              <Button @click="openUteka" label="Купить" arrowRight />
             </div>
           </div>
         </div>
       </transition>
     </div>
-    <ModalUteka v-model:visible="visible" />
+    <ModalUteka v-model:visible="visible" :url-products="productsForUteka" />
   </nav>
 </template>
 
@@ -148,11 +156,6 @@ const toggleMenu = (e) => {
   showMenu.value = !showMenu.value;
 }
 
-const visible = ref(false);
-const openUteka = () => {
-  visible.value = true;
-}
-
 const headerBGhandler = throttle(() => { 
   let scrollTop = window.scrollY;
   
@@ -166,6 +169,17 @@ const headerBGhandler = throttle(() => {
 onMounted(() => {
   window.addEventListener('scroll', headerBGhandler);
 });
+
+const visible = ref(false);
+let productsForUteka = null;
+
+const openUteka = (i) => {
+  i && typeof i === 'string' ? 
+    productsForUteka = i : 
+    productsForUteka = 'https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=365040&productIds=266995&productIds=376941&productIds=376944&productIds=377032&productIds=33271&productIds=33267&productIds=33264';
+
+  visible.value = true;
+}
 </script>
 
 <style lang="postcss">
@@ -369,7 +383,7 @@ onMounted(() => {
       display: block;
     }
 
-    & > img {
+    & img {
       min-width: 130px;
       height: 66px;
       width: 50%;
@@ -378,7 +392,7 @@ onMounted(() => {
       margin-bottom: 20px;
     }
 
-    &>h4 {
+    & h4 {
       font-size: 16px;
       font-weight: 400;
       line-height: 1.2;
@@ -390,7 +404,7 @@ onMounted(() => {
       }
     }
 
-    &>p {
+    & p {
       font-size: 14px;
       line-height: 1.25;
 

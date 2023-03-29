@@ -63,7 +63,7 @@
               </a>
             </div>
             <div class="pharms__item">
-              <a href="https://www.eapteka.ru/goods/drugs/cardio/veins/troksaktiv_/" target="_blank">
+              <a href="https://www.eapteka.ru/goods/drugs/cardio/veins/troksevazin_aktavis/" target="_blank">
                 <img loading="lazy" src="/img/apteks/eapteka.png" alt="сбераптека"/>
               </a>
             </div>

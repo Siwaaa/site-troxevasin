@@ -5,7 +5,7 @@
         <div class="header__content">
           <h1 class="title-h1">ТРОКСЕВАЗИН<sup>®</sup> — <br> шаг вперед к лечению варикоза<sup>*</sup>
           </h1>
-          <p>Эксперты бренда Троксевазин<sup>®</sup> всё знают о лечении симптомов варикоза<sup>*</sup> и геморроя.
+          <p>Эксперты бренда Троксевазин<sup>®</sup> всё знают о лечении симптомов варикоза<sup>*</sup> и геморроя<sup>3</sup>.
           </p>
           <p><strong>О чем хотели бы узнать вы?</strong></p>
           <div class="header__menu">
@@ -22,7 +22,7 @@
               <div class="btn-hexagon__arrow"></div>
             </NuxtLink>
             <NuxtLink to="/case-hemorrhoids" class="btn-hexagon">
-              Дискомфорт и боль <br> при геморроя
+              Дискомфорт и боль <br> при геморрое
               <div class="btn-hexagon__arrow"></div>
             </NuxtLink>
           </div>

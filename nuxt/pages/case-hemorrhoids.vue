@@ -98,7 +98,7 @@
       <div class="stats__wrapper container">
         <div class="stats__content">
           <div class="stats__left">
-            <img src="/img/case/stats.png" alt="" loading="lazy"/>
+            <img src="/img/case/stats-hemo.png" alt="" loading="lazy"/>
           </div>
           <div class="stats__right">
             <h2 class="title-h1">Для воздействия <br>на симптомы геморроя</h2>

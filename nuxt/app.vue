@@ -15,9 +15,9 @@ useHead({
   ],
   script: [
     // <!-- OneTrust Cookies Consent Notice start for troxevasin.ru -->
-    // {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
-    // {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
-    // {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
+    {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
+    {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
+    {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
     // <!-- OneTrust Cookies Consent Notice end for troxevasin.ru -->
     // <!-- UTEKA start -->
     {

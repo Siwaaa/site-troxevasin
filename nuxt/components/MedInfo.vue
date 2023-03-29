@@ -64,7 +64,7 @@ export default {
       display: block;
       width: 100%;
       font-size: 45px;
-      font-weight: 200;
+      font-weight: 300;
       white-space: nowrap;
       line-height: 1;
       /* transform: scale(.3, 1.1); */
