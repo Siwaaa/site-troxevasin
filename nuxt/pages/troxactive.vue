@@ -7,7 +7,7 @@
           <p>Самое назначаемое действующее вещество (МНН) для лечения симптомов хронических заболеваний вен<sup>2</sup>
           </p>
           <div class="header-product__menu">
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
             <NuxtLink to="#faq">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
@@ -45,7 +45,7 @@
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button label="Купить" arrowRight />
+          <Button @click="openUteka" label="Купить" arrowRight />
           <NuxtLink to="#faq">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>
@@ -81,7 +81,7 @@
             </li>
           </ul>
           <div class="symptoms__menu">
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
             <NuxtLink to="#faq">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
@@ -135,12 +135,12 @@
           <div class="economy-two__item">
             <img src="/img/product/economy-two-1.jpg" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема<sup>**,1</sup></p>
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight />
           </div>
           <div class="economy-two__item">
             <img src="/img/product/economy-two-2.jpg" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>2 месяца приема<sup>**,1</sup></p>
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight />
           </div>
         </div>
         <div class="economy__swiper">
@@ -155,14 +155,14 @@
               <div class="economy-two__item">
                 <img src="/img/product/economy-two-1.png" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема</p>
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="economy-two__item">
                 <img src="/img/product/economy-two-2.png" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>3 месяца приема</p>
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight />
               </div>
             </swiper-slide>
           </swiper>
@@ -552,6 +552,7 @@
     </section>
 
     <ModalMoff v-model:visible="visible"/>
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
   </main>
 </template>
 
@@ -608,6 +609,17 @@ onMounted(() => {
     }
   ));
 })
+
+const visibleUteka = ref(false);
+let productsForUteka = null;
+
+const openUteka = (i) => {
+  i && typeof i === 'string' ? 
+    productsForUteka = i : 
+    productsForUteka = 'https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944';
+
+  visibleUteka.value = true;
+}
 </script>
 
 <style lang="postcss">

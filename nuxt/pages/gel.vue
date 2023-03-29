@@ -9,7 +9,7 @@
           <p>Проверенный временем<sup>2</sup> препарат против тяжести и боли в ногах при варикозе<sup>***</sup>. Способствует укреплению вен и повышению их тонуса<sup>3</sup>.
           </p>
           <div class="header-product__menu"> 
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
             <NuxtLink to="#faq">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
@@ -42,7 +42,7 @@
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button label="Купить" arrowRight />
+          <Button @click="openUteka" label="Купить" arrowRight />
           <NuxtLink to="#faq">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>
@@ -82,7 +82,7 @@
             </li>
           </ul>
           <div class="symptoms__menu"> 
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
             <NuxtLink to="#faq">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
@@ -118,11 +118,11 @@
         <div class="economy__content">
           <div class="economy__left">
             <h2 class="title-h1">Сэкономьте<sup>4</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
           </div>
           <div class="economy__right">
             <img src="/img/product/economy-25.png" alt="" loading="lazy"/>
-            <Button label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight />
           </div>
         </div>
       </div>
@@ -534,6 +534,7 @@
         </p>
       </div>
     </section>
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
   </main>
 </template>
 
@@ -573,6 +574,13 @@ const pagination = ref({
 const toggleAccordion = (e) => {
   e.currentTarget.querySelector('.instruction__desc').classList.toggle('active');
   e.currentTarget.querySelector('.accordion-btn').classList.toggle('active');
+}
+
+const visibleUteka = ref(false);
+const productsForUteka = 'https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271';
+
+const openUteka = () => {
+  visibleUteka.value = true;
 }
 </script>
 

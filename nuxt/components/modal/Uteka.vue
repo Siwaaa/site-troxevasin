@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <iframe src="https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=365040&productIds=266995&productIds=376941&productIds=376944&productIds=377032&productIds=33271&productIds=33267&productIds=33264"></iframe>
+        <iframe :src="urlProducts"></iframe>
         <!-- аптеки -->
         <div class="pharma-container">
           <div class="pharma-title">Забронировать в ближайшей аптеке или заказать с доставкой на дом</div>
@@ -87,6 +87,10 @@ export default {
       type: Boolean,
       default: false
     },
+    urlProducts: {
+      type: String,
+      default: 'https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=365040&productIds=266995&productIds=376941&productIds=376944&productIds=377032&productIds=33271&productIds=33267&productIds=33264'
+    }
   },
   data() {
     return {
@@ -296,7 +300,6 @@ export default {
 
 	.uteka-widget iframe {
 		width: 100%;
-		height: 900px;
 		border: 0
 	}
 

@@ -120,7 +120,7 @@
                   хроническом<sup>6</sup></strong>
               </p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
                 <NuxtLink to="/troxactive">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -132,7 +132,7 @@
               <p><strong class="others-violet">Доступная цена<sup>3</sup>, <br> европейское
                   производство<sup>4</sup></strong></p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" arrowRight />
                 <NuxtLink to="/capsules">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -155,7 +155,7 @@
                       хроническом<sup>6</sup></strong>
                   </p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
                     <NuxtLink to="/troxactive">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
@@ -169,7 +169,7 @@
                   <p><strong class="others-violet">Доступная цена<sup>3</sup>, <br> европейское
                       производство<sup>4</sup></strong></p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" arrowRight />
                     <NuxtLink to="/capsules">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
@@ -201,6 +201,7 @@
     </section>
 
     <ModalHemorrhoids v-model:visible="visible"/>
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
   </main>
 </template>
 
@@ -225,6 +226,15 @@ onMounted(() => {
     }
   ));
 })
+
+const visibleUteka = ref(false);
+let productsForUteka = null;
+
+const openUteka = (i) => {
+  if (i && typeof i === 'string') productsForUteka = i;
+
+  visibleUteka.value = true;
+}
 </script>
 
 <style lang="postcss">

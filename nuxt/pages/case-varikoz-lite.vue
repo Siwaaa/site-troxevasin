@@ -115,7 +115,7 @@
               <p><strong class="others-violet">Проверенный временем<sup>3</sup> препарат против тяжести и боли в ногах при варикозе<sup>*</sup></strong><br>Способствует укреплению вен и повышению их тонуса<sup>4</sup>
               </p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight />
                 <NuxtLink to="/gel">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -127,7 +127,7 @@
               <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
               </p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
                 <NuxtLink to="/neo">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -149,7 +149,7 @@
                   <p><strong class="others-violet">Проверенный временем<sup>3</sup> препарат против тяжести и боли в ногах при варикозе<sup>*</sup></strong><br>Способствует укреплению вен и повышению их тонуса<sup>4</sup>
                   </p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight />
                     <NuxtLink to="/gel">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
@@ -163,7 +163,7 @@
                   <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
                   </p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
                     <NuxtLink to="/neo">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
@@ -199,6 +199,7 @@
     </section>
 
     <ModalVeni v-model:visible="visible"/>
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
   </main>
 </template>
 
@@ -223,6 +224,15 @@ onMounted(() => {
     }
   ));
 })
+
+const visibleUteka = ref(false);
+let productsForUteka = null;
+
+const openUteka = (i) => {
+  if (i && typeof i === 'string') productsForUteka = i;
+
+  visibleUteka.value = true;
+}
 </script>
 
 <style lang="postcss">

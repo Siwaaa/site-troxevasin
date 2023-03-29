@@ -101,12 +101,12 @@
               <p>Таблетки Троксактив для направленного действия на вены изнутри<sup>3</sup> и гель Троксевазин<sup>®</sup>
                 Нео с усиленной<sup>**</sup> формулой для воздействия на симптомы варикоза<sup>*</sup> снаружи<sup>2
                 </sup></p>
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944&productIds=266995&productIds=377032')" label="Купить" arrowRight />
                 <span>** По сравнению с Троксевазин® гель 2 % </span>
             </div>
             <div class="vozdeystvyi__right">
               <img src="/img/case/vozdey-hard.png" alt="" loading="lazy"/>
-              <Button label="Купить" arrowRight />
+              <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944&productIds=266995&productIds=377032')" label="Купить" arrowRight />
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>
                 Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup></p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
                 <NuxtLink to="/neo">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -135,7 +135,7 @@
               <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>4</sup></strong><br> в лечении
                 симптомов <br> варикоза<sup>*</sup></p>
               <div class="others__btns">
-                <Button label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
                 <NuxtLink to="/troxactive">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
@@ -157,7 +157,7 @@
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup>
                   </p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
                     <Button label="Узнать больше" rounded />
                   </div>
                 </div>
@@ -169,7 +169,7 @@
                   <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>4</sup></strong><br> в лечении
                     симптомов <br> варикоза<sup>*</sup></p>
                   <div class="others__btns">
-                    <Button label="Купить" arrowRight />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
                     <Button label="Узнать больше" rounded />
                   </div>
                 </div>
@@ -196,6 +196,7 @@
     </section>
 
     <ModalVeni v-model:visible="visible"/>
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
   </main>
 </template>
 
@@ -220,6 +221,15 @@ onMounted(() => {
     }
   ));
 })
+
+const visibleUteka = ref(false);
+let productsForUteka = null;
+
+const openUteka = (i) => {
+  if (i && typeof i === 'string') productsForUteka = i;
+
+  visibleUteka.value = true;
+}
 </script>
 
 <style lang="postcss">
