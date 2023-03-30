@@ -552,7 +552,7 @@
     </section>
 
     <ModalMoff v-model:visible="visible"/>
-    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" />
+    <ModalUteka v-model:visible="visibleUteka" :url-products="productsForUteka" :troxactive="true" />
   </main>
 </template>
 

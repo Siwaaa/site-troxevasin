@@ -53,7 +53,7 @@
             >
               <swiper-slide>
                 <div class="menu__item">
-                  <NuxtLink to="/gel">
+                  <NuxtLink to="/gel" @click="toggleMenu">
                     <img src="/img/navbar/item-3.png" alt=""/>
                     <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
                     <p>
@@ -68,7 +68,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <NuxtLink to="/neo">
+                  <NuxtLink to="/neo" @click="toggleMenu">
                     <img src="/img/navbar/item-2.png" alt=""/>
                     <h4>Троксевазин<sup>®</sup> Нео гель</h4>
                     <p>
@@ -83,7 +83,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <NuxtLink to="/troxactive">
+                  <NuxtLink to="/troxactive" @click="toggleMenu">
                     <img src="/img/navbar/item-1.png" alt=""/>
                     <h4>Троксактив таблетки</h4>
                     <p>
@@ -98,7 +98,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="menu__item">
-                  <NuxtLink to="/capsules">
+                  <NuxtLink to="/capsules" @click="toggleMenu">
                     <img src="/img/navbar/item-4.png" alt=""/>
                     <h4>Троксевазин<sup>®</sup> капсулы</h4>
                     <p>
@@ -120,7 +120,7 @@
         </div>
       </transition>
     </div>
-    <ModalUteka v-model:visible="visible" :url-products="productsForUteka" />
+    <ModalUteka v-model:visible="visible" :url-products="productsForUteka" :troxactive="checkTroxactive" />
   </nav>
 </template>
 
@@ -129,6 +129,14 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation } from 'swiper';
 import 'swiper/css';
 
+const route = useRoute();
+
+const checkTroxactive = computed(() => {
+  if (route.path === '/troxactive') {
+    return true;
+  }
+  return false;
+}) 
 
 const showMenu = ref(false);
 const header = ref();

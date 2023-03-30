@@ -19,11 +19,11 @@
         </div>
         <iframe :src="urlProducts"></iframe>
         <!-- аптеки -->
-        <div class="pharma-container">
+        <div v-if="troxactive" class="pharma-container">
           <div class="pharma-title">Забронировать в ближайшей аптеке или заказать с доставкой на дом</div>
           <div class="pharma-wrap">
             <div class="pharms__item">
-              <a href="https://zdravcity.ru/g_troksevazin/" target="_blank">
+              <a href="https://zdravcity.ru/g_troksaktiv/" target="_blank">
                 <img loading="lazy" src="/img/apteks/zdravsiti.png" alt="Здрависти"/>
               </a>
             </div>
@@ -38,7 +38,7 @@
               </a>
             </div>
             <div class="pharms__item">
-              <a href="https://www.rigla.ru/search?q=%D1%82%D1%80%D0%BE%D0%BA%D1%81%D0%B0%D0%BA%D1%82%D0%B8%D0%B2" target="_blank">
+              <a href="https://www.rigla.ru/forms/troksaktiv" target="_blank">
                 <img loading="lazy" src="/img/apteks/rigla.png" alt="ригла"/>
               </a>
             </div>
@@ -48,7 +48,7 @@
               </a>
             </div>
             <div class="pharms__item">
-              <a href="https://stoletov.ru/alphabet/t/troksaktiv/" target="_blank">
+              <a href="https://stoletov.ru/alphabet_brand/t/troksaktiv/" target="_blank">
                 <img loading="lazy" src="/img/apteks/stoletov.png" alt="Столетов"/>
               </a>
             </div>
@@ -58,7 +58,62 @@
               </a>
             </div>
             <div class="pharms__item">
-              <a href="https://planetazdorovo.ru/reclame/?reclame=207&amp;utm_source=teva_troksevazin&amp;utm_medium=button" target="_blank">
+              <a href="https://planetazdorovo.ru/reclame/?reclame=207&utm_source=teva_troksevazin&utm_medium=button" target="_blank">
+                <img loading="lazy" src="/img/apteks/planet.png" alt="Планета здоровья"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://www.eapteka.ru/goods/drugs/cardio/veins/troksaktiv_/" target="_blank">
+                <img loading="lazy" src="/img/apteks/eapteka.png" alt="сбераптека"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://apteka.ru/product/troksaktiv-1-gr-30-sht-tabletki-pokrytye-plenochnoj-obolochkoj-618a1f4b8216709bb72ec74a/" target="_blank">
+                <img loading="lazy" src="/img/apteks/aptekaru.png" alt="Аптека РУ"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div v-else class="pharma-container">
+          <div class="pharma-title">Забронировать в ближайшей аптеке или заказать с доставкой на дом</div>
+          <div class="pharma-wrap">
+            <div class="pharms__item">
+              <a href="https://zdravcity.ru/g_troksevazin/" target="_blank">
+                <img loading="lazy" src="/img/apteks/zdravsiti.png" alt="Здрависти"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://gorzdrav.org/catalog/troksevazin/" target="_blank">
+                <img loading="lazy" src="/img/apteks/gorzdrav.png" alt="Горздрав"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://366.ru/g/troksevazin/" target="_blank">
+                <img loading="lazy" src="/img/apteks/36.png" alt="36"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://www.rigla.ru/forms/troksevazin" target="_blank">
+                <img loading="lazy" src="/img/apteks/rigla.png" alt="ригла"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://ozerki.ru/alphabet_brand/t/troksevazin/" target="_blank">
+                <img loading="lazy" src="/img/apteks/ozerki.png" alt="Озерки"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://stoletov.ru/alphabet_brand/t/troksevazin-1/" target="_blank">
+                <img loading="lazy" src="/img/apteks/stoletov.png" alt="Столетов"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://superapteka.ru/alphabet_brand/t/troksevazin/" target="_blank">
+                <img loading="lazy" src="/img/apteks/superapteka.png" alt="Супераптека"/>
+              </a>
+            </div>
+            <div class="pharms__item">
+              <a href="https://planetazdorovo.ru/reclame/?reclame=207&utm_source=teva_troksevazin&utm_medium=button" target="_blank">
                 <img loading="lazy" src="/img/apteks/planet.png" alt="Планета здоровья"/>
               </a>
             </div>
@@ -68,7 +123,7 @@
               </a>
             </div>
             <div class="pharms__item">
-              <a href="https://apteka.ru/search/?q=%D1%82%D1%80%D0%BE%D0%BA%D1%81%D0%B5%D0%B2%D0%B0%D0%B7%D0%B8%D0%BD&amp;utm_source=teva&amp;utm_medium=buy_now&amp;utm_campaign=troxevasin" target="_blank">
+              <a href="https://apteka.ru/search/?q=%D1%82%D1%80%D0%BE%D0%BA%D1%81%D0%B5%D0%B2%D0%B0%D0%B7%D0%B8%D0%BD&utm_source=teva&utm_medium=buy_now&utm_campaign=troxevasin" target="_blank">
                 <img loading="lazy" src="/img/apteks/aptekaru.png" alt="Аптека РУ"/>
               </a>
             </div>
@@ -90,6 +145,10 @@ export default {
     urlProducts: {
       type: String,
       default: 'https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=365040&productIds=266995&productIds=376941&productIds=376944&productIds=377032&productIds=33271&productIds=33267&productIds=33264'
+    },
+    troxactive: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
