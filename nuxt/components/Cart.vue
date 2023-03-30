@@ -57,11 +57,6 @@ export default {
 	.cart__link {
 		padding: 9px 0
 	}
-
-	.cart__link img {
-		width: auto;
-		height: 9px
-	}
 }
 
 .cart__image {
@@ -75,7 +70,7 @@ export default {
 	justify-content: center;
 	width: 0;
 	max-height: 36px;
-	padding: 11px 0;
+	padding: 8px 0;
 	margin-top: -5px;
 	overflow: hidden;
 	background-color: #fff;
@@ -85,6 +80,6 @@ export default {
 
 .cart__link img {
 	width: 71px;
-	height: 14px
+	object-fit: contain;
 }
 </style>
