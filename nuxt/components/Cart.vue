@@ -45,6 +45,7 @@ export default {
 
 @media(max-width: 600px) {
 	.cart {
+		top: 50vh;
 		right: 14px;
 		padding: 17px 14px 13px 11px
 	}

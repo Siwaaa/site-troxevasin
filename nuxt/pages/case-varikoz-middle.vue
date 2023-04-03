@@ -118,7 +118,7 @@
           <div class="others__list">
             <div class="others__item">
               <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+              <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
               </p>
               <div class="others__btns">
@@ -152,7 +152,7 @@
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+                  <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
                   </p>
                   <div class="others__btns">

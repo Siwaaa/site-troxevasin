@@ -186,7 +186,7 @@
           <h2 class="title-h1">Другие продукты линейки <br>Троксевазин<sup>®</sup></h2>
           <div class="others__list">
             <div class="others__item">
-              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+              <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo">
@@ -212,7 +212,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+                  <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo">

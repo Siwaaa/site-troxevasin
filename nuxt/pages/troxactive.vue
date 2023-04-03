@@ -266,7 +266,7 @@
           <h2 class="title-h1" style="max-width: 928px">Линейка Троксевазин<sup>®</sup> – комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1">
-              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+              <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p>
                 <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
@@ -294,7 +294,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+                  <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p>
                     <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>

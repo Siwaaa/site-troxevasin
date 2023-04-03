@@ -98,7 +98,7 @@
             <img src="/img/case/stats.png" alt="" loading="lazy"/>
           </div>
           <div class="stats__right">
-            <h2 class="title-h1">Согласно исследованию,<sup>6</sup> 92% пациентов начинают лечение симптомов варикоза<sup>*</sup> с помощью наружных средств</h2>
+            <h2 class="title-h1">Согласно исследованию<sup>6</sup>, 92% пациентов начинают лечение симптомов варикоза<sup>*</sup> с помощью наружных средств</h2>
             <p>Бороться с варикозом помогут средства бренда Троксевазин<sup>®</sup>, который на протяжении более 40 лет<sup>3</sup> помогает россиянам справляться с варикозом<sup>*</sup>.</p>
           </div>
         </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="others__item">
               <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+              <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
               </p>
               <div class="others__btns">
@@ -159,7 +159,7 @@
               <swiper-slide>
                 <div class="others__item">
                   <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
-                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+                  <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
                   </p>
                   <div class="others__btns">

@@ -197,7 +197,7 @@
               </NuxtLink>
             </div>
             <div class="others__item swiper-gel-1"> 
-              <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+              <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo">
@@ -225,7 +225,7 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="others__item">
-                  <img src="/img/product/other-gel-1-40.png" alt="" loading="lazy"/>
+                  <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo">
