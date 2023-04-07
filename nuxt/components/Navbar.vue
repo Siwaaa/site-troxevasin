@@ -63,7 +63,10 @@
                       </svg>
                     </p>
                   </NuxtLink>
-                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" rounded />
+                  <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" rounded /> -->
+                  <NuxtLink to="/gel" class="menu__item_btn-link">
+                    <Button @click="toggleMenu" label="Узнать больше" rounded />
+                  </NuxtLink>
                 </div>
               </swiper-slide>
               <swiper-slide>
@@ -78,7 +81,10 @@
                       </svg>
                     </p>
                   </NuxtLink>
-                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" rounded />
+                  <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" rounded /> -->
+                  <NuxtLink to="/neo" class="menu__item_btn-link">
+                    <Button @click="toggleMenu" label="Узнать больше" rounded />
+                  </NuxtLink>
                 </div>
               </swiper-slide>
               <swiper-slide>
@@ -93,7 +99,10 @@
                       </svg>
                     </p>
                   </NuxtLink>
-                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" rounded />
+                  <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" rounded /> -->
+                  <NuxtLink to="/troxactive" class="menu__item_btn-link">
+                    <Button @click="toggleMenu" label="Узнать больше" rounded />
+                  </NuxtLink>
                 </div>
               </swiper-slide>
               <swiper-slide>
@@ -108,7 +117,10 @@
                       </svg>
                     </p>
                   </NuxtLink>
-                  <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" rounded />
+                  <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" rounded /> -->
+                  <NuxtLink to="/capsules" class="menu__item_btn-link">
+                    <Button @click="toggleMenu" label="Узнать больше" rounded />
+                  </NuxtLink>
                 </div>
               </swiper-slide>
             </swiper>
@@ -426,7 +438,17 @@ const openUteka = (i) => {
     }
 
     & > .btn {
+      /* для случания, когда кнопка элемента ведет на uteka widget */
       max-width: 122px;
+      margin-top: 20px;
+
+      @media (--md) {
+        display: none;
+        margin-top: 0;
+      }
+    }
+
+    &_btn-link {
       margin-top: 20px;
 
       @media (--md) {
