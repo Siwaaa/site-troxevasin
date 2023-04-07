@@ -1,6 +1,6 @@
 <template>
   <main>
-    <header class="header-product">
+    <header class="header-product" id="header">
       <div class="header-product__wrapper container">
         <div class="header-product__content">
           <h1 class="title-h1"><strong>Троксевазин<sup>®</sup> 2 % — гель №1</strong><sup>*,1</sup> для лечения симптомов варикоза<sup>**,3</sup></h1>
@@ -50,7 +50,7 @@
       </div>
     </header>
 
-    <section class="symptoms">
+    <section class="symptoms" id="symptoms">
       <div class="symptoms__wrapper container">
         <div class="symptoms__content">
           <div class="symptoms__head">
@@ -91,7 +91,7 @@
       </div>
     </section>
 
-    <section class="secret">
+    <section class="secret" id="secret">
       <div class="secret__wrapper container">
         <div class="secret__content">
           <h2 class="title-h1">Секрет популярности Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
@@ -113,7 +113,7 @@
       </div>
     </section>
 
-    <section class="economy">
+    <section class="economy" id="economy">
       <div class="economy__wrapper container">
         <div class="economy__content">
           <div class="economy__left">
@@ -128,7 +128,7 @@
       </div>
     </section>
 
-    <section class="tutorial">
+    <section class="tutorial" id="tutorial">
       <div class="tutorial__wrapper container">
         <div class="tutorial__content">
           <div class="tutorial__head">
@@ -165,7 +165,7 @@
       </div>
     </section>
 
-    <section class="maternity">
+    <section class="maternity" id="maternity">
       <div class="maternity__wrapper container">
         <div class="maternity__content">
           <div class="maternity__text">
@@ -180,7 +180,7 @@
       </div>
     </section>
 
-    <section class="others">
+    <section class="others" id="products">
       <div class="others__wrapper container">
         <div class="others__content">
           <h2 class="title-h1">Другие продукты линейки <br>Троксевазин<sup>®</sup></h2>

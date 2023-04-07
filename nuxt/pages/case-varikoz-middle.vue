@@ -1,6 +1,6 @@
 <template>
   <main>
-    <header class="header-case">
+    <header class="header-case" id="header">
       <div class="header-case__wrapper container">
         <div class="header-case__top">
           <h1 class="title-h1 header-case__title">Варикоз<sup>*</sup> может сопровождаться такими неприятными проявлениями, как <strong>выпирающие узловатые вены и боль в ногах<sup>1</sup></strong></h1>
@@ -23,7 +23,8 @@
         </div>
       </div>
     </header>
-    <section class="factors">
+
+    <section class="factors" id="factors">
       <div class="factors__wrapper container">
         <div class="factors__content">
           <h2 class="title-h1">Факторы риска развития хронических заболеваний вен<sup>2</sup></h2>
@@ -53,7 +54,7 @@
       </div>
     </section>
 
-    <section class="symptoms">
+    <section class="symptoms" id="symptoms">
       <div class="symptoms__wrapper container">
         <div class="symptoms__content">
           <div class="symptoms__head">
@@ -89,7 +90,7 @@
       </div>
     </section>
 
-    <section class="vozdeystvyi">
+    <section class="vozdeystvyi" id="vozdeystvyi">
       <div class="vozdeystvyi__wrapper container">
         <div class="vozdeystvyi__content">
           <div class="vozdeystvyi__head">
@@ -112,7 +113,7 @@
       </div>
     </section>
     
-    <section class="others">
+    <section class="others" id="products">
       <div class="others__wrapper container">
         <div class="others__content">
           <div class="others__list">

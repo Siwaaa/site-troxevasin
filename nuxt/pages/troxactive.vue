@@ -1,6 +1,6 @@
 <template>
   <main>
-    <header class="header-product">
+    <header class="header-product" id="header">
       <div class="header-product__wrapper container">
         <div class="header-product__content">
           <h1 class="title-h1"><strong>Троксактив таблетки </strong>направленно действуют на вены изнутри при варикозе<sup>*,1</sup></h1>
@@ -53,7 +53,7 @@
       </div>
     </header>
 
-    <section class="symptoms">
+    <section class="symptoms" id="symptoms">
       <div class="symptoms__wrapper container">
         <div class="symptoms__content">
           <div class="symptoms__head head">
@@ -90,7 +90,7 @@
       </div>
     </section>
 
-    <section class="chronic">
+    <section class="chronic" id="chronic">
       <div class="chronic__wrapper container">
         <div class="chronic__content">
           <div ref="chronicModalTrigger" class="chronic__head head">
@@ -115,7 +115,7 @@
       </div>
     </section>
 
-    <section class="secret">
+    <section class="secret" id="secret">
       <div class="secret__wrapper container">
         <div class="secret__content secret-aorta">
           <div class="secret__head head">
@@ -126,7 +126,7 @@
       </div>
     </section>
 
-    <section class="economy">
+    <section class="economy" id="economy">
       <div class="economy__wrapper container">
         <div class="economy__head head">
           <h2 class="title-h1 text-al-center">Экономьте при покупке <br> больших упаковок 25%<sup>5</sup></h2>
@@ -170,7 +170,7 @@
       </div>
     </section>
 
-    <section class="tutorial">
+    <section class="tutorial" id="tutorial">
       <div class="tutorial__wrapper container">
         <div class="tutorial__content">
           <div class="tutorial__head">
@@ -260,7 +260,7 @@
       </div>
     </section>
 
-    <section class="others">
+    <section class="others" id="products">
       <div class="others__wrapper container">
         <div class="others__content">
           <h2 class="title-h1" style="max-width: 928px">Линейка Троксевазин<sup>®</sup> – комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>

@@ -47,7 +47,7 @@
       </div>
     </section>
 
-    <section class="products">
+    <section class="products" id="products">
       <div class="products__wrapper container">
         <div class="products__list">
           <div class="products__item">
