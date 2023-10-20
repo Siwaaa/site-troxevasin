@@ -9,8 +9,8 @@
           <p>Проверенный временем<sup>2</sup> препарат против тяжести и боли в ногах при варикозе<sup>**</sup>. Способствует укреплению вен и повышению их тонуса<sup>3</sup>.
           </p>
           <div class="header-product__menu"> 
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_1" />
+            <NuxtLink to="#faq" id="gel_faq_1">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -31,19 +31,19 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/test.png" srcset="/img/product/test@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/test.png" srcset="/img/product/test@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-gel-2.png" srcset="/img/product/p-gel-2@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-gel-2.png" srcset="/img/product/p-gel-2@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button @click="openUteka" label="Купить" arrowRight />
-          <NuxtLink to="#faq">
+          <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_2" />
+          <NuxtLink to="#faq" id="gel_faq_2">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>
         </div>
@@ -57,33 +57,33 @@
             <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup>:</h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.webp 2x" alt="" loading="lazy"/>
               <p>Тяжесть <br>и боль в ногах </p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-2.png" srcset="/img/product/symptom-2@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-2.png" srcset="/img/product/symptom-2@2x.webp 2x" alt="" loading="lazy"/>
               <p>Синяки<br>(гематомы)</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Боли и отеки <br>в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-4.png" srcset="/img/product/symptom-4@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-4.png" srcset="/img/product/symptom-4@2x.webp 2x" alt="" loading="lazy"/>
               <p>Поверхностный тромбофлебит</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-5.png" srcset="/img/product/symptom-5@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-5.png" srcset="/img/product/symptom-5@2x.webp 2x" alt="" loading="lazy"/>
               <p>Варикозное расширение вен</p>
             </li>
           </ul>
           <div class="symptoms__menu"> 
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_3" />
+            <NuxtLink to="#faq" id="gel_faq_3">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -118,11 +118,11 @@
         <div class="economy__content">
           <div class="economy__left">
             <h2 class="title-h1">Сэкономьте<sup>4</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25.png" alt="" loading="lazy"/>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <img src="/img/product/economy-25.png" srcset="/img/product/economy-25.webp 2x" alt="" loading="lazy"/>
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_4" />
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
-              <NuxtLink to="/neo">
+              <NuxtLink to="/neo" id="neo">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -197,7 +197,7 @@
               <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
               <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
               </p>
-              <NuxtLink to="/troxactive">
+              <NuxtLink to="/troxactive" id="troxactive">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -215,7 +215,7 @@
                   <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> —</strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>5</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
-                  <NuxtLink to="/neo">
+                  <NuxtLink to="/neo" id="neo">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>
@@ -225,7 +225,7 @@
                   <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
                   <p><strong class="others-orange">Для лечения симптомов варикоза<sup>**</sup> изнутри</strong> используйте таблетки Троксактив<sup>7</sup>
                   </p>
-                  <NuxtLink to="/troxactive">
+                  <NuxtLink to="/troxactive" id="troxactive">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div> 
@@ -328,7 +328,7 @@
                 </div>
                 <div class="instruction__desc">
                   <ul>
-                    <li>Повышенная чувствительность к препарату;</li>
+                    <li>Гиперчувствительность к троксерутину или к любому из вспомогательных веществ, входящих в состав препарата;</li>
                     <li>Нарушение целостности кожных покровов;</li>
                     <li>Детский возраст до 18 лет (опыт клинического применения недостаточен).</li>
                   </ul>
@@ -368,8 +368,7 @@
                   Наружно!<br><br>
                   Если врачом не рекомендовано иначе, то полоску геля длиной 1-3 см (в зависимости от площади пораженной поверхности) наносят тонким слоем на кожу на область поражения 2 раза в сутки утром и вечером, мягко втирая до полного впитывания. При необходимости гель можно наносить под окклюзионную повязку.<br><br>
                   Рекомендуется сочетать с приемом капсул Троксевазин® для усиления воздействия.<br><br>
-                  Если через 6-7 дней лечения улучшения не наступает или симптомы усугубляются, или появляются новые симптомы, необходимо проконсультироваться с врачом.<br><br>
-                  Применяйте препарат только согласно тем показаниям, тому способу применения и в тех дозах, которые указаны в инструкции.
+                  Если через 6-7 дней лечения улучшения не наступает или симптомы усугубляются, или появляются новые симптомы, необходимо проконсультироваться с врачом. <br><br>Применяйте препарат только согласно тем показаниям, тому способу применения и в тех дозах, которые указаны в инструкции.
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -388,7 +387,7 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Случаи передозировки при местном применении троксерутина не описаны. При случайном проглатывании большого количества геля необходимо провести общие меры выведения препарата <br>из организма (рвотные средства) и обратиться к врачу. <br><br>При наличии показаний проводится перитонеальный диализ.<br> При передозировке препарата необходимо обратиться к врачу.
+                  Случаи передозировки при местном применении троксерутина не описаны.<br><br>При случайном проглатывании большого количества геля необходимо провести общие меры выведения препарата из организма (рвотные средства) и обратиться к врачу. При наличии показаний проводится перитонеальный диализ. <br><br>При передозировке препарата необходимо обратиться к врачу. 
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -406,11 +405,7 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Гель наносят только на неповрежденную поверхность.<br><br>
-                  Избегать попадания на открытые раны, глаза и слизистые оболочки! При состояниях, характеризующихся повышенной проницаемостью сосудов (в т.ч. при скарлатине, гриппе, кори, аллергических реакциях), гель используют в сочетании с аскорбиновой кислотой для усиления ее эффекта.<br><br>
-                  Нельзя превышать максимальные сроки и рекомендованные дозы при самостоятельном применении препарата.<br><br>
-                  В случае отсутствия уменьшения или при утяжелении симптомов заболевания необходимо обратиться к врачу.<br><br>
-                  Влияние на способность управления транспортными средствами, механизмами Троксевазин® гель не оказывает влияния на способность управлять автотранспортным средством и работать с движущимися.
+                  Гель наносят только на неповрежденную поверхность. Избегать попадания на открытые раны, глаза и слизистые оболочки!<br><br> При состояниях, характеризующихся повышенной проницаемостью сосудов (в т.ч. при скарлатине, гриппе, кори, аллергических реакциях), гель используют в сочетании с аскорбиновой кислотой для усиления ее эффекта. <br><br> Нельзя превышать максимальные сроки и рекомендованные дозы при самостоятельном применении препарата.<br><br> В случае отсутствия уменьшения или при утяжелении симптомов заболевания необходимо обратиться к врачу. <br><br>Вспомогательные вещества<br> Препарат содержит бензалкония хлорид, раздражитель, может вызывать кожные реакции. 
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -419,7 +414,7 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Троксевазин® гель не оказывает влияния на способность управлять автотранспортным средством и работать с движущимися механизмами.
+                  Троксевазин® гель не оказывает влияния на способность управлять транспортными средствами и работать с механизмами.
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -428,7 +423,7 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Гель для наружного применения 2%. По 40 г в алюминиевую тубу с внутренним лаковым покрытием с алюминиевой мембраной или по 20 г, 40 г или 100 г в ламинатную (пластиковую) тубу с алюминиевой мембраной. Каждую тубу вместе с инструкцией по применению помещают в картонную пачку, на которую дополнительно могут быть нанесены защитные наклейки.
+                  Гель для наружного применения 2%. По 40 г в алюминиевую тубу с внутренним лаковым покрытием с алюминиевой мембраной или по 20 г, 40 г или 100 г в ламинатную (пластиковую) тубу с алюминиевой мембраной.<br><br> Каждую тубу вместе с инструкцией по медицинскому применению помещают в картонную пачку, на которую дополнительно могут быть нанесены защитные наклейки.
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -437,7 +432,7 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Хранить при температуре не выше 25 °С. Не замораживать! <br>Хранить в недоступном для детей месте!
+                  Хранить при температуре не выше 25 °С. Не замораживать! <br>ХРАНИТЬ В НЕДОСТУПНОМ ДЛЯ ДЕТЕЙ МЕСТЕ!
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -460,11 +455,11 @@
               </div>
               <div @click="toggleAccordion" class="instruction__item">
                 <div class="instruction__title">
-                  <h5>Организация, принимающая претензии потребителей</h5>
+                  <h5>Держатель регистрационного удостоверения</h5>
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  ООО «Тева», 115054, Москва, ул. Валовая, 35, <br>тел.: +7 (495) 644 22 34, факс: +7 (495) 644 22 35 <br>Адрес в интернете: www.teva.ru
+                  Балканфарма-Троян АД, <br>ул. Крайречна, 1, г. Троян 5600, Болгария
                 </div>
               </div>
               <div @click="toggleAccordion" class="instruction__item">
@@ -473,7 +468,16 @@
                   <div class="accordion-btn"></div>
                 </div>
                 <div class="instruction__desc">
-                  Балканфарма-Троян АД, <br>Болгария, г. Троян, 5600, ул. Крайречна 1.
+                  Балканфарма-Троян АД, <br>ул. Крайречна, 1, г. Троян 5600, Болгария
+                </div>
+              </div>
+              <div @click="toggleAccordion" class="instruction__item">
+                <div class="instruction__title">
+                  <h5>Организация, принимающая претензии потребителей</h5>
+                  <div class="accordion-btn"></div>
+                </div>
+                <div class="instruction__desc">
+                  Российская Федерация <br>ООО «Тева», <br>115054, Москва, ул. Валовая, 35,<br>Тел.: +7 (495) 644 22 34,<br>Факс: +7 (495) 644 22 35<br>Адрес электронной почты: <a href="mailto:info@teva.ru">info@teva.ru</a>
                 </div>
               </div>
             </div>
@@ -521,15 +525,12 @@
     <section class="sources">
       <div class="sources__wrapper container">
         <p>**При хронической венозной недостаточности
-          <br>1. В категории наружных венотоников, по продажам в деньгах 2018-2022, IQVIA
+          <br>1.  В категории наружных венотоников, по продажам в деньгах 2018-2022, IQVIA
           <br>2. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
-          <br>3. Инструкция по медицинскому применению лекарственного препарата Троксевазин® П N012713/02
-          <br>4. По сравнению с упаковкой Троксевазин гель 2% 40 г. Процент экономии определен по отпускным ценам ООО
-          «Тева» для упаковок 40г и 100г при расчете на 1г (Март 2023)
+          <br>3. Инструкция по медицинскому применению лекарственного препарата Троксевазин® геля ЛП-№(002561)-(РГ-RU)
+          <br>4. По сравнению с упаковкой Троксевазин гель 2% 40 г. Процент экономии определен по отпускным ценам ООО «Тева» для упаковок 40г и 100г при расчете на 1г (Март 2023)
           <br>5. По сравнению с Троксевазин® гелем 2%
-          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
-          https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01.
-          Дата обращения: 28.02.2023.
+          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01. Дата обращения: 28.02.2023.
           <br>7. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
         </p>
       </div>

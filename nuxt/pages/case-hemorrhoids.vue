@@ -66,23 +66,23 @@
             <h2 class="title-h1">Как бороться с геморроем<sup>2</sup></h2>
           </div>
           <div class="symptoms__img"> 
-            <img src="/img/product/symptoms-hemo.png" srcset="/img/product/symptoms-hemo@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-hemo.png" srcset="/img/product/symptoms-hemo@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item"> 
-              <img src="/img/product/symptom-case-5.png" srcset="/img/product/symptom-case-5@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-5.png" srcset="/img/product/symptom-case-5@2x.webp 2x" alt="" loading="lazy"/>
               <p>Диетотерапия</p>
             </li>
             <li class="symptoms__item"> 
-              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.webp 2x" alt="" loading="lazy"/>
               <p>Медикаментозное лечение</p>
             </li>
             <li class="symptoms__item"> 
-              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.webp 2x" alt="" loading="lazy"/>
               <p>Хирургическое вмешательство</p>
             </li>
             <li class="symptoms__item"> 
-              <img src="/img/product/symptom-case-6.png" srcset="/img/product/symptom-case-6@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-6.png" srcset="/img/product/symptom-case-6@2x.webp 2x" alt="" loading="lazy"/>
               <p>Малоинвазивное операционное вмешательство</p>
             </li>
           </ul>
@@ -120,8 +120,8 @@
                   хроническом<sup>6</sup></strong>
               </p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
-                <NuxtLink to="/troxactive">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight id="buy_troxactive" />
+                <NuxtLink to="/troxactive" id="troxactive">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -132,8 +132,8 @@
               <p><strong class="others-violet">Доступная цена<sup>3</sup>, <br> европейское
                   производство<sup>4</sup></strong></p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" arrowRight />
-                <NuxtLink to="/capsules">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" arrowRight id="buy_capsules" />
+                <NuxtLink to="/capsules" id="capsules">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -155,8 +155,8 @@
                       хроническом<sup>6</sup></strong>
                   </p>
                   <div class="others__btns">
-                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
-                    <NuxtLink to="/troxactive">
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight id="buy_troxactive" />
+                    <NuxtLink to="/troxactive" id="troxactive">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
                   </div>
@@ -170,7 +170,7 @@
                       производство<sup>4</sup></strong></p>
                   <div class="others__btns">
                     <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" arrowRight />
-                    <NuxtLink to="/capsules">
+                    <NuxtLink to="/capsules" id="capsules">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
                   </div>

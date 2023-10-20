@@ -23,7 +23,7 @@
           <Button label="Акции" rounded size="small"/>
         </div> -->
         <div class="navbar__item navbar__cta">
-          <button @click="openUteka" class="btn-sale" type="button">Купить</button>
+          <button @click="openUteka" class="btn-sale" type="button" id="buy_main">Купить</button>
         </div>
       </div>
       <button type="button" class="navbar__burger" @click="toggleMenu" aria-label="menu">
@@ -52,9 +52,9 @@
               @swiper="onSwiper"
             >
               <swiper-slide>
-                <div class="menu__item">
-                  <NuxtLink to="/gel" @click="toggleMenu">
-                    <img src="/img/navbar/item-3.png" alt=""/>
+                <NuxtLink to="/gel" @click="toggleMenu" class="menu__item" id="nav_gel">
+                  <div>
+                    <img src="/img/navbar/item-3.png" alt="" loading="lazy"/>
                     <h4>Троксевазин<sup>®</sup> гель 2 %</h4>
                     <p>
                       Гель против тяжести и боли в ногах при варикозе<sup>*</sup>
@@ -62,17 +62,17 @@
                         <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                       </svg>
                     </p>
-                  </NuxtLink>
+                  </div>
                   <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" rounded /> -->
-                  <NuxtLink to="/gel" class="menu__item_btn-link">
-                    <Button @click="toggleMenu" label="Узнать больше" rounded />
-                  </NuxtLink>
-                </div>
+                  <div class="menu__item_btn-link">
+                    <Button label="Узнать больше" rounded />
+                  </div>
+                </NuxtLink>
               </swiper-slide>
               <swiper-slide>
-                <div class="menu__item">
-                  <NuxtLink to="/neo" @click="toggleMenu">
-                    <img src="/img/navbar/item-2.png" alt=""/>
+                <NuxtLink to="/neo" @click="toggleMenu" class="menu__item" id="nav_neo">
+                  <div>
+                    <img src="/img/navbar/item-2.png" alt="" loading="lazy"/>
                     <h4>Троксевазин<sup>®</sup> Нео гель</h4>
                     <p>
                       Гель для укрепления вен и уменьшения воспаления при варикозе<sup>*</sup>
@@ -80,17 +80,17 @@
                         <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                       </svg>
                     </p>
-                  </NuxtLink>
+                  </div>
                   <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" rounded /> -->
-                  <NuxtLink to="/neo" class="menu__item_btn-link">
-                    <Button @click="toggleMenu" label="Узнать больше" rounded />
-                  </NuxtLink>
-                </div>
+                  <div class="menu__item_btn-link">
+                    <Button label="Узнать больше" rounded />
+                  </div>
+                </NuxtLink>
               </swiper-slide>
               <swiper-slide>
-                <div class="menu__item">
-                  <NuxtLink to="/troxactive" @click="toggleMenu">
-                    <img src="/img/navbar/item-1.png" alt=""/>
+                <NuxtLink to="/troxactive" @click="toggleMenu" class="menu__item" id="nav_troxactive">
+                  <div>
+                    <img src="/img/navbar/item-1.png" alt="" loading="lazy"/>
                     <h4>Троксактив таблетки</h4>
                     <p>
                       Таблетки для лечения варикоза<sup>*</sup> и геморроя изнутри 
@@ -98,17 +98,17 @@
                         <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                       </svg>
                     </p>
-                  </NuxtLink>
+                  </div>
                   <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" rounded /> -->
-                  <NuxtLink to="/troxactive" class="menu__item_btn-link">
-                    <Button @click="toggleMenu" label="Узнать больше" rounded />
-                  </NuxtLink>
-                </div>
+                  <div class="menu__item_btn-link">
+                    <Button label="Узнать больше" rounded />
+                  </div>
+                </NuxtLink>
               </swiper-slide>
               <swiper-slide>
-                <div class="menu__item">
-                  <NuxtLink to="/capsules" @click="toggleMenu">
-                    <img src="/img/navbar/item-4.png" alt=""/>
+                <NuxtLink to="/capsules" @click="toggleMenu" class="menu__item" id="nav_capsules">
+                  <div>
+                    <img src="/img/navbar/item-4.png" alt="" loading="lazy"/>
                     <h4>Троксевазин<sup>®</sup> капсулы</h4>
                     <p>
                       Капсулы при хронической венозной недостаточности и геморрое
@@ -116,17 +116,17 @@
                         <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
                       </svg>
                     </p>
-                  </NuxtLink>
+                  </div>
                   <!-- <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=33267&productIds=33264')" label="Купить" rounded /> -->
-                  <NuxtLink to="/capsules" class="menu__item_btn-link">
-                    <Button @click="toggleMenu" label="Узнать больше" rounded />
-                  </NuxtLink>
-                </div>
+                  <div class="menu__item_btn-link">
+                    <Button label="Узнать больше" rounded />
+                  </div>
+                </NuxtLink>
               </swiper-slide>
             </swiper>
 
             <div class="menu-btn">
-              <Button @click="openUteka" label="Купить" arrowRight />
+              <Button @click="openUteka" label="Купить" arrowRight id="buy_main" />
             </div>
           </div>
         </div>

@@ -7,8 +7,8 @@
           <p>Самое назначаемое действующее вещество (МНН) для лечения симптомов хронических заболеваний вен<sup>2</sup>
           </p>
           <div class="header-product__menu">
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_troxactive_1" />
+            <NuxtLink to="#faq" id="troxactive_faq_1">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -29,24 +29,24 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-trox-1.png" srcset="/img/product/p-trox-1@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-trox-1.png" srcset="/img/product/p-trox-1@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-trox-2.png" srcset="/img/product/p-trox-2@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-trox-2.png" srcset="/img/product/p-trox-2@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-trox-3.png" srcset="/img/product/p-trox-3@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-trox-3.png" srcset="/img/product/p-trox-3@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button @click="openUteka" label="Купить" arrowRight />
-          <NuxtLink to="#faq">
+          <Button @click="openUteka" label="Купить" arrowRight id="buy_troxactive_2" />
+          <NuxtLink to="#faq" id="troxactive_faq_2">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>
         </div>
@@ -60,29 +60,29 @@
             <h2 class="title-h1">Помогает бороться против симптомов варикоза<sup>*</sup> и геморроя<sup>1</sup></h2>
           </div>
           <div class="symptoms__img"> 
-            <img src="/img/product/symptoms-trox.png" srcset="/img/product/symptoms-trox@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-trox.png" srcset="/img/product/symptoms-trox@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Усталость <br> и боль <br> в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.webp 2x" alt="" loading="lazy"/>
               <p>Отеки <br>и судороги в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-8.png" srcset="/img/product/symptom-8@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-8.png" srcset="/img/product/symptom-8@2x.webp 2x" alt="" loading="lazy"/>
               <p>Венозные трофические <br>язвы</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-11.png" srcset="/img/product/symptom-11@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-11.png" srcset="/img/product/symptom-11@2x.webp 2x" alt="" loading="lazy"/>
               <p>Острый и хронический геморрой </p>
             </li>
           </ul>
           <div class="symptoms__menu">
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_troxactive_3" />
+            <NuxtLink to="#faq" id="troxactive_faq_3">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -99,15 +99,15 @@
           </div>
           <ul class="chronic__list">
             <li class="chronic__item">
-              <img src="/img/product/chronic-1.png" srcset="/img/product/chronic-1@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/chronic-1.png" srcset="/img/product/chronic-1@2x.webp 2x" alt="" loading="lazy"/>
               <p>Одна таблетка в день<sup>**</sup></p>
             </li>
             <li class="chronic__item">
-              <img src="/img/product/chronic-2.png" srcset="/img/product/chronic-2@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/chronic-2.png" srcset="/img/product/chronic-2@2x.webp 2x" alt="" loading="lazy"/>
               <p>Доступная цена<sup>10</sup></p>
             </li>
             <li class="chronic__item">
-              <img src="/img/product/chronic-3.png" srcset="/img/product/chronic-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/chronic-3.png" srcset="/img/product/chronic-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Европейское производство<sup>1</sup></p>
             </li>
           </ul>
@@ -133,14 +133,14 @@
         </div>
         <div class="economy-two">
           <div class="economy-two__item">
-            <img src="/img/product/economy-two-1.jpg" alt="" loading="lazy"/>
+            <img src="/img/product/economy-two-1.webp" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема<sup>**,1</sup></p>
-            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight />
+            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight id="buy_troxactive_4" />
           </div>
           <div class="economy-two__item">
-            <img src="/img/product/economy-two-2.jpg" alt="" loading="lazy"/>
+            <img src="/img/product/economy-two-2.webp" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>2 месяца приема<sup>**,1</sup></p>
-            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight />
+            <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight id="buy_troxactive_5" />
           </div>
         </div>
         <div class="economy__swiper">
@@ -153,16 +153,16 @@
           >
             <swiper-slide>
               <div class="economy-two__item">
-                <img src="/img/product/economy-two-1.png" alt="" loading="lazy"/>
+                <img src="/img/product/economy-two-1.webp" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема</p>
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight id="buy_troxactive_4" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="economy-two__item">
-                <img src="/img/product/economy-two-2.png" alt="" loading="lazy"/>
+                <img src="/img/product/economy-two-2.webp" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>3 месяца приема</p>
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight />
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight id="buy_troxactive_5" />
               </div>
             </swiper-slide>
           </swiper>
@@ -270,7 +270,7 @@
               <p>
                 <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
-              <NuxtLink to="/neo">
+              <NuxtLink to="/neo" id="neo">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -279,7 +279,7 @@
               <p>
                 <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>7</sup>, проверенный временем гель<sup>8</sup>
               </p>
-              <NuxtLink to="/gel">
+              <NuxtLink to="/gel" id="gel">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -298,7 +298,7 @@
                   <p>
                     <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
-                  <NuxtLink to="/neo">
+                  <NuxtLink to="/neo" id="neo">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>
@@ -309,7 +309,7 @@
                   <p>
                     <strong class="others-violet">Узнайте больше <br> о Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>7</sup>, проверенный временем гель<sup>8</sup>
                   </p>
-                  <NuxtLink to="/gel">
+                  <NuxtLink to="/gel" id="gel">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>

@@ -7,7 +7,7 @@
             <strong>отеки и судороги в ногах</strong>
           </h1>
           <div class="header-case__img">
-            <img src="/img/case/header-1.png" srcset="/img/case/header-1@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/case/header-1.png" srcset="/img/case/header-1@2x.webp 2x" alt="" loading="lazy"/>
           </div>
         </div>
         <div ref="veniModalTrigger" class="header-case__list">
@@ -63,22 +63,22 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-varikoz.png" srcset="/img/product/symptoms-varikoz@2x.png 2x" alt="" loading="lazy"/></div>
+            <img src="/img/product/symptoms-varikoz.png" srcset="/img/product/symptoms-varikoz@2x.webp 2x" alt="" loading="lazy"/></div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.webp 2x" alt="" loading="lazy"/>
               <p>Медикаментозная <br>терапия</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-2.png" srcset="/img/product/symptom-case-2@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-2.png" srcset="/img/product/symptom-case-2@2x.webp 2x" alt="" loading="lazy"/>
               <p>Компрессионный <br>трикотаж</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-3.png" srcset="/img/product/symptom-case-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-3.png" srcset="/img/product/symptom-case-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Лечебная <br>физкультура</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.webp 2x" alt="" loading="lazy"/>
               <p>Хирургическое <br>вмешательство</p>
             </li>
           </ul>
@@ -123,8 +123,8 @@
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>
                 Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup></p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
-                <NuxtLink to="/neo">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight id="buy_neo" />
+                <NuxtLink to="/neo" id="neo">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -135,8 +135,8 @@
               <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>4</sup></strong><br> в лечении
                 симптомов <br> варикоза<sup>*</sup></p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
-                <NuxtLink to="/troxactive">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight id="buy_troxactive" />
+                <NuxtLink to="/troxactive" id="troxactive">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -157,8 +157,10 @@
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup>
                   </p>
                   <div class="others__btns">
-                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
-                    <Button label="Узнать больше" rounded />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight id="buy_neo" />
+                    <NuxtLink to="/neo" id="neo">
+                      <Button label="Узнать больше" rounded/>
+                    </NuxtLink>
                   </div>
                 </div>
               </swiper-slide>
@@ -169,8 +171,10 @@
                   <p><strong class="others-orange">Самая востребованная формула (МНН)<sup>4</sup></strong><br> в лечении
                     симптомов <br> варикоза<sup>*</sup></p>
                   <div class="others__btns">
-                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight />
-                    <Button label="Узнать больше" rounded />
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=376787&productIds=376941&productIds=376944')" label="Купить" arrowRight id="buy_troxactive" />
+                    <NuxtLink to="/troxactive" id="troxactive">
+                      <Button label="Узнать больше" rounded/>
+                    </NuxtLink>
                   </div>
                 </div>
               </swiper-slide>

@@ -7,8 +7,8 @@
           <p>Для укрепления вен, уменьшения <br>воспаления и уменьшения отеков при варикозе<sup>***,1</sup>.
           </p>
           <div class="header-product__menu"> 
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_1" />
+            <NuxtLink to="#faq" id="neo_faq_1">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -32,19 +32,19 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-neo-1.png" srcset="/img/product/p-neo-1@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-neo-1.png" srcset="/img/product/p-neo-1@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-neo-2.png" srcset="/img/product/p-neo-2@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-neo-2.png" srcset="/img/product/p-neo-2@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button @click="openUteka" label="Купить" arrowRight />
-          <NuxtLink to="#faq">
+          <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_2" />
+          <NuxtLink to="#faq" id="neo_faq_2">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>
         </div>
@@ -58,29 +58,29 @@
             <h2 class="title-h1">Помогает бороться <br>с симптомами варикоза<sup>***,1</sup></h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-neo.png" srcset="/img/product/symptoms-neo@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-neo.png" srcset="/img/product/symptoms-neo@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.webp 2x" alt="" loading="lazy"/>
               <p>Распирание <br> и тяжесть <br> в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.webp 2x" alt="" loading="lazy"/>
               <p>Судороги <br>и парестезии в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Боли и отеки <br>в ногах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-7.png" srcset="/img/product/symptom-7@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-7.png" srcset="/img/product/symptom-7@2x.webp 2x" alt="" loading="lazy"/>
               <p>Варикозный <br>дерматит</p>
             </li>
           </ul>
           <div class="symptoms__menu">
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_3" />
+            <NuxtLink to="#faq" id="neo_faq_3">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -119,11 +119,11 @@
         <div class="economy__content">
           <div class="economy__left">
             <h2 class="title-h1">Сэкономьте<sup>2</sup> до 25% при покупке<br>большой упаковки Троксевазин<sup>®</sup> НЕО<br>100 г. </h2>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25-neo.png" srcset="/img/product/economy-25-neo@2x.png 2x" alt="" loading="lazy"/>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <img src="/img/product/economy-25-neo.png" srcset="/img/product/economy-25-neo@2x.webp 2x" alt="" loading="lazy"/>
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_4" />
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@
               <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br> выгодная цена<sup>3</sup>, <br> европейское производство<sup>1</sup>
               </p>
-              <NuxtLink to="/gel">
+              <NuxtLink to="/gel" id="gel">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -198,7 +198,7 @@
               <p>
                 <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>**</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
               </p>
-              <NuxtLink to="/troxactive">
+              <NuxtLink to="/troxactive" id="troxactive">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -216,7 +216,7 @@
                   <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br> выгодная цена<sup>3</sup>, <br> европейское производство<sup>1</sup>
                   </p>
-                  <NuxtLink to="/gel">
+                  <NuxtLink to="/gel" id="gel">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>
@@ -227,7 +227,7 @@
                   <p>
                     <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>**</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
                   </p>
-                  <NuxtLink to="/troxactive">
+                  <NuxtLink to="/troxactive" id="troxactive">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>

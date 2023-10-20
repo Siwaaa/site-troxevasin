@@ -12,11 +12,14 @@ useHead({
   },
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'preconnect', href: 'https://geolocation.onetrust.com' },
+    { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+    { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   ],
   script: [
     // <!-- OneTrust Cookies Consent Notice start for troxevasin.ru -->
-    {src: "https://cdn.cookielaw.org/consent/18849e98-35f3-4de6-8f8c-73f05b7fc536/OtAutoBlock.js"},
-    {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-language": "ru", "charset": "UTF-8", "data-domain-script": "18849e98-35f3-4de6-8f8c-73f05b7fc536"},
+    {src: "https://cdn.cookielaw.org/consent/34381627-2539-4fd3-be0e-4d904b5e84d7/OtAutoBlock.js", },
+    {src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js", "data-document-language": "true", "charset": "UTF-8", "data-domain-script": "34381627-2539-4fd3-be0e-4d904b5e84d7", type: "text/javascript"},
     {innerHTML: "function OptanonWrapper() { }", type: "text/javascript"},
     // <!-- OneTrust Cookies Consent Notice end for troxevasin.ru -->
     // <!-- UTEKA start -->
@@ -53,34 +56,31 @@ useHead({
       gtag('js', new Date());
 
       gtag('config', 'G-0TGE7W06YH');`
-    }
+    },
+    // <!-- /Google tag (gtag.js) -->
+    // <!-- Google Tag Manager -->
+    {
+      type: "text/javascript",
+      innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJ4F4WC');`
+    },
   ],
   noscript: [
-    { innerHTML: '<div><img src="https://mc.yandex.ru/watch/92925175" style="position:absolute; left:-9999px;" alt="" /></div>' },
+    { innerHTML: '<div><img src="https://mc.yandex.ru/watch/92925175" style="position:absolute; left:-9999px;" alt="" /></div>', tagPosition: 'head' },
+    { innerHTML: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ4F4WC" height="0" width="0" style="display:none;visibility:hidden"></iframe>', tagPosition: 'bodyOpen' },
   ] 
 })
-
-// const visible = ref(false);
-
-// onMounted(() => {
-//   const domEl = Array.from(document.querySelectorAll('.btn'))
-//   const a = domEl.filter(el => el.children[0]?.innerHTML === "Купить")
-
-//   a.forEach(el => {
-//     el.addEventListener('click', () => {
-//       visible.value = true;
-//     })
-//   })
-// })
-// c208134931e7c1d9ce52562d22c933a3106ccd5cd23f79d653c56f205ea4b4ee45cdd1cff50fb744f865fc01d6227254f4de87b83fb9b1b2427dba7954de471c2cc14d769c5a67ae4a1794b897caa400480e8ce2806f90d666fe2a8738956a26437756e133bb2950ff7a41fd3e029f417a3174adde67339fc12aab2ea9028138
+//c208134931e7c1d9ce52562d22c933a3106ccd5cd23f79d653c56f205ea4b4ee45cdd1cff50fb744f865fc01d6227254f4de87b83fb9b1b2427dba7954de471c2cc14d769c5a67ae4a1794b897caa400480e8ce2806f90d666fe2a8738956a26437756e133bb2950ff7a41fd3e029f417a3174adde67339fc12aab2ea9028138
 // const res = await $fetch("http://localhost:1337/api/tests")
 </script>
 
-<template>
+<template>  
   <Navbar />
   <NuxtPage />
   <Footer />
   <MedInfo />
   <Cart />
-  <!-- <ModalUteka v-model:visible="visible" /> -->
 </template>

@@ -6,7 +6,7 @@
           <h1 class="title-h1 header-case__title">Варикоз<sup>*</sup> – распространенное заболевание<sup>1</sup>, признаками которого могут быть <strong>сосудистые звездочки, боль и тяжесть в ногах<sup>2</sup></strong>
           </h1>
           <div class="header-case__img">
-            <img src="/img/case/header-case.png" srcset="/img/case/header-case@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/case/header-case.png" srcset="/img/case/header-case@2x.webp 2x" alt="" loading="lazy"/>
           </div>
         </div>
         <div ref="veniModalTrigger" class="header-case__list">
@@ -63,23 +63,23 @@
             <p>Может применяться комбинация различных методов лечения</p>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-varikoz.png" srcset="/img/product/symptoms-varikoz@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-varikoz.png" srcset="/img/product/symptoms-varikoz@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-1.png" srcset="/img/product/symptom-case-1@2x.webp 2x" alt="" loading="lazy"/>
               <p>Медикаментозная <br>терапия</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-2.png" srcset="/img/product/symptom-case-2@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-2.png" srcset="/img/product/symptom-case-2@2x.webp 2x" alt="" loading="lazy"/>
               <p>Компрессионный <br>трикотаж</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-3.png" srcset="/img/product/symptom-case-3@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-3.png" srcset="/img/product/symptom-case-3@2x.webp 2x" alt="" loading="lazy"/>
               <p>Лечебная <br>физкультура</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-case-4.png" srcset="/img/product/symptom-case-4@2x.webp 2x" alt="" loading="lazy"/>
               <p>Хирургическое <br>вмешательство</p>
             </li>
           </ul>
@@ -115,8 +115,8 @@
               <p><strong class="others-violet">Проверенный временем<sup>3</sup> препарат против тяжести и боли в ногах при варикозе<sup>*</sup></strong><br>Способствует укреплению вен и повышению их тонуса<sup>4</sup>
               </p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight />
-                <NuxtLink to="/gel">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight id="buy_gel" />
+                <NuxtLink to="/gel" id="gel">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -127,8 +127,8 @@
               <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
               </p>
               <div class="others__btns">
-                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
-                <NuxtLink to="/neo">
+                <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight id="buy_neo" />
+                <NuxtLink to="/neo" id="neo">
                   <Button label="Узнать больше" rounded/>
                 </NuxtLink>
               </div>
@@ -149,8 +149,8 @@
                   <p><strong class="others-violet">Проверенный временем<sup>3</sup> препарат против тяжести и боли в ногах при варикозе<sup>*</sup></strong><br>Способствует укреплению вен и повышению их тонуса<sup>4</sup>
                   </p>
                   <div class="others__btns">
-                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight />
-                    <NuxtLink to="/gel">
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=365040&productIds=33271')" label="Купить" arrowRight id="buy_gel" />
+                    <NuxtLink to="/gel" id="gel">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
                   </div>
@@ -163,8 +163,8 @@
                   <p><strong class="others-violet">Усиленная<sup>**</sup> формула с тройным действием<sup>***</sup> против симптомов варикоза<sup>*</sup></strong><br> Способствует укреплению вен, уменьшению воспаления и снятию отека при варикозе<sup>5</sup>
                   </p>
                   <div class="others__btns">
-                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight />
-                    <NuxtLink to="/neo">
+                    <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productIds=266995&productIds=377032')" label="Купить" arrowRight id="buy_neo" />
+                    <NuxtLink to="/neo" id="neo">
                       <Button label="Узнать больше" rounded/>
                     </NuxtLink>
                   </div>
@@ -180,20 +180,14 @@
       <div class="sources__wrapper container">
         <p>* Хроническая венозная недостаточность
           <br>** По сравнениню с Троксевазин® Гель 2 %
-          <br>*** Венотонизирующее, противовоспалительное, противоотечное5.
-          <br>1. Rabe E., Guex J., Puskas A., Scuderi A., Fernandez Quesada F., Coordinators V. Epidemiology of chronic
-          venous disorders in geographically diverse populations: results from the Vein Consult Program//Int Angiol. 2012.
-          Vol. 2. P. 105-115.
+          <br>*** Венотонизирующее, противовоспалительное, противоотечное<sup>5</sup>. 
+          <br>1. Rabe E., Guex J., Puskas A., Scuderi A., Fernandez Quesada F., Coordinators V. Epidemiology of chronic venous disorders in geographically diverse populations: results from the Vein Consult Program//Int Angiol. 2012. Vol. 2. P. 105-115.
           <br>2. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 2021
           <br>3. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
-          <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® П N012713/02
-          <br>5. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
-          https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01.
-          Дата обращения: 28.02.2023.
+          <br>4. Инструкция по медицинскому применению лекарственного препарата Троксевазин® геля ЛП-№(002561)-(РГ-RU)
+          <br>5. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01. Дата обращения: 28.02.2023.
           <br>6. Исследование Ipsos. Изучение привычек и особенностей использования венотоников. 2021
-          <br>7. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) и инструкция по медицинскому применению
-          лекарственного препарата Троксевазин® Гель 2 %
-          NO12713/02.
+          <br>7. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) и инструкция по медицинскому применению лекарственного препарата Троксевазин® Гель 2 % NO12713/02.
         </p>
       </div>
     </section>

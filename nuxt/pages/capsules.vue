@@ -7,8 +7,8 @@
           <p>Воздействует на проявления хронической венозной недостаточности и геморроя изнутри<sup>2</sup>.
           </p>
           <div class="header-product__menu">
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_1" />
+            <NuxtLink to="#faq" id="capsules_faq_1">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -29,19 +29,19 @@
           >
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-caps-1.png" srcset="/img/product/p-caps-1@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-caps-1.png" srcset="/img/product/p-caps-1@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="header-product__swiper-item">
-                <img src="/img/product/p-caps-2.png" srcset="/img/product/p-caps-2@2x.png 2x" alt="" loading="lazy" />
+                <img src="/img/product/p-caps-2.png" srcset="/img/product/p-caps-2@2x.webp 2x" alt="" loading="lazy" />
               </div>
             </swiper-slide>
           </swiper>
         </div>
         <div class="header-product__menu_mobile">
-          <Button @click="openUteka" label="Купить" arrowRight />
-          <NuxtLink to="#faq">
+          <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_2" />
+          <NuxtLink to="#faq" id="capsules_faq_2">
             <Button label="Инструкция" arrowRight rounded />
           </NuxtLink>  
         </div>
@@ -55,29 +55,29 @@
             <h2 class="title-h1">Помогает бороться с симптомами при геморрое и варикозе<sup>*,2</sup></h2>
           </div>
           <div class="symptoms__img">
-            <img src="/img/product/symptoms-caps.png" srcset="/img/product/symptoms-caps@2x.png 2x" alt="" loading="lazy"/>
+            <img src="/img/product/symptoms-caps.png" srcset="/img/product/symptoms-caps@2x.webp 2x" alt="" loading="lazy"/>
           </div>
           <ul class="symptoms__list">
             <li class="symptoms__item">
-              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.webp 2x" alt="" loading="lazy"/>
               <p>Хронической<br>венозной<br>недостаточности</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-8.png" srcset="/img/product/symptom-8@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-8.png" srcset="/img/product/symptom-8@2x.webp 2x" alt="" loading="lazy"/>
               <p>Трофических <br>язвах</p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-9.png" srcset="/img/product/symptom-9@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-9.png" srcset="/img/product/symptom-9@2x.webp 2x" alt="" loading="lazy"/>
               <p>После склеротерапии вен<sup>**</sup></p>
             </li>
             <li class="symptoms__item">
-              <img src="/img/product/symptom-10.png" srcset="/img/product/symptom-10@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/symptom-10.png" srcset="/img/product/symptom-10@2x.webp 2x" alt="" loading="lazy"/>
               <p>Геморрое</p>
             </li>
           </ul>
           <div class="symptoms__menu"> 
-            <Button @click="openUteka" label="Купить" arrowRight />
-            <NuxtLink to="#faq">
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_3" />
+            <NuxtLink to="#faq" id="capsules_faq_3">
               <Button label="Инструкция" arrowRight rounded />
             </NuxtLink>
           </div>
@@ -120,11 +120,11 @@
         <div class="economy__content">
           <div class="economy__left">
             <h2 class="title-h1">Экономьте<sup>3</sup> <br> при покупке большой упаковки </h2>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-15.png" srcset="/img/product/economy-15@2x.png 2x" alt="" loading="lazy"/>
-            <Button @click="openUteka" label="Купить" arrowRight />
+            <img src="/img/product/economy-15.png" srcset="/img/product/economy-15@2x.webp 2x" alt="" loading="lazy"/>
+            <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_4" />
           </div>
         </div>
       </div>
@@ -192,7 +192,7 @@
               <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
               </p>
-              <NuxtLink to="/gel">
+              <NuxtLink to="/gel" id="gel">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -200,7 +200,7 @@
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
-              <NuxtLink to="/neo">
+              <NuxtLink to="/neo" id="neo">
                 <Button label="Узнать больше" rounded/>
               </NuxtLink>
             </div>
@@ -218,7 +218,7 @@
                   <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Гель 2 % —</strong><br>доступная цена<sup>4</sup>, проверенный временем гель<sup>5</sup>
                   </p>
-                  <NuxtLink to="/gel">
+                  <NuxtLink to="/gel" id="gel">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>
@@ -228,7 +228,7 @@
                   <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
-                  <NuxtLink to="/neo">
+                  <NuxtLink to="/neo" id="neo">
                     <Button label="Узнать больше" rounded/>
                   </NuxtLink>
                 </div>
