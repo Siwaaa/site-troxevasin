@@ -27,6 +27,8 @@
         </div>
       </div>
 
+      <BannerTeva v-if="isIndexPage" />
+
       <div class="footer__bottom"> 
         <img src="/img/teva.svg" alt="Логотип Teva" />
         <div class="footer__bottom-address">За дополнительной информацией обращайтесь:
@@ -42,10 +44,22 @@
 </template>
 
 <script setup>
+import BannerTeva from './BannerTeva.vue';
+
+const route = useRoute();
 
 const pageUp = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// check route name === index
+const isIndexPage = computed(() => {
+  if (route.name === 'index') {
+    return true;
+  }
+  return false
+})
+
 </script>
 
 <style lang="postcss">
@@ -57,7 +71,6 @@ const pageUp = () => {
 
   &__top {
     display: flex;
-    border-bottom: 1px solid #D5D5D5;
 
     @media (--lg) {
       flex-wrap: wrap;
@@ -145,6 +158,7 @@ const pageUp = () => {
     font-size: 12px;
     line-height: 1.7;
     padding-top: 20px;
+    border-top: 1px solid #D5D5D5;
 
     @media (--md) {
       flex-direction: column;
