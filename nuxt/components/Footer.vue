@@ -3,13 +3,13 @@
     <div class="footer__wrapper container">
       <div class="footer__top">
         <div class="footer__top-links">
-          <a href="https://www.teva.ru/contact-us/med-info/" target="_blank">
+          <a href="https://www.teva.ru/ru/russia/contact-us/med-info/" target="_blank">
             Запросить медицинскую информацию 
             <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
             </svg>
           </a>
-          <a href="https://www.teva.ru/contact-us/unwanted-information/" target="_blank">
+          <a href="https://www.teva.ru/ru/russia/contact-us/adverse-event/" target="_blank">
             Сообщить о нежелательном явлении
             <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.407715 0.789062L3.78772 4.94709L0.407715 9.09229" stroke="#A71680"></path>
