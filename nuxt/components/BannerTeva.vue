@@ -272,7 +272,7 @@
     line-height: 20px;
   }
 
-  br {
+  .container-banner br {
     display: none;
   }
 
