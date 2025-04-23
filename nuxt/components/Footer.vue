@@ -36,7 +36,7 @@
           <br><a href="https://www.teva.ru/privacy-and-cookie-policy/" target="_blank" class="footer__bottom-privacy">Политика о конфиденциальности <br>и обработке файлов cookie</a>
           <br><a href="https://www.teva.ru/user-agreement/" target="_blank" class="footer__bottom-privacy">Пользовательское соглашение</a>
         </div>
-        <div class="footer__bottom-phone">тел. +7 495 644 22 34 <br>факс. +7 495 644 22 35
+        <div class="footer__bottom-phone">тел. +7 495 644 22 34
         </div>
         <div class="footer__bottom-internet">E-mail: info@teva.ru <br>www.teva.ru
         </div>
