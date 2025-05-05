@@ -94,7 +94,7 @@
       <div class="vozdeystvyi__wrapper container">
         <div class="vozdeystvyi__content">
           <div class="vozdeystvyi__head">
-            <h2 class="title-h1">Для комплексного воздействия <br> на симптомы изнутри и снаружи</h2>
+            <h2 class="title-h1">Для воздействия на симптомы <br> изнутри и снаружи</h2>
           </div>
           <div class="vozdeystvyi__body">
             <div class="vozdeystvyi__left">
@@ -118,7 +118,7 @@
         <div class="others__content">
           <div class="others__list">
             <div class="others__item">
-              <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
+              <h2 class="title-h1">Троксевазин<sup>®</sup> <br> Нео гель</h2>
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
               </p>
@@ -152,7 +152,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
+                  <h2 class="title-h1">Троксевазин<sup>®</sup> <br> Нео гель</h2>
                   <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>3</sup>
                   </p>
@@ -191,13 +191,11 @@
           <br>1. Eklöf B., Rutherford R.B., Bergan J.J. и соавт.; American Venous Forum International Ad Hoc Committee for
           Revision of the CEAP Classification: Revision of the CEAP classification for chronic venous disorders: consensus
           statement. J. Vasc. Surg., 2004; 40 (6): 1251–1252
-          <br>2. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 2021
+          <br>2. Варикозное расширение вен нижних конечностей. Клинические рекомендации МЗ РФ, год утверждения 2024
           <br>3. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
-          https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01.
-          Дата обращения: 28.02.2023.
-          <br>4. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
-          <br>5. Наиболее рекомендуемое врачами МНН для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс),
-          3кв 2022)
+          https://storage.brandquad.ru/accounts-media/TEVA/DAM/origin/0f2faedc-c44e-11ef-a2ec-061441bd84b0.pdf. Дата обращения: 21.04.2025.
+          <br>4. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№(000726)-(РГ-RU)
+          <br>5. Наиболее рекомендуемое врачами МНН для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс),4кв 2024). МОФФ Гесперидин + Диосмин – это наиболее продаваемое МНН в категории венотоников, продажи в деньгах 2021-2024, АЙКЬЮВИА
         </p>
       </div>
     </section>

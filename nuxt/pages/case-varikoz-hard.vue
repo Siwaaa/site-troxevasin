@@ -4,7 +4,7 @@
       <div class="header-case__wrapper container">
         <div class="header-case__top">
           <h1 class="title-h1 header-case__title">Варикоз<sup>*</sup> может сопровождаться такими проявлениями как
-            <strong>отеки и судороги в ногах</strong>
+            <strong>отеки и судороги в ногах<sup>1</sup></strong>
           </h1>
           <div class="header-case__img">
             <img src="/img/case/header-1.png" srcset="/img/case/header-1@2x.webp 2x" alt="" loading="lazy"/>
@@ -94,7 +94,7 @@
       <div class="vozdeystvyi__wrapper container">
         <div class="vozdeystvyi__content">
           <div class="vozdeystvyi__head">
-            <h2 class="title-h1">Для комплексного воздействия <br> на симптомы изнутри и снаружи</h2>
+            <h2 class="title-h1">Для воздействия на симптомы <br> изнутри и снаружи</h2>
           </div>
           <div class="vozdeystvyi__body">
             <div class="vozdeystvyi__left">
@@ -118,7 +118,7 @@
         <div class="others__content">
           <div class="others__list">
             <div class="others__item swiper-gel-1">
-              <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
+              <h2 class="title-h1">Троксевазин<sup>®</sup> <br> Нео гель</h2>
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
               <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>
                 Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup></p>
@@ -152,7 +152,7 @@
             >
               <swiper-slide>
                 <div class="others__item">
-                  <h2 class="title-h1">Троксевазин<sup>®</sup> <br> НЕО гель</h2>
+                  <h2 class="title-h1">Троксевазин<sup>®</sup> <br> Нео гель</h2>
                   <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
                   <p><strong class="others-violet">Инновация в линейке Троксевазин<sup>®</sup> — </strong>Троксевазин<sup>®</sup> Нео с усиленной<sup>**</sup> трехкомпонентной формулой<sup>2</sup>
                   </p>
@@ -188,11 +188,9 @@
     <section class="sources">
       <div class="sources__wrapper container">
         <p>* Хронической венозной недостаточности
-          <br>1. Варикозное расширение вен. Клинические рекомендации МЗ РФ, год утверждения 2021
-          <br>2. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
-          https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01.
-          Дата обращения: 28.02.2023.
-          <br>3. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
+          <br>1. Варикозное расширение вен нижних конечностей. Клинические рекомендации МЗ РФ, год утверждения 2024
+          <br>2. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://storage.brandquad.ru/accounts-media/TEVA/DAM/origin/0f2faedc-c44e-11ef-a2ec-061441bd84b0.pdf. Дата обращения: 21.04.2025.
+          <br>3. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№(000726)-(РГ-RU)
           <br>4. Наиболее рекомендуемое врачами МНН для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс),
           3кв 2022)
         </p>
