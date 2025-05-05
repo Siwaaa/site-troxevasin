@@ -57,7 +57,7 @@
       <div class="symptoms__wrapper container">
         <div class="symptoms__content">
           <div class="symptoms__head head">
-            <h2 class="title-h1">Помогает бороться против симптомов варикоза<sup>*</sup> и геморроя<sup>1</sup></h2>
+            <h2 class="title-h1">Помогает бороться с симптомами варикоза<sup>*</sup> и геморроя<sup>1</sup></h2>
           </div>
           <div class="symptoms__img"> 
             <img src="/img/product/symptoms-trox.png" srcset="/img/product/symptoms-trox@2x.webp 2x" alt="" loading="lazy"/>
@@ -94,7 +94,7 @@
       <div class="chronic__wrapper container">
         <div class="chronic__content">
           <div ref="chronicModalTrigger" class="chronic__head head">
-            <h2 class="title-h1"><i>Курс лечения</i> хронических заболеваний вен может длиться <i>от 2 до 12 месяцев</i><sup>9</sup></h2>
+            <h2 class="title-h1"><i>Курс лечения</i> хронических заболеваний ног может длиться <i>от 2 до 12 месяцев</i><sup>9</sup></h2>
             <p>Таблетки Троксактив можно принимать до 12 месяцев<sup>1</sup></p>
           </div>
           <ul class="chronic__list">
@@ -133,12 +133,12 @@
         </div>
         <div class="economy-two">
           <div class="economy-two__item">
-            <img src="/img/product/economy-two-1.webp" alt="" loading="lazy"/>
+            <img src="/img/product/economy-two-1(2).webp" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема<sup>**,1</sup></p>
             <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight id="buy_troxactive_4" />
           </div>
           <div class="economy-two__item">
-            <img src="/img/product/economy-two-2.webp" alt="" loading="lazy"/>
+            <img src="/img/product/economy-two-2(2).webp" alt="" loading="lazy"/>
             <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>2 месяца приема<sup>**,1</sup></p>
             <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight id="buy_troxactive_5" />
           </div>
@@ -153,14 +153,14 @@
           >
             <swiper-slide>
               <div class="economy-two__item">
-                <img src="/img/product/economy-two-1.webp" alt="" loading="lazy"/>
+                <img src="/img/product/economy-two-1(2).webp" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 90 шт.</span> <br>3 месяца приема</p>
                 <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376941')" label="Купить" arrowRight id="buy_troxactive_4" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="economy-two__item">
-                <img src="/img/product/economy-two-2.webp" alt="" loading="lazy"/>
+                <img src="/img/product/economy-two-2(2).webp" alt="" loading="lazy"/>
                 <p><span class="color-orange">Таблетки Троксактив 60 шт.</span> <br>3 месяца приема</p>
                 <Button @click="openUteka('https://widget.uteka.ru/widgets/full/?productId=376944')" label="Купить" arrowRight id="buy_troxactive_5" />
               </div>
@@ -204,7 +204,7 @@
               <div class="guide__wrap">
                 <div class="guide__item">
                   <img src="/img/product/guide-7.svg" alt="" loading="lazy"/>
-                  <p>1 таблетка в день во время еды</p>
+                  <p>1 таблетка в сутки во время еды</p>
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@
                   <div class="guide__wrap">
                     <div class="guide__item">
                       <img src="/img/product/guide-7.svg" alt="" loading="lazy"/>
-                      <p>1 таблетка в день во время еды</p>
+                      <p>1 таблетка в сутки во время еды</p>
                     </div>
                   </div>
                 </div>
@@ -263,7 +263,7 @@
     <section class="others" id="products">
       <div class="others__wrapper container">
         <div class="others__content">
-          <h2 class="title-h1" style="max-width: 928px">Линейка Троксевазин<sup>®</sup> – комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
+          <h2 class="title-h1" style="max-width: 928px">Линейка Троксевазин<sup>®</sup> – подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1">
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
@@ -538,15 +538,15 @@
         <p>*Симптомы хронических заболеваний вен
           <br>** При симптомах хронической венозной недостаточности 
           <br>1. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
-          <br>2. Наиболее рекомендуемое врачами МНН для для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс), 3кв 2022)
-          <br>3. ГРЛС, Дата доступа 09.02.2023
+          <br>2. Наиболее рекомендуемое врачами МНН для для лечения ХЗВ (Мониторинг назначений ЛП врачами PrIndex (Приндекс), 4кв 2024)
+          <br>3. ГРЛС, Дата доступа 21.04.2025
           <br>4. Garner RC, et al. J Pharm Sci. 2002;91(1):32–40 // Гарнер РС и др. Журнал Фармацевтических Наук. 2002;91(1):32–40
-          <br>5. По сравнению с Троксактивом 30шт. Процент экономии определен по отпускным ценам ООО «Тева» на 1 таблетку (Март 2023)
-          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01
-          <br>7. Розничная цена Троксевазин® гель 2% 40г - 360.4р (IQVIA, декабрь 2022)
+          <br>5. По сравнению с Троксактивом 30шт. Процент экономии определен по отпускным ценам ООО «Тева» на 1 таблетку (Апрель 2025)
+          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://storage.brandquad.ru/accounts-media/TEVA/DAM/origin/0f2faedc-c44e-11ef-a2ec-061441bd84b0.pdf
+          <br>7. Розничная цена Троксевазин® гель 2% 40г - 363р (IQVIA, февраль 2025)
           <br>8. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
           <br>9. Регламент применения МОФФ при ХЗВ. Богачев В.Ю., Болдин Б.В., и др. Современные показания к флеботропной терапии и её продолжительность. Амбулаторная хирургия: 2021;18(1):13-23
-          <br>10. Розничная цена Троксактива 30 таб – 1197,66 руб (IQVIA, Декабрь 2022)
+          <br>10. Розничная цена Троксактива 30 таб – 1375 руб (IQVIA, февраль 2025)
         </p>
       </div>
     </section>

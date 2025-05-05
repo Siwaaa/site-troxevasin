@@ -3,7 +3,7 @@
     <header class="header-product" id="header">
       <div class="header-product__wrapper container">
         <div class="header-product__content">
-          <h1 class="title-h1"><strong>Троксевазин<sup>®</sup> НЕО гель</strong> с усиленной<sup>*</sup> формулой тройного действия<sup>**</sup></h1>
+          <h1 class="title-h1"><strong>Троксевазин<sup>®</sup> Нео гель</strong> с усиленной<sup>*</sup> формулой тройного действия<sup>**</sup></h1>
           <p>Для укрепления вен, уменьшения <br>воспаления и уменьшения отеков при варикозе<sup>***,1</sup>.
           </p>
           <div class="header-product__menu"> 
@@ -63,15 +63,15 @@
           <ul class="symptoms__list">
             <li class="symptoms__item">
               <img src="/img/product/symptom.png" srcset="/img/product/symptom@2x.webp 2x" alt="" loading="lazy"/>
-              <p>Распирание <br> и тяжесть <br> в ногах</p>
+              <p>Ощущение распирания <br> и тяжести в ногах</p>
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-6.png" srcset="/img/product/symptom-6@2x.webp 2x" alt="" loading="lazy"/>
-              <p>Судороги <br>и парестезии в ногах</p>
+              <p>Судороги и ощущение онемения, покалывания, жжения</p>
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-3.png" srcset="/img/product/symptom-3@2x.webp 2x" alt="" loading="lazy"/>
-              <p>Боли и отеки <br>в ногах</p>
+              <p>Боли и отечность <br>в ногах</p>
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-7.png" srcset="/img/product/symptom-7@2x.webp 2x" alt="" loading="lazy"/>
@@ -106,7 +106,7 @@
             <li class="secret__item"> 
               <img src="/img/product/secret-5.png" srcset="/img/product/secret-5@2x.png 2x" alt="" loading="lazy"/>
               <span>Декспантенол</span>
-              <p>улучшает процессы обмена веществ и способствует регенерации поврежденных тканей<sup>1</sup></p>
+              <p>улучшает обменные процессы в коже и способствует регенерации поврежденных тканей<sup>1</sup></p>
             </li>
           </ul>
           <p class="secret__footnote"><sup>*</sup> По сравнению с Троксевазин<sup>®</sup> гелем 2 % </p>
@@ -118,11 +118,11 @@
       <div class="economy__wrapper container">
         <div class="economy__content">
           <div class="economy__left">
-            <h2 class="title-h1">Сэкономьте<sup>2</sup> до 25% при покупке<br>большой упаковки Троксевазин<sup>®</sup> НЕО<br>100 г. </h2>
+            <h2 class="title-h1">Сэкономьте<sup>2</sup> до 24% при покупке<br>большой упаковки Троксевазин<sup>®</sup> Нео<br>100 г. </h2>
             <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25-neo.png" srcset="/img/product/economy-25-neo@2x.webp 2x" alt="" loading="lazy"/>
+            <img src="/img/product/economy-25-neo(2).png" srcset="/img/product/economy-25-neo(2)@2x.webp 2x" alt="" loading="lazy"/>
             <Button @click="openUteka" label="Купить" arrowRight id="buy_neo_4" />
           </div>
         </div>
@@ -152,13 +152,13 @@
               <div class="steps__img">
                 <img src="/img/product/step-3.svg" alt="" loading="lazy"/>
               </div>
-              <p>Мягко втереть до полного впитывания</p>
+              <p>Слегка втереть до полного впитывания</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
                 <img src="/img/product/step-4.svg" alt="" loading="lazy"/>
               </div>
-              <p>Можно наносить под окклюзионную повязку</p>
+              <p>Можно наносить под бинты или эластичные чулки</p>
             </li>
           </ul>
         </div>
@@ -169,9 +169,9 @@
       <div class="maternity__wrapper container">
         <div class="maternity__content">
           <div class="maternity__text">
-            <h2 class="title-h1">Как применять при беременности<sup>1</sup></h2>
+            <h2 class="title-h1">Можно ли при беременности?<sup>1</sup></h2>
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
-            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
+            <p>Не применяйте препарат Троксевазин® Нео, если у Вас I триместр беременности. <br><br>Перед применением препарата во II и III триместрах беременности необходимо проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
@@ -196,7 +196,7 @@
             <div class="others__item swiper-gel-1">
               <img src="/img/product/other-troxactive.png" alt="" loading="lazy"/>
               <p>
-                <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>**</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
+                <strong class="others-orange">Для лечения симптомов <br>варикоза<sup>***</sup> изнутри</strong><br>используйте таблетки <br>Троксактив<sup>5</sup>
               </p>
               <NuxtLink to="/troxactive" id="troxactive">
                 <Button label="Узнать больше" rounded/>
@@ -495,8 +495,8 @@
           <br>1. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU)
           https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&amp;codeId=P.MM.01
           <br>2. По сравнению с Троксевазин® гель 2% 40 гр. Процент экономии определен по отпускным ценам ООО «Тева» для
-          упаковок 40г и 100г при расчете на 1г (Март 2023)
-          <br>3. Розничная цена Троксевазин® гель 2% 40г - 360.4р (IQVIA, декабрь 2022)
+          упаковок 40г и 100г при расчете на 1г (Апрель 2025)
+          <br>3. Розничная цена Троксевазин® гель 2% 40г - 363р (IQVIA, февраль 2025)
           <br>4. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
           <br>5. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
         </p>

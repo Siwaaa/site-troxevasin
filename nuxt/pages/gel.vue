@@ -54,7 +54,7 @@
       <div class="symptoms__wrapper container">
         <div class="symptoms__content">
           <div class="symptoms__head">
-            <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup>:</h2>
+            <h2 class="title-h1">Гель Троксевазин<sup>®</sup> 2% — помощь нескольким поколениям<sup>2</sup> в лечении симптомов варикоза<sup>**,3</sup> и других состояний:</h2>
           </div>
           <div class="symptoms__img">
             <img src="/img/product/symptoms-gel.png" srcset="/img/product/symptoms-gel@2x.webp 2x" alt="" loading="lazy"/>
@@ -94,7 +94,7 @@
     <section class="secret" id="secret">
       <div class="secret__wrapper container">
         <div class="secret__content">
-          <h2 class="title-h1">Секрет популярности Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
+          <h2 class="title-h1">Секрет популярности препарата Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
           <ul class="secret__list">
             <li class="secret__item">
               <img src="/img/product/secret-1.png" srcset="/img/product/secret-1@2x.png 2x" alt="" loading="lazy"/>
@@ -117,11 +117,11 @@
       <div class="economy__wrapper container">
         <div class="economy__content">
           <div class="economy__left">
-            <h2 class="title-h1">Сэкономьте<sup>4</sup> до 25% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
+            <h2 class="title-h1">Сэкономьте<sup>4</sup> до 23% при покупке большой упаковки Троксевазин<sup>®</sup> Гель 2% 100 г. </h2>
             <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-25.png" srcset="/img/product/economy-25.webp 2x" alt="" loading="lazy"/>
+            <img src="/img/product/economy-25(2).png" srcset="/img/product/economy-25(2).webp 2x" alt="" loading="lazy"/>
             <Button @click="openUteka" label="Купить" arrowRight id="buy_gel_4" />
           </div>
         </div>
@@ -158,7 +158,7 @@
               <div class="steps__img">
                 <img src="/img/product/step-4.svg" alt="" loading="lazy"/>
               </div>
-              <p>Можно наносить под окклюзионную повязку</p>
+              <p>Можно наносить под бинты или эластичные чулки</p>
             </li>
           </ul>
         </div>
@@ -169,9 +169,9 @@
       <div class="maternity__wrapper container">
         <div class="maternity__content">
           <div class="maternity__text">
-            <h2 class="title-h1">Как применять при беременности<sup>3</sup></h2>
+            <h2 class="title-h1">Можно ли при беременности?<sup>1</sup></h2>
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
-            <p>Препарат может быть использован в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка.<br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.</p>
+            <p>Не применяйте препарат Троксевазин® Гель 2%, если у Вас I триместр беременности. <br><br>Перед применением препарата во II и III триместрах беременности необходимо проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
@@ -525,12 +525,12 @@
     <section class="sources">
       <div class="sources__wrapper container">
         <p>**При хронической венозной недостаточности
-          <br>1.  В категории наружных венотоников, по продажам в деньгах 2018-2022, IQVIA
+          <br>1.  В категории наружных венотоников, по продажам в деньгах 2021-2024, IQVIA
           <br>2. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
           <br>3. Инструкция по медицинскому применению лекарственного препарата Троксевазин® геля ЛП-№(002561)-(РГ-RU)
-          <br>4. По сравнению с упаковкой Троксевазин гель 2% 40 г. Процент экономии определен по отпускным ценам ООО «Тева» для упаковок 40г и 100г при расчете на 1г (Март 2023)
+          <br>4. По сравнению с упаковкой Троксевазин гель 2% 40 г. Процент экономии определен по отпускным ценам ООО «Тева» для упаковок 40г и 100г при расчете на 1г (Апрель 2025)
           <br>5. По сравнению с Троксевазин® гелем 2%
-          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://portal.eaeunion.org/sites/commonprocesses/ru-ru/Pages/CardView.aspx?documentId=6206058bfb44f12d3bb0566b&codeId=P.MM.01. Дата обращения: 28.02.2023.
+          <br>6. Листок-вкладыш Троксевазин® Нео ЛП-№(001509)-(РГ-RU) https://storage.brandquad.ru/accounts-media/TEVA/DAM/origin/0f2faedc-c44e-11ef-a2ec-061441bd84b0.pdf. Дата обращения: 21.04.2025.
           <br>7. Инструкция по медицинскому применению лекарственного препарата Троксактив ЛП-№ (000726)-(РГ-RU)
         </p>
       </div>

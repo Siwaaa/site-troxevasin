@@ -72,7 +72,7 @@
             </li>
             <li class="symptoms__item">
               <img src="/img/product/symptom-10.png" srcset="/img/product/symptom-10@2x.webp 2x" alt="" loading="lazy"/>
-              <p>Геморрое</p>
+              <p>Геморрое (боль, экссудация, зуд и кровотечение)</p>
             </li>
           </ul>
           <div class="symptoms__menu"> 
@@ -100,7 +100,7 @@
             </li>
             <li class="secret__item">
               <img src="/img/product/secret-7.png" srcset="/img/product/secret-7@2x.png 2x" alt="" loading="lazy"/>
-              <p>Достигнутый эффект может сохраняться около 4 недель<sup>2</sup></p>
+              <p>Результаты лечения могут сохраняться около 4 недель<sup>2</sup></p>
             </li>
             <li class="secret__item">
               <img src="/img/product/secret-8.png" srcset="/img/product/secret-8@2x.png 2x" alt="" loading="lazy"/>
@@ -123,7 +123,7 @@
             <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_4" />
           </div>
           <div class="economy__right">
-            <img src="/img/product/economy-15.png" srcset="/img/product/economy-15@2x.webp 2x" alt="" loading="lazy"/>
+            <img src="/img/product/economy-15(2).png" srcset="/img/product/economy-15(2)@2x.webp 2x" alt="" loading="lazy"/>
             <Button @click="openUteka" label="Купить" arrowRight id="buy_capsules_4" />
           </div>
         </div>
@@ -160,7 +160,7 @@
                   <img src="/img/product/guide-3.svg" alt="" loading="lazy"/>
                 </div>
               </div>
-              <p class="guide__desc">Возобновить лечение в той же дозе или снизить дозу до 1 капсулы 2 раза в день</p>
+              <p class="guide__desc">Возобновить лечение в той же дозе или снизить дозу до 1 капсулы 2 раза в сутки</p>
             </div>
           </div>
         </div>
@@ -171,10 +171,9 @@
       <div class="maternity__wrapper container">
         <div class="maternity__content">
           <div class="maternity__text">
-            <h2 class="title-h1">Как применять при беременности<sup>2</sup></h2>
+            <h2 class="title-h1">Можно ли при беременности?<sup>1</sup></h2>
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
-            <p>Капсулы могут быть использованы в II и III триместрах беременности, если ожидаемая польза для мамы выше, чем потенциальный риск для ребенка. <br><br>Перед применением препарата беременным обязательно нужно проконсультироваться с врачом.
-            </p>
+            <p>Не применяйте препарат Троксевазин® капсулы, если у Вас I триместр беременности. <br><br>Перед применением препарата во II и III триместрах беременности необходимо проконсультироваться с врачом.</p>
           </div>
           <div class="maternity__img">
             <img src="/img/product/maternity.png" alt="Беременность" loading="lazy"/>
@@ -186,7 +185,7 @@
     <section class="others" id="products">
       <div class="others__wrapper container">
         <div class="others__content">
-          <h2 class="title-h1" style="max-width: 928px">Комплексный подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
+          <h2 class="title-h1" style="max-width: 928px">Подход для воздействия на симптомы варикоза<sup>*</sup> не только изнутри, но и снаружи</h2>
           <div class="others__list">
             <div class="others__item swiper-gel-1"> 
               <img src="/img/product/other-gel.png" alt="" loading="lazy"/>
@@ -198,7 +197,7 @@
             </div>
             <div class="others__item swiper-gel-1"> 
               <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
-              <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
+              <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
               </p>
               <NuxtLink to="/neo" id="neo">
                 <Button label="Узнать больше" rounded/>
@@ -226,7 +225,7 @@
               <swiper-slide>
                 <div class="others__item">
                   <img src="/img/product/other-gel-neo.png" alt="" loading="lazy"/>
-                  <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> НЕО —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
+                  <p><strong class="others-violet">Узнайте больше о<br>Троксевазин<sup>®</sup> Нео —</strong><br> гель с усиленной<sup>***</sup> трехкомпонентной формулой<sup>6</sup>
                   </p>
                   <NuxtLink to="/neo" id="neo">
                     <Button label="Узнать больше" rounded/>
@@ -242,7 +241,7 @@
     <section class="faq" id="faq">
       <div class="faq__wrapper container">
         <div class="faq__content">
-          <h2 class="title-h1">Инструкция по медицинскому применению капсул Троксевазин<sup>®</sup></h2>
+          <h2 class="title-h1">Инструкция по медицинскому применению препарата Троксевазин<sup>®</sup> капсулы</h2>
           <div class="instruction">
             <div class="instruction__list">
               <div @click="toggleAccordion" class="instruction__item">
@@ -499,16 +498,13 @@
         <p>* Хронической венозной недостаточности
           <br>** В качестве вспомогательного лечения
           <br>*** По сравнению с Троксевазин® гелем 2%
-          <br>1. Дата регистрация лекарственного средства Троксевазин® капсулы – 25.03.2008 г. Регистрационное
-          удостоверение П N012713/01
+          <br>1. Дата регистрация лекарственного средства Троксевазин® капсулы – 25.03.2008 г. Регистрационное удостоверение П N012713/01
           <br>2. Инструкция по медицинскому применению лекарственного препарата Троксевазин® капсулы ЛП-№ (000083)-(РГ-RU)
-          <br>3. По сравнению с упаковкой 50 капсул. Процент экономии определен по отпускным ценам ООО «Тева» на 1
-          таблетку (Март 2023)
-          <br>4. Розничная цена Троксевазин® гель 2% 40г - 360.4р (IQVIA, декабрь 2022)
+          <br>3. По сравнению с упаковкой 50 капсул. Процент экономии определен по отпускным ценам ООО «Тева» на 1 таблетку (Апрель 2025)
+          <br>4. Розничная цена Троксевазин® гель 2% 40г - 363р (IQVIA, февраль 2025)
           <br>5. Троксевазин® используется в России с 1981 г. РУ Б-8-242 №2654
           <br>6. Листок-вкладыш Троксевазин® Нео П-№(001509)-(РГ-RU)
-          <br>7. Розничная цена Троксевазин® капсулы: упаковка 100 капсул – 1298 руб., упаковка 50 капсул – 783 руб
-          (IQVIA, декабрь 2022)
+          <br>7. Розничная цена Троксевазин® капсулы: упаковка 100 капсул – 1389 руб., упаковка 50 капсул – 834 руб (IQVIA, февраль 2025)
         </p>
       </div>
     </section>
