@@ -26,7 +26,7 @@
                 <p>Отек</p>
               </div>
               <div class="veins__item">
-                <div class="veins__img"><img src="/img/modal/c4.png" srcset="/img/modal/c4@2x.png 2x" alt="" /></div><span>C4</span>
+                <div class="veins__img"><img src="/img/modal/c4-1.png" srcset="/img/modal/c4-1@2x.png 2x" alt="" /></div><span>C4</span>
                 <p>Изменения кожи (например, гиперпигментация)</p>
               </div>
               <div class="veins__item">

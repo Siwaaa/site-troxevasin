@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="modal__footer">
-            <p>https://cr.minzdrav.gov.ru/schema/178_1. Дата обращения:и 28.02.2023</p>
+            <p>https://cr.minzdrav.gov.ru/schema/178_1. Дата обращения:и 21.04.2025</p>
           </div>
         </div>
         <button @click="closeModal" class="modal__close" type="button" aria-label="close">
