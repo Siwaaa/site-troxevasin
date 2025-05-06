@@ -99,12 +99,12 @@
               <p>способствует повышению тонуса вен и укреплению стенок сосудов<sup>1</sup></p>
             </li>
             <li class="secret__item"> 
-              <img src="/img/product/secret-4.png" srcset="/img/product/secret-4@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/secret-4(2).png" srcset="/img/product/secret-4@2x(2).png 2x" alt="" loading="lazy"/>
               <span>Гепарин</span>
               <p>помогает снимать воспаление и регенерировать соединительные ткани<sup>1</sup></p>
             </li>
             <li class="secret__item"> 
-              <img src="/img/product/secret-5.png" srcset="/img/product/secret-5@2x.png 2x" alt="" loading="lazy"/>
+              <img src="/img/product/secret-5(2).png" srcset="/img/product/secret-5@2x(2).png 2x" alt="" loading="lazy"/>
               <span>Декспантенол</span>
               <p>улучшает обменные процессы в коже и способствует регенерации поврежденных тканей<sup>1</sup></p>
             </li>

@@ -31,8 +31,8 @@
           <h2 class="title-h1">Факторы риска <br> развития геморроя<sup>2</sup></h2>
           <ul class="factors__list">
             <li class="factors__item">
-              <img src="/img/case/factor-4.png" alt="" loading="lazy"/>
-              <p style="word-break: break-all;">Наследственность</p>
+              <img src="/img/case/factor-4-v2.png" alt="" loading="lazy"/>
+              <p style="word-break: break-all;">злоупотребление алкоголем</p>
             </li>
             <li class="factors__item">
               <img src="/img/case/factor-6.png" alt="" loading="lazy"/>
@@ -40,19 +40,19 @@
             </li>
             <li class="factors__item">
               <img src="/img/case/factor-5.png" alt="" loading="lazy"/>
-              <p>Сидячий образ жизни</p>
+              <p style="word-break: break-all;">Малоподвижный и сидячий образ жизни</p>
             </li>
             <li class="factors__item">
-              <img src="/img/case/factor-7.png" alt="" loading="lazy"/>
-              <p>Неустойчивый <br> стул</p>
+              <img src="/img/case/factor-7-v2.png" alt="" loading="lazy"/>
+              <p>Беременность и роды</p>
             </li>
             <li class="factors__item">
               <img src="/img/case/factor-8.png" alt="" loading="lazy"/>
-              <p>Запоры и длительные натуживания</p>
+              <p>Желудочно-кишечные расстройства (запор, диарея, неустойчивый стул)</p>
             </li>
             <li class="factors__item">
               <img src="/img/case/factor-9.png" alt="" loading="lazy"/>
-              <p>Характер питания — обилие острого, специй и алкоголя</p>
+              <p>Погрешности в диете</p>
             </li>
           </ul>
         </div>
