@@ -178,7 +178,7 @@
     
     <section class="sources">
       <div class="sources__wrapper container">
-        <p>* Хроническая венозная недостаточность
+        <p>* Симптомы варикозного расширения вен и хронической венозной недостаточности
           <br>** По сравнениню с Троксевазин® Гель 2 %
           <br>*** Венотонизирующее, противовоспалительное, противоотечное<sup>5</sup>. 
           <br>1. Rabe E., Guex J., Puskas A., Scuderi A., Fernandez Quesada F., Coordinators V. Epidemiology of chronic venous disorders in geographically diverse populations: results from the Vein Consult Program//Int Angiol. 2012. Vol. 2. P. 105-115.

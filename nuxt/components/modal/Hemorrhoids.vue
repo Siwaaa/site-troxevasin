@@ -5,7 +5,7 @@
         <!-- Содержимое модального окна -->
         <div class="modal__content">
           <div class="modal__header">
-            <h3 class="title-h1">4 стадии внутреннего <br>геморроя<sup>*</sup></h3>
+            <h3 class="title-h1">4 стадии хронического <br>геморроя<sup>*</sup></h3>
           </div>
           <div class="modal__main">
             <div class="hemorrhoids__list">

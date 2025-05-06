@@ -71,7 +71,7 @@
               <div class="products__item-img"> 
                 <img src="/img/product-2.png" srcset="/img/product-2@2x.png 2x" alt="" loading="lazy" />
               </div>
-              <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>**</sup>
+              <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>*</sup>
               </p>
             </div>
             <div class="products__item-btn">
@@ -143,7 +143,7 @@
                   <div class="products__item-img"> 
                     <img src="/img/product-2.png" srcset="/img/product-2@2x.png 2x" alt="" loading="lazy" />
                   </div>
-                  <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>**</sup>
+                  <p class="products__item-desc">Самый продаваемый гель<sup>7</sup> против тяжести и боли в ногах при варикозе<sup>*</sup>
                   </p>
                 </div>
                 <div class="products__item-btn"> 

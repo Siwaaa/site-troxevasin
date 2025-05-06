@@ -94,7 +94,7 @@
     <section class="secret" id="secret">
       <div class="secret__wrapper container">
         <div class="secret__content">
-          <h2 class="title-h1">Секрет популярности препарата Троксевазин<sup>®</sup><br>Гель 2 % прост</h2>
+          <h2 class="title-h1">Секрет популярности препарата Троксевазин<sup>®</sup>Гель 2 % прост</h2>
           <ul class="secret__list">
             <li class="secret__item">
               <img src="/img/product/secret-1.png" srcset="/img/product/secret-1@2x.png 2x" alt="" loading="lazy"/>
@@ -152,7 +152,7 @@
               <div class="steps__img">
                 <img src="/img/product/step-3.svg" alt="" loading="lazy"/>
               </div>
-              <p>Слегка втереть до полного впитывания</p>
+              <p>Мягко втереть до полного впитывания</p>
             </li>
             <li class="steps__item">
               <div class="steps__img">
