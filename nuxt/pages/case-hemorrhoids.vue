@@ -32,7 +32,7 @@
           <ul class="factors__list">
             <li class="factors__item">
               <img src="/img/case/factor-4-v2.png" alt="" loading="lazy"/>
-              <p style="word-break: break-all;">злоупотребление алкоголем</p>
+              <p style="word-break: break-all;">Злоупотребление алкоголем</p>
             </li>
             <li class="factors__item">
               <img src="/img/case/factor-6.png" alt="" loading="lazy"/>
