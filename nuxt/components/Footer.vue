@@ -32,7 +32,7 @@
       <div class="footer__bottom"> 
         <img src="/img/teva.svg" alt="Логотип Teva" />
         <div class="footer__bottom-address">За дополнительной информацией обращайтесь:
-          <br>ООО «Тева». Россия, Москва, 115054, <br>ул. Валовая, д. 35 <br>TRAV-RU-00126- Cons-12.2022
+          <br>ООО «Тева». Россия, Москва, 115054, <br>ул. Валовая, д. 35 <br>TRAV-RU-00268-CONS-03.2025
           <br><a href="https://www.teva.ru/privacy-and-cookie-policy/" target="_blank" class="footer__bottom-privacy">Политика о конфиденциальности <br>и обработке файлов cookie</a>
           <br><a href="https://www.teva.ru/user-agreement/" target="_blank" class="footer__bottom-privacy">Пользовательское соглашение</a>
         </div>
