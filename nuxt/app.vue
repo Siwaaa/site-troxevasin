@@ -47,30 +47,9 @@ useHead({
       });`
     },
     // <!-- /Yandex.Metrika counter -->
-    // <!-- Google tag (gtag.js) -->
-    { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0TGE7W06YH" },
-    {
-      type: "text/javascript",
-      innerHTML: `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-0TGE7W06YH');`
-    },
-    // <!-- /Google tag (gtag.js) -->
-    // <!-- Google Tag Manager -->
-    {
-      type: "text/javascript",
-      innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NJ4F4WC');`
-    },
   ],
   noscript: [
     { innerHTML: '<div><img src="https://mc.yandex.ru/watch/92925175" style="position:absolute; left:-9999px;" alt="" /></div>', tagPosition: 'head' },
-    { innerHTML: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ4F4WC" height="0" width="0" style="display:none;visibility:hidden"></iframe>', tagPosition: 'bodyOpen' },
   ] 
 })
 //c208134931e7c1d9ce52562d22c933a3106ccd5cd23f79d653c56f205ea4b4ee45cdd1cff50fb744f865fc01d6227254f4de87b83fb9b1b2427dba7954de471c2cc14d769c5a67ae4a1794b897caa400480e8ce2806f90d666fe2a8738956a26437756e133bb2950ff7a41fd3e029f417a3174adde67339fc12aab2ea9028138
